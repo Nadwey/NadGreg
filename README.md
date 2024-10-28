@@ -1,3 +1,63 @@
+# Fork
+
+GregTech Community Pack Modern, but *more interesting*.
+
+## Added Mods
+
+### Tweaks/QoL
+
+- AlwaysEat
+- Blue Flame Burning
+- Corpse
+- EMI
+- Harvest with ease
+- Just Zoom
+- Oculus
+- RyoamicLights
+
+### Exploring
+
+- AmbientSounds 6
+- Biomes O' Plenty
+- Oh The Biomes We've Gone
+- Oh The Trees You'll Grow
+- Repurposed Structures
+- Serene Seasons - to test
+- Sound Physics Remastered
+- True Darkness
+
+### Building
+
+- Chipped
+- Macaw's Bridges
+    - Macaw's Bridges - Biomes O' Plenty
+    - Macaw's Bridges - Oh The Biomes You'll Go / Oh The Biomes We've Gone
+- Macaw's Doors
+- Macaw's Fences and Walls
+    - Macaw's Fences - Biomes O' Plenty
+    - Macaw's Fences - Oh The Biomes You'll Go / Oh The Biomes We've Gone
+- Macaw's Furniture
+    - Macaw's Furnitures - Biomes O' Plenty
+    - Macaw's Furnitures - Oh The Biomes You'll Go / Oh The Biomes We've Gone
+- Macaw's Lights and Lamps
+- Macaw's Paths and Pavings
+- Macaw's Roofs
+    - Macaw's Roofs - Biomes O' Plenty
+    - Macaw's Roofs - Oh The Biomes You'll Go / Oh The Biomes We've Gone
+- Macaw's Stairs
+- Macaw's Trapdoors
+- Macaw's Windows
+
+### Food
+
+- Croptopia
+- Farmer's Delight
+
+## Other Changes
+
+- Replaced Xaero's World Map with Journey Map
+- Changed default difficulty from Peaceful changed to **Normal**.
+
 # GregTech-Community-Pack-Modern
 
 Repository for the Modern fork of the GregTech Community Modpack - a minecraft modpack for 1.20.1 highlighting and featuring [GregTech Community Edition Unofficial Modern](https://github.com/GregTechCEu/GregTech-Modern).
