@@ -14,31 +14,36 @@ GregTech Community Pack Modern, but *more interesting*.
 
 ### Tweaks/QoL
 
-- AlwaysEat
+- AI Improvements
 - Blue Flame Burning
 - Corpse
 - EMI
 - Harvest with ease
 - Just Zoom
 - Lootr
-- Oculus
-- RyoamicLights
+- Iris
+- Dynamic Lights
 
 ### Exploring
 
 - AmbientSounds 6
+- Auroras
 - Biomes O' Plenty
 - Explorify
 - Oh The Biomes We've Gone
 - Oh The Trees You'll Grow
 - Repurposed Structures
-- Serene Seasons - to test
+- Serene Seasons - TODO
 - Sound Physics Remastered
+- Structory
 - True Darkness
+- YUNG's Extras
 
 ### Building
 
 - Chipped
+- Chisel Reborn
+- Factory Blocks
 - Macaw's Bridges
 - Macaw's Bridges - Biomes O' Plenty
 - Macaw's Bridges - Oh The Biomes You'll Go / Oh The Biomes We've Gone
@@ -60,13 +65,15 @@ GregTech Community Pack Modern, but *more interesting*.
 
 ### Food
 
-- Croptopia
+- Pam's HarvestCraft 2
 - Farmer's Delight
 
 ## Other Changes
 
 - Replaced Xaero's World Map with Journey Map
 - Changed the default difficulty from Peaceful to **Normal**.
+
++ Many performance mods
 
 # GregTech-Community-Pack-Modern
 
