@@ -1,6 +1,6 @@
 # Fork
 
-GregTech Community Pack Modern, but *more interesting*.
+GregTech Community Pack Modern, but *more interesting*, and **ported to 1.21.1**.
 
 ## TODO
 
@@ -15,6 +15,7 @@ GregTech Community Pack Modern, but *more interesting*.
 ### Tweaks/QoL
 
 - AI Improvements
+- Better Advancements
 - Blue Flame Burning
 - Corpse
 - EMI
