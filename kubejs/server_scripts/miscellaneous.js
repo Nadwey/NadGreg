@@ -48,4 +48,7 @@ ServerEvents.recipes((event) => {
     L: "minecraft:leather",
     S: "#c:plates/steel",
   });
+
+  // Smart Filter
+  event.remove({ id: "ftbfiltersystem:smart_filter" });
 });
