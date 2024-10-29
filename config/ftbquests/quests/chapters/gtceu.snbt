@@ -162,7 +162,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "3880A08A72884627"
-				item: { components: { "ftbfiltersystem:filter": "or(item_tag(minecraft:axes))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(gtceu:damascus_steel_axe)item(gtceu:tungsten_steel_axe)item(gtceu:naquadah_alloy_axe)item(gtceu:red_steel_axe)item(gtceu:hsse_axe)item(gtceu:aluminium_axe)item(gtceu:duranium_axe)item(gtceu:bronze_axe)item(gtceu:tungsten_carbide_axe)item(gtceu:ultimet_axe)item(gtceu:sterling_silver_axe)item(gtceu:wrought_iron_axe)item(gtceu:stainless_steel_axe)item(gtceu:cobalt_brass_axe)item(gtceu:iron_axe)item(gtceu:titanium_axe)item(gtceu:neutronium_axe)item(gtceu:steel_axe)item(gtceu:rose_gold_axe)item(gtceu:invar_axe)item(gtceu:diamond_axe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -2.25d
