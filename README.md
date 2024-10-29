@@ -66,7 +66,7 @@ GregTech Community Pack Modern, but *more interesting*.
 ## Other Changes
 
 - Replaced Xaero's World Map with Journey Map
-- Changed default difficulty from Peaceful changed to **Normal**.
+- Changed the default difficulty from Peaceful to **Normal**.
 
 # GregTech-Community-Pack-Modern
 
