@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "1.21.1.md"
-hash = "775bffe848be3a3232db543b120b91788b39e6c8939b1046e2a1db4b99e5f352"
+hash = "893b3ae09c5cc40532cc040f0808ef0846a3c70db9c5946dded8b98e5c1200c1"
 
 [[files]]
 file = "LICENSE"
@@ -114,7 +114,7 @@ hash = "91b51f5d60af210457f1c831d135cda18138489935627c05fa1f16d0411450ee"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gtceu.snbt"
-hash = "9eddc3d915e0c8612e948f9b6b6668f4024141adce783f1ce7dd9f554bc49a62"
+hash = "085f74635b658b656ce84070e09cc6e8671ba2693ba4836effde5697b64c2a30"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/heating_coils.snbt"
@@ -162,11 +162,11 @@ hash = "0f0cd54c402ab49ffbd2564a8c21add3d35e60bc04d319d5a757a6abb16535de"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/steam_age.snbt"
-hash = "deda13fd59374a6838260158023ebd31431ec7a3cf01073e7561a47fa9ef7f39"
+hash = "cf45e84d1fa32887a7cf5676127e2b6b473beafe744d84214d4f18d5f7e55520"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips_and_tricks_2.snbt"
-hash = "ea82723e663355cd2b12848f26463d28d40103c2e633dcd4d71bbb3a61df5aca"
+hash = "29d5c300b2ef5046af7515621d845daaf2476a746d2acff1380b087458b705b9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uv__ultimate_voltage.snbt"
@@ -178,11 +178,11 @@ hash = "8400b640b4eb06124906788fbf6adb8fef7d99d3876de93d8c3d5fd2d4b5c4ef"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "6025dafbdac9ca54d56acf690e2de0787b296a0f33f57aa2bbd7c0668412f131"
+hash = "95b045dcec552a54b5f42f6e36fe141aaa5fa38f5c6d552364e6009f0a2ffc4f"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "b6159036222f27de0e53d6405fb100e357c1a3faeae5fdeae68b6cfd3c4769f3"
+hash = "eab07790b5a459d40bf2d888bb25b9a8415e0c2a7fb0735e8204fd83434ae1cc"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/bronze_age.snbt"
@@ -457,12 +457,16 @@ file = "kubejs/client_scripts/tooltips.js"
 hash = "61c64222e0763f053eff604b0418d44fe4183396439f2561d1633bc95d3b4d38"
 
 [[files]]
-file = "kubejs/config/client.properties"
-hash = "a3679ec0e0864a89fb4bfb989e3323fab8d9dc5c34b53cd82ea1299015f32b3f"
+file = "kubejs/config/client.json"
+hash = "122ef4c3f3bcfb37ca2a5768b5122371fa160c04d0923670e1043f9c47ea8026"
 
 [[files]]
-file = "kubejs/config/common.properties"
-hash = "5b4a36d769fdfef7318f6bb2736f00ff8539d6a5a0c7db75f4f20b521f5890da"
+file = "kubejs/config/client.properties"
+hash = "67c0fec4ceeb86a3c06630f8aeb76648408ff958410cffdfe421c243185ea46a"
+
+[[files]]
+file = "kubejs/config/common.json"
+hash = "caa443bd9f0655f6132f4cb0b378085d6672091164b42fe55292bd32c7640a90"
 
 [[files]]
 file = "kubejs/config/packicon.png"
