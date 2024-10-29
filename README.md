@@ -20,6 +20,7 @@ GregTech Community Pack Modern, but *more interesting*.
 - EMI
 - Harvest with ease
 - Just Zoom
+- Lootr
 - Oculus
 - RyoamicLights
 
@@ -27,6 +28,7 @@ GregTech Community Pack Modern, but *more interesting*.
 
 - AmbientSounds 6
 - Biomes O' Plenty
+- Explorify
 - Oh The Biomes We've Gone
 - Oh The Trees You'll Grow
 - Repurposed Structures
