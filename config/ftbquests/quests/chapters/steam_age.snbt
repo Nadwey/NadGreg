@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "steam_age"
 	group: "693226878D58638A"
+	icon: {
+		id: "gtceu:bronze_brick_casing"
+	}
 	id: "3B89FB8839204148"
 	order_index: 0
 	quest_links: [ ]
@@ -13,13 +16,17 @@
 			rewards: [{
 				count: 8
 				id: "24A6C74E123DDC99"
+				item: {
+					count: 1
+					id: "gtceu:steel_plate"
+				}
 				type: "item"
 			}]
 			shape: "rsquare"
 			size: 0.66d
 			tasks: [{
 				id: "77ECBBA179EC9B3F"
-				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(gtceu:hp_steam_compressor)item(gtceu:hp_steam_forge_hammer)item(gtceu:hp_steam_alloy_smelter))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -0.09909863945578223d
@@ -31,6 +38,10 @@
 			rewards: [{
 				count: 8
 				id: "1A39F42877915C72"
+				item: {
+					count: 1
+					id: "minecraft:leather"
+				}
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -50,16 +61,28 @@
 				{
 					count: 12
 					id: "22FCFB1342070EC5"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
 					type: "item"
 				}
 				{
 					count: 12
 					id: "195F3D02A2632E78"
+					item: {
+						count: 1
+						id: "gtceu:wrought_iron_ingot"
+					}
 					type: "item"
 				}
 				{
 					count: 12
 					id: "5A949113167C4248"
+					item: {
+						count: 1
+						id: "gtceu:steel_ingot"
+					}
 					type: "item"
 				}
 			]
@@ -67,7 +90,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "0DC74FB54995F3F1"
-				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(gtceu:hp_steam_solid_boiler)item(gtceu:hp_steam_liquid_boiler)item(gtceu:hp_steam_solar_boiler))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -0.1399149659863994d
@@ -80,11 +103,19 @@
 				{
 					count: 64
 					id: "4BA49D38A085D5CA"
+					item: {
+						count: 1
+						id: "minecraft:oak_log"
+					}
 					type: "item"
 				}
 				{
 					count: 64
 					id: "6E244AE238636F71"
+					item: {
+						count: 1
+						id: "minecraft:oak_log"
+					}
 					type: "item"
 				}
 			]
@@ -93,13 +124,13 @@
 			tasks: [
 				{
 					id: "7B33C92B976F5AB8"
-					item: { }
+					item: { count: 1, id: "gtceu:primitive_blast_furnace" }
 					type: "item"
 				}
 				{
 					count: 32L
 					id: "4EC38823292AF1E1"
-					item: { }
+					item: { count: 1, id: "gtceu:firebricks" }
 					type: "item"
 				}
 			]
@@ -112,6 +143,10 @@
 			rewards: [{
 				count: 64
 				id: "7843257BC8A81E96"
+				item: {
+					count: 1
+					id: "gtceu:coke_gem"
+				}
 				type: "item"
 			}]
 			shape: "square"
@@ -120,19 +155,19 @@
 				{
 					count: 2L
 					id: "74C4EEA936A5EE4E"
-					item: { }
+					item: { count: 1, id: "gtceu:primitive_blast_furnace" }
 					type: "item"
 				}
 				{
 					count: 52L
 					id: "01198A1525737B75"
-					item: { }
+					item: { count: 1, id: "gtceu:firebricks" }
 					type: "item"
 				}
 				{
 					count: 32L
 					id: "2446080B788A8A19"
-					item: { }
+					item: { count: 1, id: "gtceu:steel_ingot" }
 					type: "item"
 				}
 			]
@@ -164,6 +199,12 @@
 			size: 0.75d
 			tasks: [{
 				dimension: "minecraft:the_nether"
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:block/nether_portal"
+					}
+					id: "ftbquests:custom_icon"
+				}
 				id: "01DEABF7BF6C5413"
 				type: "dimension"
 			}]
@@ -177,6 +218,11 @@
 				{
 					id: "20B864DFB8F05D94"
 					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:long_fire_resistance"
+							}
+						}
 						count: 1
 						id: "minecraft:potion"
 					}
@@ -185,6 +231,11 @@
 				{
 					id: "37C361DDB9A55FF2"
 					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:long_fire_resistance"
+							}
+						}
 						count: 1
 						id: "minecraft:potion"
 					}
@@ -196,7 +247,7 @@
 			tasks: [{
 				count: 16L
 				id: "36D03210534D3226"
-				item: { }
+				item: { count: 1, id: "gtceu:sulfur_dust" }
 				type: "item"
 			}]
 			x: 5.625d
@@ -207,6 +258,10 @@
 			id: "5A8F0124E07D5025"
 			rewards: [{
 				id: "405DCE51B96EB09A"
+				item: {
+					count: 1
+					id: "gtceu:steel_block"
+				}
 				type: "item"
 			}]
 			shape: "gear"
@@ -214,7 +269,7 @@
 			tasks: [{
 				count: 6L
 				id: "6F01622979E6F332"
-				item: { }
+				item: { count: 1, id: "gtceu:lv_electric_motor" }
 				type: "item"
 			}]
 			x: 6.75d
@@ -226,6 +281,10 @@
 			rewards: [{
 				count: 32
 				id: "42FE9060BBF29DAF"
+				item: {
+					count: 1
+					id: "minecraft:sugar_cane"
+				}
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -233,7 +292,7 @@
 			tasks: [{
 				count: 4L
 				id: "5DCE370285F5B2C6"
-				item: { }
+				item: { count: 1, id: "minecraft:paper" }
 				type: "item"
 			}]
 			x: 7.875d
@@ -244,13 +303,17 @@
 			id: "2B74E56C9E138F18"
 			rewards: [{
 				id: "10D8ECE23B3C118B"
+				item: {
+					count: 1
+					id: "gtceu:bronze_drum"
+				}
 				type: "item"
 			}]
 			shape: "rsquare"
 			size: 0.66d
 			tasks: [{
 				id: "5876092FAA1763E0"
-				item: { }
+				item: { count: 1, id: "gtceu:bronze_drum" }
 				type: "item"
 			}]
 			x: -1.125d
@@ -262,13 +325,17 @@
 			rewards: [{
 				count: 18
 				id: "027EB8CF05AAACF8"
+				item: {
+					count: 1
+					id: "gtceu:wood_normal_fluid_pipe"
+				}
 				type: "item"
 			}]
 			shape: "gear"
 			size: 1.1d
 			tasks: [{
 				id: "03501AB173BA60EE"
-				item: { }
+				item: { count: 1, id: "gtceu:primitive_pump" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -280,10 +347,18 @@
 			rewards: [
 				{
 					id: "0F35BAFC22B1C82E"
+					item: {
+						count: 1
+						id: "gtceu:small_gear_casting_mold"
+					}
 					type: "item"
 				}
 				{
 					id: "4CA581AFFDA18455"
+					item: {
+						count: 1
+						id: "gtceu:gear_casting_mold"
+					}
 					type: "item"
 				}
 			]
@@ -292,17 +367,17 @@
 			tasks: [
 				{
 					id: "33DCDFE73740AF97"
-					item: { }
+					item: { count: 1, id: "gtceu:plate_casting_mold" }
 					type: "item"
 				}
 				{
 					id: "7E7A1A7FBBCA2C27"
-					item: { }
+					item: { count: 1, id: "gtceu:ball_casting_mold" }
 					type: "item"
 				}
 				{
 					id: "2AE408B2303C21EA"
-					item: { }
+					item: { count: 1, id: "gtceu:block_casting_mold" }
 					type: "item"
 				}
 			]
@@ -315,6 +390,10 @@
 			rewards: [{
 				count: 16
 				id: "4B856E1E30618E4D"
+				item: {
+					count: 1
+					id: "gtceu:sticky_resin"
+				}
 				random_bonus: 48
 				type: "item"
 			}]
@@ -322,7 +401,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "12A46916B1BC17EC"
-				item: { }
+				item: { count: 1, id: "gtceu:lp_steam_extractor" }
 				type: "item"
 			}]
 			x: 4.5d
@@ -334,6 +413,10 @@
 			rewards: [{
 				count: 24
 				id: "606726568EBF1E4A"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
 				type: "item"
 			}]
 			shape: "square"
@@ -341,7 +424,7 @@
 			tasks: [{
 				count: 32L
 				id: "67D04A48C5473D10"
-				item: { }
+				item: { count: 1, id: "gtceu:sticky_resin" }
 				type: "item"
 			}]
 			x: 5.625d
@@ -358,6 +441,10 @@
 			rewards: [{
 				count: 8
 				id: "7190A812E045BE04"
+				item: {
+					count: 1
+					id: "gtceu:rubber_plate"
+				}
 				type: "item"
 			}]
 			shape: "square"
@@ -365,13 +452,13 @@
 			tasks: [
 				{
 					id: "04946F2F0923EFFE"
-					item: { }
+					item: { count: 1, id: "gtceu:rubber_ingot" }
 					optional_task: true
 					type: "item"
 				}
 				{
 					id: "5B1CDCDC598717C5"
-					item: { }
+					item: { count: 1, id: "gtceu:rubber_plate" }
 					type: "item"
 				}
 			]
@@ -387,13 +474,17 @@
 			rewards: [{
 				count: 4
 				id: "0AEE150D99E66D54"
+				item: {
+					count: 1
+					id: "minecraft:charcoal"
+				}
 				type: "item"
 			}]
 			shape: "square"
 			size: 0.75d
 			tasks: [{
 				id: "35CFB9E695DE3549"
-				item: { }
+				item: { count: 1, id: "gtceu:resistor" }
 				type: "item"
 			}]
 			x: 7.875d
@@ -405,13 +496,17 @@
 			rewards: [{
 				count: 2
 				id: "66E3F49541CA77B9"
+				item: {
+					count: 1
+					id: "minecraft:golden_apple"
+				}
 				type: "item"
 			}]
 			shape: "rsquare"
 			size: 0.66d
 			tasks: [{
 				id: "006E5756DD2CFB97"
-				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(gtceu:bronze_small_fluid_pipe)item(gtceu:bronze_normal_fluid_pipe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -1.125d
@@ -424,7 +519,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "0F864E85D4956919"
-				item: { }
+				item: { count: 1, id: "gtceu:lp_steam_solid_boiler" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -436,13 +531,17 @@
 			rewards: [{
 				count: 4
 				id: "5A98072E0B3DBC41"
+				item: {
+					count: 1
+					id: "gtceu:bronze_dust"
+				}
 				type: "item"
 			}]
 			shape: "square"
 			size: 0.75d
 			tasks: [{
 				id: "03BA041BE9C347FD"
-				item: { }
+				item: { count: 1, id: "gtceu:bronze_machine_casing" }
 				type: "item"
 			}]
 			x: 1.125d
@@ -454,13 +553,17 @@
 			rewards: [{
 				count: 8
 				id: "241026922AD16AB3"
+				item: {
+					count: 1
+					id: "gtceu:bronze_plate"
+				}
 				type: "item"
 			}]
 			shape: "square"
 			size: 0.75d
 			tasks: [{
 				id: "2F3B195A110E41C2"
-				item: { }
+				item: { count: 1, id: "gtceu:lp_steam_alloy_smelter" }
 				type: "item"
 			}]
 			x: 2.25d
@@ -472,6 +575,10 @@
 			rewards: [{
 				count: 16
 				id: "259F8029A6ED0C85"
+				item: {
+					count: 1
+					id: "minecraft:glass_pane"
+				}
 				type: "item"
 			}]
 			shape: "square"
@@ -479,7 +586,7 @@
 			tasks: [{
 				count: 2L
 				id: "099C373568DF4500"
-				item: { }
+				item: { count: 1, id: "gtceu:vacuum_tube" }
 				type: "item"
 			}]
 			x: 3.375d
@@ -494,6 +601,10 @@
 			rewards: [{
 				count: 2
 				id: "662203C8B58AE656"
+				item: {
+					count: 1
+					id: "minecraft:glass"
+				}
 				random_bonus: 14
 				type: "item"
 			}]
@@ -502,12 +613,12 @@
 			tasks: [
 				{
 					id: "4B958F6E2AA74763"
-					item: { }
+					item: { count: 1, id: "minecraft:glass" }
 					type: "item"
 				}
 				{
 					id: "16FC5B5DCBBEE53E"
-					item: { }
+					item: { count: 1, id: "gtceu:glass_tube" }
 					type: "item"
 				}
 			]
@@ -520,13 +631,17 @@
 			rewards: [{
 				count: 16
 				id: "0D64AF2E29B7F41A"
+				item: {
+					count: 1
+					id: "minecraft:copper_ingot"
+				}
 				type: "item"
 			}]
 			shape: "square"
 			size: 0.75d
 			tasks: [{
 				id: "4D3C4CF6577957A1"
-				item: { }
+				item: { count: 1, id: "gtceu:red_alloy_ingot" }
 				type: "item"
 			}]
 			x: 5.625d
@@ -544,10 +659,18 @@
 			rewards: [
 				{
 					id: "18CBC119F9A02091"
+					item: {
+						count: 1
+						id: "gtceu:basic_electronic_circuit"
+					}
 					type: "item"
 				}
 				{
 					id: "187A334C34304FEA"
+					item: {
+						count: 1
+						id: "gtceu:lv_machine_hull"
+					}
 					type: "item"
 				}
 			]
@@ -557,12 +680,12 @@
 				{
 					count: 2L
 					id: "2D394A5292C3BA46"
-					item: { }
+					item: { count: 1, id: "gtceu:basic_electronic_circuit" }
 					type: "item"
 				}
 				{
 					id: "4296EFD816E40A37"
-					item: { }
+					item: { count: 1, id: "gtceu:lv_machine_hull" }
 					type: "item"
 				}
 			]
@@ -575,13 +698,17 @@
 			rewards: [{
 				count: 6
 				id: "18C834E9EC619985"
+				item: {
+					count: 1
+					id: "gtceu:potin_plate"
+				}
 				type: "item"
 			}]
 			shape: "rsquare"
 			size: 0.66d
 			tasks: [{
 				id: "159D19181DC4DE59"
-				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(gtceu:potin_small_fluid_pipe)item(gtceu:potin_normal_fluid_pipe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -1.125d
@@ -592,13 +719,17 @@
 			id: "1931FC6DEAC29646"
 			rewards: [{
 				id: "5C8B8D03ACE3CEED"
+				item: {
+					count: 1
+					id: "minecraft:anvil"
+				}
 				type: "item"
 			}]
 			shape: "square"
 			size: 0.75d
 			tasks: [{
 				id: "4F4074D7CE5A61A0"
-				item: { }
+				item: { count: 1, id: "gtceu:lp_steam_forge_hammer" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -610,13 +741,17 @@
 			rewards: [{
 				count: 32
 				id: "26175A33C13BBF0C"
+				item: {
+					count: 1
+					id: "gtceu:clay_dust"
+				}
 				type: "item"
 			}]
 			shape: "square"
 			size: 0.75d
 			tasks: [{
 				id: "6DFD6AC8CF31305C"
-				item: { }
+				item: { count: 1, id: "gtceu:lp_steam_macerator" }
 				type: "item"
 			}]
 			x: 1.125d
@@ -628,6 +763,19 @@
 			rewards: [{
 				id: "15C0F36A7E35F7A6"
 				item: {
+					components: {
+						"gtceu:gt_tool": {
+							attack_damage: 4.5f
+							harvest_level: 2
+							tool_speed: 5.6f
+						}
+						"minecraft:enchantments": {
+							levels: {
+								"minecraft:bane_of_arthropods": 3
+								"minecraft:efficiency": 1
+							}
+						}
+					}
 					count: 1
 					id: "gtceu:invar_mining_hammer"
 				}
@@ -638,7 +786,7 @@
 			tasks: [{
 				count: 3L
 				id: "49E114B96843E5C9"
-				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "gtceu:invar_ingot" }
 				type: "item"
 			}]
 			x: 2.25d
@@ -653,6 +801,10 @@
 			rewards: [{
 				count: 4
 				id: "2A1EAEB72424AFB9"
+				item: {
+					count: 1
+					id: "gtceu:wood_plate"
+				}
 				type: "item"
 			}]
 			shape: "square"
@@ -660,13 +812,13 @@
 			tasks: [
 				{
 					id: "3704C06203B7485A"
-					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
+					item: { count: 1, id: "gtceu:wood_plate" }
 					optional_task: true
 					type: "item"
 				}
 				{
 					id: "131521889242DDB8"
-					item: { }
+					item: { count: 1, id: "gtceu:resin_printed_circuit_board" }
 					type: "item"
 				}
 			]
@@ -675,6 +827,9 @@
 		}
 		{
 			dependencies: ["1C50A758A1DE25CB"]
+			icon: {
+				id: "gtceu:crushed_gold_ore"
+			}
 			id: "7813F183681E0342"
 			shape: "circle"
 			size: 0.66d
@@ -691,6 +846,10 @@
 			rewards: [{
 				count: 8
 				id: "36B5ABA86707D569"
+				item: {
+					count: 1
+					id: "gtceu:bronze_ingot"
+				}
 				random_bonus: 16
 				type: "item"
 			}]
@@ -699,28 +858,28 @@
 			tasks: [
 				{
 					id: "478F7F5E6B4FC488"
-					item: { }
+					item: { count: 1, id: "gtceu:steam_grinder" }
 					type: "item"
 				}
 				{
 					id: "03C98558808BFE64"
-					item: { }
+					item: { count: 1, id: "gtceu:steam_input_hatch" }
 					type: "item"
 				}
 				{
 					id: "2DC0277BA681DFAE"
-					item: { }
+					item: { count: 1, id: "gtceu:steam_input_bus" }
 					type: "item"
 				}
 				{
 					id: "68A6EFAD92986DFA"
-					item: { }
+					item: { count: 1, id: "gtceu:steam_output_bus" }
 					type: "item"
 				}
 				{
 					count: 22L
 					id: "4E7178278B4E3189"
-					item: { }
+					item: { count: 1, id: "gtceu:steam_machine_casing" }
 					type: "item"
 				}
 			]
@@ -733,6 +892,10 @@
 			rewards: [{
 				count: 8
 				id: "72D375E16194CAE2"
+				item: {
+					count: 1
+					id: "gtceu:bronze_ingot"
+				}
 				random_bonus: 16
 				type: "item"
 			}]
@@ -741,34 +904,34 @@
 			tasks: [
 				{
 					id: "0EA421E6E53FA6A8"
-					item: { }
+					item: { count: 1, id: "gtceu:steam_oven" }
 					type: "item"
 				}
 				{
 					id: "0516BE263B5E27D4"
-					item: { }
+					item: { count: 1, id: "gtceu:steam_input_hatch" }
 					type: "item"
 				}
 				{
 					id: "772885C6A810E804"
-					item: { }
+					item: { count: 1, id: "gtceu:steam_input_bus" }
 					type: "item"
 				}
 				{
 					id: "3C3A4803A6F267F3"
-					item: { }
+					item: { count: 1, id: "gtceu:steam_output_bus" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "427EA1F4AE420C1F"
-					item: { }
+					item: { count: 1, id: "gtceu:steam_machine_casing" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "50AD2CBE77234D06"
-					item: { }
+					item: { count: 1, id: "gtceu:bronze_firebox_casing" }
 					type: "item"
 				}
 			]
@@ -787,6 +950,10 @@
 			rewards: [{
 				count: 4
 				id: "3463AA941A74C11C"
+				item: {
+					count: 1
+					id: "gtceu:certus_quartz_gem"
+				}
 				type: "item"
 			}]
 			shape: "circle"
@@ -804,13 +971,17 @@
 			id: "07415D6305C3B1D2"
 			rewards: [{
 				id: "1F47D2A131498C25"
+				item: {
+					count: 1
+					id: "gtceu:wrought_iron_block"
+				}
 				type: "item"
 			}]
 			shape: "rsquare"
 			size: 0.66d
 			tasks: [{
 				id: "21C99D59F1BE48A3"
-				item: { }
+				item: { count: 1, id: "gtceu:lp_steam_compressor" }
 				type: "item"
 			}]
 			x: 1.125d
@@ -821,6 +992,10 @@
 			id: "4A993CC40AB6D35C"
 			rewards: [{
 				id: "38A84272E0407C69"
+				item: {
+					count: 1
+					id: "toolbelt:pouch"
+				}
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -828,12 +1003,12 @@
 			tasks: [
 				{
 					id: "281B54469C34A5E2"
-					item: { }
+					item: { count: 1, id: "toolbelt:belt" }
 					type: "item"
 				}
 				{
 					id: "5FFC5866C6E85F86"
-					item: { }
+					item: { count: 1, id: "toolbelt:pouch" }
 					type: "item"
 				}
 			]
@@ -847,7 +1022,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "158F4EEDC214A3BA"
-				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(gtceu:cobalt_small_item_pipe)item(gtceu:nickel_small_item_pipe)item(gtceu:tin_small_item_pipe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 3.375d
@@ -859,6 +1034,10 @@
 			rewards: [{
 				count: 4
 				id: "7193C5F82152C3EB"
+				item: {
+					count: 1
+					id: "minecraft:leather"
+				}
 				random_bonus: 2
 				type: "item"
 			}]
@@ -866,7 +1045,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "193A62DF98B59838"
-				item: { }
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
 				type: "item"
 			}]
 			x: 4.5d
@@ -877,6 +1056,10 @@
 			id: "4384068C4517F3D9"
 			rewards: [{
 				id: "73DAEC542AC76676"
+				item: {
+					count: 1
+					id: "gtceu:brittle_charcoal"
+				}
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -884,7 +1067,7 @@
 			tasks: [
 				{
 					id: "2586D1FC6BC5E53C"
-					item: { }
+					item: { count: 1, id: "gtceu:charcoal_pile_igniter" }
 					optional_task: true
 					type: "item"
 				}
@@ -902,11 +1085,19 @@
 			rewards: [
 				{
 					id: "59F4BC1D1C54FDFB"
+					item: {
+						count: 1
+						id: "gtceu:coke_oven"
+					}
 					type: "item"
 				}
 				{
 					count: 16
 					id: "48D6923B31E53EC2"
+					item: {
+						count: 1
+						id: "gtceu:coke_oven_bricks"
+					}
 					type: "item"
 				}
 			]
@@ -915,18 +1106,18 @@
 			tasks: [
 				{
 					id: "19C34AAB329C7ABF"
-					item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(gtceu:wooden_multiblock_tank)item(gtceu:steel_multiblock_tank))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					id: "123DB283FB4EF13D"
-					item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(gtceu:wooden_tank_valve)item(gtceu:steel_tank_valve))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					count: 24L
 					id: "72D3346BD7D0A57D"
-					item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(gtceu:wood_wall)item(gtceu:solid_machine_casing))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -940,7 +1131,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "431894F9877BC900"
-				item: { }
+				item: { count: 1, id: "gtceu:steel_frame" }
 				type: "item"
 			}]
 			x: -2.1577721088435453d

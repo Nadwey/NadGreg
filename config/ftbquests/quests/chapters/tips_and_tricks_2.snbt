@@ -3,12 +3,18 @@
 	default_quest_shape: "rsquare"
 	filename: "tips_and_tricks_2"
 	group: "288DA1F92F7C0A7A"
+	icon: {
+		id: "gtceu:computer_monitor_cover"
+	}
 	id: "6049B9A595052948"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["03DBF1961AE21C76"]
+			icon: {
+				id: "gtceu:steam_machine_casing"
+			}
 			id: "7FB2D6C9A3763A47"
 			size: 0.75d
 			tasks: [{
@@ -20,6 +26,9 @@
 		}
 		{
 			dependencies: ["6E186F9C57155BFA"]
+			icon: {
+				id: "gtceu:lv_battery_hull"
+			}
 			id: "61FED75EFA6555EC"
 			size: 0.66d
 			tasks: [{
@@ -31,6 +40,9 @@
 		}
 		{
 			dependencies: ["6E186F9C57155BFA"]
+			icon: {
+				id: "gtceu:copper_double_cable"
+			}
 			id: "0F2A7F519B3C67FB"
 			size: 0.75d
 			tasks: [{
@@ -42,6 +54,9 @@
 		}
 		{
 			dependencies: ["7B0FF43022F6C2EC"]
+			icon: {
+				id: "gtceu:ulv_transformer_2a"
+			}
 			id: "2BE355672E638CF2"
 			size: 0.66d
 			tasks: [{
@@ -53,6 +68,9 @@
 		}
 		{
 			dependencies: ["1BE0349B8F3890D3"]
+			icon: {
+				id: "minecraft:clock"
+			}
 			id: "54DE75E97153E455"
 			size: 0.75d
 			tasks: [{
@@ -64,6 +82,9 @@
 		}
 		{
 			dependencies: ["2FC7B1E867E4194E"]
+			icon: {
+				id: "gtceu:heatproof_machine_casing"
+			}
 			id: "1647E0C649E2131C"
 			size: 0.66d
 			tasks: [{
@@ -75,6 +96,9 @@
 		}
 		{
 			dependencies: ["2FC7B1E867E4194E"]
+			icon: {
+				id: "gtceu:robust_machine_casing"
+			}
 			id: "331F2C12C652D268"
 			size: 0.75d
 			tasks: [{
@@ -86,11 +110,14 @@
 		}
 		{
 			dependencies: ["2FC7B1E867E4194E"]
+			icon: {
+				id: "gtceu:maintenance_hatch"
+			}
 			id: "6644AAD403127EFB"
 			size: 0.66d
 			tasks: [{
 				id: "3FF4710150014FB0"
-				item: { }
+				item: { count: 1, id: "gtceu:maintenance_hatch" }
 				type: "item"
 			}]
 			x: 1.98d
@@ -98,6 +125,9 @@
 		}
 		{
 			dependencies: ["1646BF9194100E57"]
+			icon: {
+				id: "gtceu:tritanium_coil_block"
+			}
 			id: "6C8789A7B8946CFF"
 			size: 0.75d
 			tasks: [{
@@ -113,7 +143,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "1FEB8E12A60DE853"
-				item: { }
+				item: { count: 1, id: "gtceu:lv_muffler_hatch" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -126,7 +156,7 @@
 			tasks: [{
 				count: 2L
 				id: "692DAFF49E94F293"
-				item: { }
+				item: { count: 1, id: "gtceu:lv_energy_input_hatch" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -134,17 +164,20 @@
 		}
 		{
 			dependencies: ["2FC7B1E867E4194E"]
+			icon: {
+				id: "gtceu:lv_input_bus"
+			}
 			id: "0C09F89291D29EF8"
 			size: 0.66d
 			tasks: [
 				{
 					id: "20525743B089148E"
-					item: { }
+					item: { count: 1, id: "gtceu:lv_input_bus" }
 					type: "item"
 				}
 				{
 					id: "1BAD5A4B4E0EA120"
-					item: { }
+					item: { count: 1, id: "gtceu:lv_output_bus" }
 					type: "item"
 				}
 			]
@@ -153,6 +186,9 @@
 		}
 		{
 			dependencies: ["3568BC9742092FC5"]
+			icon: {
+				id: "gtceu:cleanroom"
+			}
 			id: "1E5EFC5880605DD4"
 			size: 0.75d
 			tasks: [{
@@ -164,6 +200,9 @@
 		}
 		{
 			dependencies: ["77B7B1EDD19831E0"]
+			icon: {
+				id: "gtceu:assembly_line"
+			}
 			id: "2C70E297DBE3BDF2"
 			size: 0.66d
 			tasks: [{
@@ -175,6 +214,9 @@
 		}
 		{
 			dependencies: ["77B7B1EDD19831E0"]
+			icon: {
+				id: "gtceu:data_orb"
+			}
 			id: "6DA28F169CED9C7D"
 			size: 0.75d
 			tasks: [{
@@ -200,6 +242,9 @@
 		}
 		{
 			dependencies: ["3B2D2C47BEBCFFA7"]
+			icon: {
+				id: "gtceu:rotary_hearth_furnace"
+			}
 			id: "57DE7059D524FAE9"
 			size: 0.66d
 			tasks: [{
@@ -211,6 +256,9 @@
 		}
 		{
 			dependencies: ["3B2D2C47BEBCFFA7"]
+			icon: {
+				id: "gtceu:zpm_parallel_hatch"
+			}
 			id: "255929EB845E200D"
 			size: 0.75d
 			tasks: [{
@@ -222,16 +270,27 @@
 		}
 		{
 			dependencies: ["7813F183681E0342"]
+			icon: {
+				id: "gtceu:crushed_redstone_ore"
+			}
 			id: "189612F2C7C60E81"
 			rewards: [
 				{
 					count: 16
 					id: "6B12F2544F281A32"
+					item: {
+						count: 1
+						id: "minecraft:iron_ore"
+					}
 					type: "item"
 				}
 				{
 					count: 32
 					id: "00CB754FC48F6203"
+					item: {
+						count: 1
+						id: "gtceu:chalcopyrite_ore"
+					}
 					type: "item"
 				}
 			]
@@ -239,12 +298,12 @@
 			tasks: [
 				{
 					id: "26D2F1DD581B726D"
-					item: { }
+					item: { count: 1, id: "gtceu:crushed_redstone_ore" }
 					type: "item"
 				}
 				{
 					id: "48BC67DA4DD081A6"
-					item: { }
+					item: { count: 1, id: "gtceu:pure_redstone_dust" }
 					type: "item"
 				}
 			]
@@ -253,6 +312,9 @@
 		}
 		{
 			dependencies: ["724FB950CC472BB4"]
+			icon: {
+				id: "gtceu:crushed_diamond_ore"
+			}
 			id: "7FCFE4C40837CF5E"
 			size: 0.75d
 			tasks: [{
