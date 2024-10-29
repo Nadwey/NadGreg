@@ -866,11 +866,6 @@ hash = "84c8d3dbc93d77769ef275ebff57efe2e020c6996689a70bbed2158386fcca5f"
 metafile = true
 
 [[files]]
-file = "mods/fps-reducer.pw.toml"
-hash = "f1714d97a7a853601c3409fb94928dda999dabed2766fd21a18ab6b067b171d7"
-metafile = true
-
-[[files]]
 file = "mods/framedblocks.pw.toml"
 hash = "848a3174c9cb4b2e26f74d595052edf7f880b93323613f223750cd29d2b9aec1"
 metafile = true
