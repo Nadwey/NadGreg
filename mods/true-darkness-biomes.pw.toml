@@ -1,0 +1,13 @@
+name = "True Darkness Biomes [Forge/Neoforge]"
+filename = "darkness-1.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ebd256c7f4f688446079e7ee8769a3af88ccf03b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5837265
+project-id = 1120802

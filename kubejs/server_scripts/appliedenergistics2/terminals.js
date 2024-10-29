@@ -2,9 +2,9 @@ ServerEvents.recipes((event) => {
   // Wireless Terminal
   event.remove({ id: "ae2:network/wireless_terminal" });
   event.shaped("ae2:wireless_terminal", ["wRd", "CTC", "KLK"], {
-    w: "#forge:tools/wrenches",
+    w: "#c:tools/wrenches",
     R: "ae2:wireless_receiver",
-    d: "#forge:tools/screwdrivers",
+    d: "#c:tools/screwdrivers",
     C: "#gtceu:circuits/hv",
     T: "ae2:terminal",
     K: "ae2:fluix_glass_cable",
@@ -14,7 +14,7 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "ae2:network/wireless_crafting_terminal" });
   event.remove({ id: "ae2:network/upgrade_wireless_crafting_terminal" });
   event.shaped("ae2:wireless_crafting_terminal", ["TC ", "Kd ", "   "], {
-    d: "#forge:tools/screwdrivers",
+    d: "#c:tools/screwdrivers",
     T: "ae2:wireless_terminal",
     C: "crafting_table",
     K: "ae2:fluix_glass_cable",
@@ -49,8 +49,8 @@ ServerEvents.recipes((event) => {
   event.shaped("ae2:formation_plane", ["EFC", "PPP"], {
     E: "gtceu:lv_electric_piston",
     F: "ae2:formation_core",
-    C: "#forge:gears/fluix",
-    P: "#forge:plates/steel",
+    C: "#c:gears/fluix",
+    P: "#c:plates/steel",
   });
 
   // ME Formation Plane
@@ -58,25 +58,25 @@ ServerEvents.recipes((event) => {
   event.shaped("ae2:annihilation_plane", ["EFC", "PPP"], {
     E: "gtceu:lv_electric_piston",
     F: "ae2:annihilation_core",
-    C: "#forge:gears/fluix",
-    P: "#forge:plates/steel",
+    C: "#c:gears/fluix",
+    P: "#c:plates/steel",
   });
 
   // ME Terminal
   event.remove({ id: "ae2:network/parts/terminals" });
   event.shaped("ae2:terminal", ["BCB", "xPd", "CDC"], {
-    B: "#forge:bolts/tin_alloy",
+    B: "#c:bolts/tin_alloy",
     C: "#gtceu:circuits/lv",
-    x: "#forge:tools/wire_cutters",
+    x: "#c:tools/wire_cutters",
     P: "ae2:semi_dark_monitor",
-    d: "#forge:tools/screwdrivers",
-    D: "#forge:double_plates/steel",
+    d: "#c:tools/screwdrivers",
+    D: "#c:double_plates/steel",
   });
   event.shaped("ae2:terminal", ["PB ", "Cd "], {
     B: "ae2:calculation_processor",
     C: "ae2:logic_processor",
     P: "ae2:semi_dark_monitor",
-    d: "#forge:tools/screwdrivers",
+    d: "#c:tools/screwdrivers",
   });
 
   // ME Crafting Terminal
@@ -85,7 +85,7 @@ ServerEvents.recipes((event) => {
     P: "ae2:terminal",
     B: "crafting_table",
     C: "ae2:calculation_processor",
-    d: "#forge:tools/screwdrivers",
+    d: "#c:tools/screwdrivers",
   });
 
   // ME Pattern Terminal
@@ -94,7 +94,7 @@ ServerEvents.recipes((event) => {
     P: "ae2:terminal",
     B: "ae2:blank_pattern",
     C: "ae2:engineering_processor",
-    d: "#forge:tools/screwdrivers",
+    d: "#c:tools/screwdrivers",
   });
 
   // ME Pattern Access Terminal
@@ -103,13 +103,13 @@ ServerEvents.recipes((event) => {
     P: "ae2:terminal",
     B: "gtceu:polyvinyl_chloride_plate",
     C: "ae2:fluix_glass_cable",
-    d: "#forge:tools/screwdrivers",
+    d: "#c:tools/screwdrivers",
   });
 
   // P2P Tunnel
   event.remove({ id: "ae2:network/parts/tunnels_me" });
   event.shaped("2x ae2:me_p2p_tunnel", [" P ", "PEP", "PCP"], {
-    P: "#forge:plates/tungsten_steel",
+    P: "#c:plates/tungsten_steel",
     E: "ae2:engineering_processor",
     C: "ae2:fluix_glass_cable",
   });

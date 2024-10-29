@@ -1,0 +1,13 @@
+name = "Curios API Continuation"
+filename = "curios-neoforge-9.0.14+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d029a3a4a3429bf81c39d6a3c8f227b7b20e63ba"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5811495
+project-id = 1037991

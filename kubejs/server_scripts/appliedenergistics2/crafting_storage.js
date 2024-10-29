@@ -4,8 +4,8 @@ ServerEvents.recipes((event) => {
     event.remove({ output: `ae2:${componentSize}k_crafting_storage` });
     greg
       .canner(`gtceu:${componentSize}k_crafting_storage`)
-      .itemInputs("ae2:crafting_unit", `ae2:cell_component_${componentSize}k`)
-      .itemOutputs(`ae2:${componentSize}k_crafting_storage`)
+      .inputItems("ae2:crafting_unit", `ae2:cell_component_${componentSize}k`)
+      .outputItems(`ae2:${componentSize}k_crafting_storage`)
       .duration(100)
       .EUt(4 ** (energyExponent - 1));
   };

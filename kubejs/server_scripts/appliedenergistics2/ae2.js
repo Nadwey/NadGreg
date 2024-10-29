@@ -1,20 +1,20 @@
 ServerEvents.recipes((event) => {
   const greg = event.recipes.gtceu;
   // quartz glass
-  event.remove({ id: "ae2:decorative/quartz_glass" });
+  event.remove({ id: "ae2:quartz_glass" });
   greg
     .alloy_smelter("gtceu:quartz_glass")
-    .itemInputs("4x #forge:glass", "5x gtceu:certus_quartz_dust")
-    .itemOutputs("4x ae2:quartz_glass")
+    .inputItems("4x #c:glass_blocks", "5x gtceu:certus_quartz_dust")
+    .outputItems("4x ae2:quartz_glass")
     .duration(100)
     .EUt(8);
 
   // vibrant quartz glass
-  event.remove({ id: "ae2:decorative/quartz_vibrant_glass" });
+  event.remove({ id: "ae2:quartz_vibrant_glass" });
   greg
     .alloy_smelter("gtceu:vibrant_quartz_glass")
-    .itemInputs("ae2:quartz_glass", "2x minecraft:glowstone_dust")
-    .itemOutputs("2x ae2:quartz_vibrant_glass")
+    .inputItems("ae2:quartz_glass", "2x minecraft:glowstone_dust")
+    .outputItems("2x ae2:quartz_vibrant_glass")
     .duration(100)
     .EUt(8);
 
@@ -23,8 +23,8 @@ ServerEvents.recipes((event) => {
   greg
     .cutter("gtceu:tiny_tnt")
     .inputFluids("minecraft:water 9000")
-    .itemInputs("minecraft:tnt")
-    .itemOutputs("4x ae2:tiny_tnt")
+    .inputItems("minecraft:tnt")
+    .outputItems("4x ae2:tiny_tnt")
     .duration(200)
     .EUt(30);
 
@@ -74,7 +74,7 @@ ServerEvents.recipes((event) => {
   // ME Drive
   event.remove({ id: "ae2:network/blocks/storage_drive" });
   event.shaped("ae2:drive", ["PEP", "KCK", "PEP"], {
-    P: "#forge:plates/steel",
+    P: "#c:plates/steel",
     E: "ae2:engineering_processor",
     K: "ae2:fluix_glass_cable",
     C: "#gtceu:circuits/lv",
@@ -87,8 +87,8 @@ ServerEvents.recipes((event) => {
     T: "ae2:terminal",
     K: "ae2:fluix_glass_cable",
     C: "#gtceu:circuits/ulv",
-    P: "#forge:plates/steel",
-    F: "#forge:gems/fluix",
+    P: "#c:plates/steel",
+    F: "#c:gems/fluix",
   });
 
   // Cell Workbench
@@ -97,26 +97,26 @@ ServerEvents.recipes((event) => {
     F: "gtceu:item_filter",
     K: "ae2:fluix_glass_cable",
     L: "gtceu:fluid_filter",
-    P: "#forge:plates/steel",
-    C: "#forge:chests/wooden",
+    P: "#c:plates/steel",
+    C: "#c:chests/wooden",
   });
 
   // IO Port
   event.remove({ id: "ae2:network/blocks/io_port" });
   event.shaped("ae2:io_port", ["UGR", "DCD", "PLP"], {
     U: "gtceu:lv_pump",
-    G: "#forge:glass",
+    G: "#c:glass_blocks",
     R: "gtceu:lv_robot_arm",
     D: "ae2:drive",
     C: "ae2:fluix_glass_cable",
-    P: "#forge:plates/steel",
+    P: "#c:plates/steel",
     L: "ae2:logic_processor",
   });
 
   // Matter Condenser
   event.remove({ id: "ae2:network/blocks/io_condenser" });
   event.shaped("ae2:condenser", ["PCP", "CHC", "PCP"], {
-    P: "#forge:plates/stainless_steel",
+    P: "#c:plates/stainless_steel",
     C: "gtceu:hv_electric_piston",
     H: "#gtceu:circuits/hv",
   });
@@ -124,8 +124,8 @@ ServerEvents.recipes((event) => {
   // Energy Acceptor
   event.remove({ id: "ae2:network/blocks/energy_energy_acceptor" });
   event.shaped("ae2:energy_acceptor", ["PFP", "FVF", "PFP"], {
-    P: "#forge:plates/steel",
-    F: "#forge:plates/fluix",
+    P: "#c:plates/steel",
+    F: "#c:plates/fluix",
     V: "gtceu:lv_voltage_coil",
   });
 
@@ -133,7 +133,7 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "ae2:network/blocks/energy_energy_cell" });
   event.shaped("ae2:energy_cell", ["SPS", "CGC", "SPS"], {
     S: "gtceu:certus_quartz_gem",
-    P: "#forge:plates/certus_quartz",
+    P: "#c:plates/certus_quartz",
     C: "gtceu:lv_voltage_coil",
     G: "ae2:quartz_vibrant_glass",
   });
@@ -142,15 +142,15 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "ae2:network/blocks/energy_dense_energy_cell" });
   greg
     .compressor("gtceu:dense_energy_cell")
-    .itemInputs("8x ae2:energy_cell")
-    .itemOutputs("ae2:dense_energy_cell")
+    .inputItems("8x ae2:energy_cell")
+    .outputItems("ae2:dense_energy_cell")
     .duration(100)
     .EUt(30);
 
   // Crafting Unit
   event.remove({ id: "ae2:network/crafting/cpu_crafting_unit" });
   event.shaped("ae2:crafting_unit", ["PCP", "KMK", "PLP"], {
-    P: "#forge:plates/aluminium",
+    P: "#c:plates/aluminium",
     C: "ae2:calculation_processor",
     K: "ae2:fluix_glass_cable",
     M: "#gtceu:circuits/mv",
@@ -161,54 +161,56 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "ae2:network/crafting/cpu_crafting_accelerator" });
   greg
     .canner("gtceu:ae2_accelerator")
-    .itemInputs("ae2:crafting_unit", "ae2:engineering_processor")
-    .itemOutputs("ae2:crafting_accelerator")
+    .inputItems("ae2:crafting_unit", "ae2:engineering_processor")
+    .outputItems("ae2:crafting_accelerator")
     .duration(100)
     .EUt(64);
 
-  // 4x Crafting Co-Processing Unit
-  event.remove({ id: "mae2:network/crafting/4x_crafting_accelerator" });
-  greg
-    .assembler("gtceu:4x_crafting_accelerator")
-    .itemInputs("3x ae2:crafting_accelerator", "ae2:cell_component_4k", "#gtceu:circuits/hv")
-    .itemOutputs("mae2:4x_crafting_accelerator")
-    .duration(100)
-    .EUt(130);
+    // Modern AE2 Additions is not yet on 1.21.1
+    // TODO
+  // // 4x Crafting Co-Processing Unit
+  // event.remove({ id: "mae2:network/crafting/4x_crafting_accelerator" });
+  // greg
+  //   .assembler("gtceu:4x_crafting_accelerator")
+  //   .inputItems("3x ae2:crafting_accelerator", "ae2:cell_component_4k", "#gtceu:circuits/hv")
+  //   .outputItems("mae2:4x_crafting_accelerator")
+  //   .duration(100)
+  //   .EUt(130);
 
-  // 16x Crafting Co-Processing Unit
-  event.remove({ id: "mae2:network/crafting/16x_crafting_accelerator" });
-  greg
-    .assembler("gtceu:16x_crafting_accelerator")
-    .itemInputs("3x mae2:4x_crafting_accelerator", "ae2:cell_component_16k", "#gtceu:circuits/ev")
-    .itemOutputs("mae2:16x_crafting_accelerator")
-    .duration(100)
-    .EUt(520);
+  // // 16x Crafting Co-Processing Unit
+  // event.remove({ id: "mae2:network/crafting/16x_crafting_accelerator" });
+  // greg
+  //   .assembler("gtceu:16x_crafting_accelerator")
+  //   .inputItems("3x mae2:4x_crafting_accelerator", "ae2:cell_component_16k", "#gtceu:circuits/ev")
+  //   .outputItems("mae2:16x_crafting_accelerator")
+  //   .duration(100)
+  //   .EUt(520);
 
-  // 64x Crafting Co-Processing Unit
-  event.remove({ id: "mae2:network/crafting/64x_crafting_accelerator" });
-  greg
-    .assembler("gtceu:64x_crafting_accelerator")
-    .itemInputs("3x mae2:16x_crafting_accelerator", "ae2:cell_component_64k", "#gtceu:circuits/iv")
-    .itemOutputs("mae2:64x_crafting_accelerator")
-    .duration(100)
-    .EUt(2080);
+  // // 64x Crafting Co-Processing Unit
+  // event.remove({ id: "mae2:network/crafting/64x_crafting_accelerator" });
+  // greg
+  //   .assembler("gtceu:64x_crafting_accelerator")
+  //   .inputItems("3x mae2:16x_crafting_accelerator", "ae2:cell_component_64k", "#gtceu:circuits/iv")
+  //   .outputItems("mae2:64x_crafting_accelerator")
+  //   .duration(100)
+  //   .EUt(2080);
 
-  // 256x Crafting Co-Processing Unit
-  event.remove({ id: "mae2:network/crafting/256x_crafting_accelerator" });
-  greg
-    .assembler("gtceu:256x_crafting_accelerator")
-    .itemInputs("3x mae2:64x_crafting_accelerator", "ae2:cell_component_256k", "#gtceu:circuits/luv")
-    .itemOutputs("mae2:256x_crafting_accelerator")
-    .duration(100)
-    .EUt(8320);
+  // // 256x Crafting Co-Processing Unit
+  // event.remove({ id: "mae2:network/crafting/256x_crafting_accelerator" });
+  // greg
+  //   .assembler("gtceu:256x_crafting_accelerator")
+  //   .inputItems("3x mae2:64x_crafting_accelerator", "ae2:cell_component_256k", "#gtceu:circuits/luv")
+  //   .outputItems("mae2:256x_crafting_accelerator")
+  //   .duration(100)
+  //   .EUt(8320);
 
 
   // Crafting Monitor
   event.remove({ id: "ae2:network/crafting/cpu_crafting_monitor" });
   greg
     .canner("gtceu:crafting_monitor")
-    .itemInputs("ae2:crafting_unit", "ae2:storage_monitor")
-    .itemOutputs("ae2:crafting_monitor")
+    .inputItems("ae2:crafting_unit", "ae2:storage_monitor")
+    .outputItems("ae2:crafting_monitor")
     .duration(100)
     .EUt(4);
 
@@ -228,8 +230,8 @@ ServerEvents.recipes((event) => {
   ] , {
     E: "ae2:engineering_processor",
     C: "#gtceu:circuits/lv",
-    W: "#forge:fine_wires/gold",
-    P: "#forge:plates/iron"
+    W: "#c:fine_wires/gold",
+    P: "#c:plates/iron"
   })
   */
 
@@ -238,14 +240,14 @@ ServerEvents.recipes((event) => {
   event.shaped("ae2:memory_card", ["EC ", "WP ", "   "], {
     E: "ae2:calculation_processor",
     C: "#gtceu:circuits/lv",
-    W: "#forge:fine_wires/gold",
-    P: "#forge:plates/iron",
+    W: "#c:fine_wires/gold",
+    P: "#c:plates/iron",
   });
 
   // Network Tool
   event.remove({ id: "ae2:tools/network_tool" });
   event.shaped("ae2:network_tool", ["wC ", "EP ", "   "], {
-    w: "#forge:tools/wrenches",
+    w: "#c:tools/wrenches",
     E: "ae2:calculation_processor",
     C: "#gtceu:circuits/lv",
     P: "#ae2:illuminated_panel",
@@ -255,12 +257,12 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "ae2:inscriber/fluix_dust" });
   greg
     .mixer("gtceu:fluix_dust")
-    .itemInputs(
-      "#forge:dusts/nether_quartz",
-      "#forge:dusts/certus_quartz",
-      "#forge:dusts/redstone"
+    .inputItems(
+      "#c:dusts/nether_quartz",
+      "#c:dusts/certus_quartz",
+      "#c:dusts/redstone"
     )
-    .itemOutputs("3x gtceu:fluix_dust")
+    .outputItems("3x gtceu:fluix_dust")
     .duration(200)
     .EUt(16);
 
@@ -268,8 +270,8 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "ae2:charger/charged_certus_quartz_crystal" });
   greg
     .polarizer("gtceu:charged_certus_quartz")
-    .itemInputs("gtceu:certus_quartz_gem")
-    .itemOutputs("ae2:charged_certus_quartz_crystal")
+    .inputItems("gtceu:certus_quartz_gem")
+    .outputItems("ae2:charged_certus_quartz_crystal")
     .duration(100)
     .EUt(16);
 
@@ -277,8 +279,8 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "ae2:misc/fluixpearl" });
   greg
     .chemical_reactor("gtceu:fluix_pearl")
-    .itemInputs("#forge:dusts/fluix", "ender_eye")
-    .itemOutputs("ae2:fluix_pearl")
+    .inputItems("#c:dusts/fluix", "ender_eye")
+    .outputItems("ae2:fluix_pearl")
     .duration(200)
     .EUt(480);
 
@@ -287,7 +289,7 @@ ServerEvents.recipes((event) => {
   event.shaped("ae2:wireless_receiver", ["CPC", "RSR", "   "], {
     C: "#gtceu:circuits/ev",
     P: "ae2:fluix_pearl",
-    R: "#forge:rods/titanium",
+    R: "#c:rods/titanium",
     S: "gtceu:hv_sensor",
   });
 
@@ -296,23 +298,23 @@ ServerEvents.recipes((event) => {
   event.shaped("ae2:annihilation_core", ["CPB"], {
     C: "#gtceu:circuits/ulv",
     P: "ae2:logic_processor",
-    B: "#forge:dusts/nether_quartz",
+    B: "#c:dusts/nether_quartz",
   });
   // Formation Core
   event.remove({ id: "ae2:materials/formationcore" });
   event.shaped("ae2:formation_core", ["CPB"], {
     C: "#gtceu:circuits/ulv",
     P: "ae2:logic_processor",
-    B: "#forge:dusts/certus_quartz",
+    B: "#c:dusts/certus_quartz",
   });
 
   // Cable Anchor
   event.remove({ id: "ae2:network/parts/cable_anchor" });
   greg
     .extruder("gtceu:cable_anchor")
-    .itemInputs("#forge:plates/steel")
-    .notConsumable("gtceu:bolt_extruder_mold")
-    .itemOutputs("8x ae2:cable_anchor")
+    .inputItems("#c:plates/steel")
+    .notConsumableItem("gtceu:bolt_extruder_mold")
+    .outputItems("8x ae2:cable_anchor")
     .duration(20)
     .EUt(16);
 
@@ -320,24 +322,24 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "ae2:network/parts/quartz_fiber_part" });
   greg
     .alloy_smelter("gtceu:quartz_fibers")
-    .itemInputs("#forge:dusts/certus_quartz", "ae2:quartz_glass")
-    .itemOutputs("2x ae2:quartz_fiber")
+    .inputItems("#c:dusts/certus_quartz", "ae2:quartz_glass")
+    .outputItems("2x ae2:quartz_fiber")
     .duration(60)
     .EUt(16);
 
   //Illuminated Panel
   event.remove({ id: "ae2:network/parts/panels_semi_dark_monitor" });
   event.shaped("ae2:semi_dark_monitor", ["WSG"], {
-    W: "#forge:fine_wires/tin",
+    W: "#c:fine_wires/tin",
     S: "gtceu:computer_monitor_cover",
     G: "ae2:quartz_vibrant_glass",
   });
   event.shaped("ae2:semi_dark_monitor", ["mWG", "TCV", "xWG"], {
-    m: "#forge:tools/mallets",
-    x: "#forge:tools/wire_cutters",
-    W: "#forge:fine_wires/copper",
-    G: "#forge:plates/glass",
-    T: "#forge:fine_wires/tin",
+    m: "#c:tools/mallets",
+    x: "#c:tools/wire_cutters",
+    W: "#c:fine_wires/copper",
+    G: "#c:plates/glass",
+    T: "#c:fine_wires/tin",
     C: "#gtceu:circuits/lv",
     V: "ae2:quartz_vibrant_glass",
   });
@@ -347,22 +349,22 @@ ServerEvents.recipes((event) => {
   event.shaped("ae2:wireless_booster", ["EC ", "PP "], {
     E: "gtceu:lv_emitter",
     C: "ae2:fluix_glass_cable",
-    P: "#forge:plates/steel",
+    P: "#c:plates/steel",
   });
 
   // Fluix Crystals
   greg
     .autoclave("gtceu:fluix_crystal")
-    .itemInputs("gtceu:fluix_dust")
+    .inputItems("gtceu:fluix_dust")
     .inputFluids("water 100")
-    .itemOutputs("ae2:fluix_crystal")
+    .outputItems("ae2:fluix_crystal")
     .duration(200)
     .EUt(24);
 
   greg
     .lathe("fluix_lathing")
-    .itemInputs("ae2:fluix_crystal")
-    .itemOutputs("gtceu:fluix_rod")
+    .inputItems("ae2:fluix_crystal")
+    .outputItems("gtceu:fluix_rod")
     .duration(200)
     .EUt(8);
 
@@ -370,42 +372,42 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "ae2:inscriber/logic_processor" });
   greg
     .circuit_assembler("gtceu:logic_processor")
-    .itemInputs(
+    .inputItems(
       "ae2:printed_logic_processor",
       "ae2:printed_silicon",
       "#gtceu:circuits/lv",
       "#gtceu:resistors",
-      "2x #forge:fine_wires/tin"
+      "2x #c:fine_wires/tin"
     )
-    .itemOutputs("4x ae2:logic_processor")
+    .outputItems("4x ae2:logic_processor")
     .duration(200)
     .EUt(30);
   // Engineering Processor
   event.remove({ id: "ae2:inscriber/engineering_processor" });
   greg
     .circuit_assembler("gtceu:engineering_processor")
-    .itemInputs(
+    .inputItems(
       "ae2:printed_engineering_processor",
       "ae2:printed_silicon",
       "#gtceu:circuits/lv",
       "#gtceu:resistors",
-      "2x #forge:fine_wires/tin"
+      "2x #c:fine_wires/tin"
     )
-    .itemOutputs("4x ae2:engineering_processor")
+    .outputItems("4x ae2:engineering_processor")
     .duration(200)
     .EUt(30);
   // Calculation Processor
   event.remove({ id: "ae2:inscriber/calculation_processor" });
   greg
     .circuit_assembler("gtceu:calculation_processor")
-    .itemInputs(
+    .inputItems(
       "ae2:printed_calculation_processor",
       "ae2:printed_silicon",
       "#gtceu:circuits/lv",
       "#gtceu:resistors",
-      "2x #forge:fine_wires/tin"
+      "2x #c:fine_wires/tin"
     )
-    .itemOutputs("4x ae2:calculation_processor")
+    .outputItems("4x ae2:calculation_processor")
     .duration(200)
     .EUt(30);
 });

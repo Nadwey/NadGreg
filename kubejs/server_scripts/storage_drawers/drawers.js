@@ -18,15 +18,15 @@ ServerEvents.recipes((event) => {
       ["PPP", "sCr", "PPP"],
       {
         P: `${woodType}_planks`,
-        s: "#forge:tools/saws",
-        C: "#forge:chests/wooden",
-        r: "#forge:tools/mallets",
+        s: "#c:tools/saws",
+        C: "#c:chests/wooden",
+        r: "#c:tools/mallets",
       }
     ).noMirror();
     greg
       .assembler(`storagedrawers:${woodType}_full_drawers_1`)
-      .itemInputs(`6x minecraft:${woodType}_planks`, "#forge:chests/wooden")
-      .itemOutputs(`storagedrawers:${woodType}_full_drawers_1`)
+      .inputItems(`6x minecraft:${woodType}_planks`, "#c:chests/wooden")
+      .outputItems(`storagedrawers:${woodType}_full_drawers_1`)
       .circuit(9)
       .duration(100)
       .EUt(16);
@@ -36,15 +36,15 @@ ServerEvents.recipes((event) => {
       ["PPP", "rCs", "PPP"],
       {
         P: `${woodType}_planks`,
-        s: "#forge:tools/saws",
-        C: "#forge:chests/wooden",
-        r: "#forge:tools/mallets",
+        s: "#c:tools/saws",
+        C: "#c:chests/wooden",
+        r: "#c:tools/mallets",
       }
     ).noMirror();
     greg
       .assembler(`storagedrawers:${woodType}_full_drawers_2`)
-      .itemInputs(`6x minecraft:${woodType}_planks`, "#forge:chests/wooden")
-      .itemOutputs(`storagedrawers:${woodType}_full_drawers_2`)
+      .inputItems(`6x minecraft:${woodType}_planks`, "#c:chests/wooden")
+      .outputItems(`storagedrawers:${woodType}_full_drawers_2`)
       .circuit(10)
       .duration(100)
       .EUt(16);
@@ -54,15 +54,15 @@ ServerEvents.recipes((event) => {
       ["PsP", "PCP", "PrP"],
       {
         P: `${woodType}_planks`,
-        s: "#forge:tools/saws",
-        C: "#forge:chests/wooden",
-        r: "#forge:tools/mallets",
+        s: "#c:tools/saws",
+        C: "#c:chests/wooden",
+        r: "#c:tools/mallets",
       }
     );
     greg
       .assembler(`storagedrawers:${woodType}_full_drawers_4`)
-      .itemInputs(`6x minecraft:${woodType}_planks`, "#forge:chests/wooden")
-      .itemOutputs(`storagedrawers:${woodType}_full_drawers_4`)
+      .inputItems(`6x minecraft:${woodType}_planks`, "#c:chests/wooden")
+      .outputItems(`storagedrawers:${woodType}_full_drawers_4`)
       .circuit(11)
       .duration(100)
       .EUt(16);
@@ -73,15 +73,15 @@ ServerEvents.recipes((event) => {
       ["PPP", "sCr", "PPP"],
       {
         P: `${woodType}_slab`,
-        s: "#forge:tools/saws",
-        C: "#forge:chests/wooden",
-        r: "#forge:tools/mallets",
+        s: "#c:tools/saws",
+        C: "#c:chests/wooden",
+        r: "#c:tools/mallets",
       }
     ).noMirror();
     greg
       .assembler(`storagedrawers:${woodType}_half_drawers_1`)
-      .itemInputs(`6x minecraft:${woodType}_slab`, "#forge:chests/wooden")
-      .itemOutputs(`storagedrawers:${woodType}_half_drawers_1`)
+      .inputItems(`6x minecraft:${woodType}_slab`, "#c:chests/wooden")
+      .outputItems(`storagedrawers:${woodType}_half_drawers_1`)
       .circuit(9)
       .duration(100)
       .EUt(16);
@@ -91,15 +91,15 @@ ServerEvents.recipes((event) => {
       ["PPP", "rCs", "PPP"],
       {
         P: `${woodType}_slab`,
-        s: "#forge:tools/saws",
-        C: "#forge:chests/wooden",
-        r: "#forge:tools/mallets",
+        s: "#c:tools/saws",
+        C: "#c:chests/wooden",
+        r: "#c:tools/mallets",
       }
     ).noMirror();
     greg
       .assembler(`storagedrawers:${woodType}_half_drawers_2`)
-      .itemInputs(`6x minecraft:${woodType}_slab`, "#forge:chests/wooden")
-      .itemOutputs(`storagedrawers:${woodType}_half_drawers_2`)
+      .inputItems(`6x minecraft:${woodType}_slab`, "#c:chests/wooden")
+      .outputItems(`storagedrawers:${woodType}_half_drawers_2`)
       .circuit(10)
       .duration(100)
       .EUt(16);
@@ -109,15 +109,15 @@ ServerEvents.recipes((event) => {
       ["PsP", "PCP", "PrP"],
       {
         P: `${woodType}_slab`,
-        s: "#forge:tools/saws",
-        C: "#forge:chests/wooden",
-        r: "#forge:tools/mallets",
+        s: "#c:tools/saws",
+        C: "#c:chests/wooden",
+        r: "#c:tools/mallets",
       }
     );
     greg
       .assembler(`storagedrawers:${woodType}_half_drawers_4`)
-      .itemInputs(`6x minecraft:${woodType}_slab`, "#forge:chests/wooden")
-      .itemOutputs(`storagedrawers:${woodType}_half_drawers_4`)
+      .inputItems(`6x minecraft:${woodType}_slab`, "#c:chests/wooden")
+      .outputItems(`storagedrawers:${woodType}_half_drawers_4`)
       .circuit(11)
       .duration(100)
       .EUt(16);
@@ -127,27 +127,27 @@ ServerEvents.recipes((event) => {
       ["PPP", "PsP", "PPP"],
       {
         P: `${woodType}_slab`,
-        s: "#forge:tools/saws"
+        s: "#c:tools/saws"
       }
     )
   });
 
   // Controller
-  event.remove({ output: "storagedrawers:storage_controller" });
+  event.remove({ output: "storagedrawers:controller" });
   event.shaped("storagedrawers:controller", ["PCP", "KDK", "OPO"], {
-    P: "#forge:plates/diamond",
+    P: "#c:plates/diamond",
     C: "#gtceu:circuits/lv",
     K: "gtceu:red_alloy_single_wire",
     D: "#storagedrawers:drawers",
-    O: "#forge:plates/obsidian",
+    O: "#c:plates/obsidian",
   });
   // Controller Extension
-  event.remove({ output: "storagedrawers:controller_slave" });
-  event.shaped("storagedrawers:controller_slave", ["OPO", "KDK", "PCP"], {
-    P: "#forge:plates/diamond",
+  event.remove({ output: "storagedrawers:controller_io" });
+  event.shaped("storagedrawers:controller_io", ["OPO", "KDK", "PCP"], {
+    P: "#c:plates/diamond",
     C: "#gtceu:circuits/lv",
     K: "gtceu:red_alloy_single_wire",
     D: "#storagedrawers:drawers",
-    O: "#forge:plates/obsidian",
+    O: "#c:plates/obsidian",
   });
 });

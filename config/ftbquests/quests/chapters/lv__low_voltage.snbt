@@ -257,7 +257,7 @@
 							value: "forge:ingots/battery_alloy"
 						}
 					}
-					title: "Any #forge:ingots/battery_alloy"
+					title: "Any #c:ingots/battery_alloy"
 					type: "item"
 				}
 				{

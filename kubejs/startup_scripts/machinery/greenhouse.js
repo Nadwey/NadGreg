@@ -1,6 +1,6 @@
 GTCEuStartupEvents.registry("gtceu:machine", (event) => {
-  event
-    .create("greenhouse", "multiblock")
+  console.log(event);
+  event["create(java.lang.String,java.lang.String)"]("greenhouse", "multiblock")
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("greenhouse")
     .appearanceBlock(GTBlocks.MACHINE_CASING_ULV)

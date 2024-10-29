@@ -1,13 +1,13 @@
 name = "Macaw's Fences - Biomes O' Plenty"
-filename = "mcwfencesbop-1.20-1.2.jar"
+filename = "mcwfencesbop-neoforged-1.21-1.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "9df88a2ac3a69b055589034a83cfa965efebaf4e"
+hash = "c721d4fca703aef92d2adca7fa1562ac1de59685"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5663285
+file-id = 5660592
 project-id = 605641

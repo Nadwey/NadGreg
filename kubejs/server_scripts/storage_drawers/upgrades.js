@@ -1,39 +1,39 @@
 ServerEvents.recipes((event) => {
   // Upgrade Template
   event.shaped("storagedrawers:upgrade_template", ["SPS", "SWS", " d "], {
-    S: "#forge:screws/iron",
+    S: "#c:screws/iron",
     P: "gtceu:lv_electric_piston",
     W: "#minecraft:planks",
-    d: "#forge:tools/screwdrivers",
+    d: "#c:tools/screwdrivers",
   });
   event.recipes.gtceu
     .assembler("upgrade_template")
-    .itemInputs(
-      "2x #forge:screws/iron",
+    .inputItems(
+      "2x #c:screws/iron",
       "gtceu:lv_electric_piston",
       "#minecraft:planks"
     )
-    .itemOutputs("storagedrawers:upgrade_template")
+    .outputItems("storagedrawers:upgrade_template")
     .duration(60)
     .EUt(24);
 
   // Upgrade 1
   event.shaped("storagedrawers:obsidian_storage_upgrade", ["PTP"], {
-    P: "#forge:plates/obsidian",
+    P: "#c:plates/obsidian",
     T: "storagedrawers:upgrade_template",
   });
 
   // Upgrade 2
   event.shaped("storagedrawers:iron_storage_upgrade", ["S S", "PTP", "S S"], {
-    S: "#forge:rods/iron",
-    P: "#forge:plates/iron",
+    S: "#c:rods/iron",
+    P: "#c:plates/iron",
     T: "storagedrawers:upgrade_template",
   });
 
   // Upgrade 3
   event.shaped("storagedrawers:gold_storage_upgrade", ["S S", "PTP", "S S"], {
-    S: "#forge:rods/gold",
-    P: "#forge:plates/rose_gold",
+    S: "#c:rods/gold",
+    P: "#c:plates/rose_gold",
     T: "storagedrawers:upgrade_template",
   });
 
@@ -42,8 +42,8 @@ ServerEvents.recipes((event) => {
     "storagedrawers:diamond_storage_upgrade",
     ["S S", "PTP", "S S"],
     {
-      S: "#forge:rods/stainless_steel",
-      P: "#forge:plates/diamond",
+      S: "#c:rods/stainless_steel",
+      P: "#c:plates/diamond",
       T: "storagedrawers:upgrade_template",
     }
   );
@@ -53,8 +53,8 @@ ServerEvents.recipes((event) => {
     "storagedrawers:emerald_storage_upgrade",
     ["S S", "PTP", "S S"],
     {
-      S: "#forge:rods/titanium",
-      P: "#forge:plates/emerald",
+      S: "#c:rods/titanium",
+      P: "#c:plates/emerald",
       T: "storagedrawers:upgrade_template",
     }
   );
@@ -63,8 +63,8 @@ ServerEvents.recipes((event) => {
     "storagedrawers:emerald_storage_upgrade",
     ["S S", "PTP", "S S"],
     {
-      S: "#forge:rods/titanium",
-      P: "#forge:plates/olivine",
+      S: "#c:rods/titanium",
+      P: "#c:plates/olivine",
       T: "storagedrawers:upgrade_template",
     }
   );
@@ -77,16 +77,16 @@ ServerEvents.recipes((event) => {
 
   // Void Upgrade
   event.shaped("storagedrawers:void_upgrade", ["PPP", "PTP", "PPP"], {
-    P: "#forge:plates/obsidian",
+    P: "#c:plates/obsidian",
     T: "storagedrawers:upgrade_template",
   });
 
   // Drawer Key
   event.shaped("storagedrawers:drawer_key", [" BP", "TPP", "Gs "], {
-    B: "#forge:bolts/gold",
+    B: "#c:bolts/gold",
     T: "storagedrawers:upgrade_template",
-    P: "#forge:plates/steel",
-    G: "#forge:plates/gold",
-    s: "#forge:tools/saws",
+    P: "#c:plates/steel",
+    G: "#c:plates/gold",
+    s: "#c:tools/saws",
   });
 });

@@ -30,19 +30,19 @@ ServerEvents.recipes((event) => {
   trees.forEach((woodType) => {
     greg
       .greenhouse(woodType[0])
-      .notConsumable(woodType[0])
+      .notConsumableItem(woodType[0])
       .inputFluids("water 1000")
-      .itemOutputs(`64x ${woodType[1]}`, `6x ${woodType[0]}`)
+      .outputItems(`64x ${woodType[1]}`, `6x ${woodType[0]}`)
       .duration(1200)
       .EUt(40)
       .circuit(1);
 
     greg
       .greenhouse(`${woodType[0]}_fertiliser`)
-      .notConsumable(woodType[0])
-      .itemInputs("4x gtceu:fertilizer")
+      .notConsumableItem(woodType[0])
+      .inputItems("4x gtceu:fertilizer")
       .inputFluids("water 1000")
-      .itemOutputs(
+      .outputItems(
         `64x ${woodType[1]}`,
         `64x ${woodType[1]}`,
         `12x ${woodType[0]}`
@@ -55,27 +55,27 @@ ServerEvents.recipes((event) => {
   plants.forEach((seedType) => {
     greg
       .greenhouse(seedType[0])
-      .notConsumable(seedType[0])
+      .notConsumableItem(seedType[0])
       .inputFluids("water 1000")
-      .itemOutputs(`${seedType[2]}x ${seedType[1]}`)
+      .outputItems(`${seedType[2]}x ${seedType[1]}`)
       .duration(1200)
       .EUt(40)
       .circuit(1);
     greg
       .greenhouse(seedType[0] + "_fertilizer")
-      .notConsumable(seedType[0])
-      .itemInputs("4x gtceu:fertilizer")
+      .notConsumableItem(seedType[0])
+      .inputItems("4x gtceu:fertilizer")
       .inputFluids("water 1000")
-      .itemOutputs(`${2 * seedType[2]}x ${seedType[1]}`)
+      .outputItems(`${2 * seedType[2]}x ${seedType[1]}`)
       .duration(900)
       .EUt(60)
       .circuit(2);
   });
   greg
     .greenhouse("rubber_wood")
-    .notConsumable("gtceu:rubber_sapling")
+    .notConsumableItem("gtceu:rubber_sapling")
     .inputFluids("water 1000")
-    .itemOutputs(
+    .outputItems(
       "16x gtceu:rubber_log",
       "3x gtceu:rubber_sapling",
       "4x gtceu:sticky_resin"
@@ -85,10 +85,10 @@ ServerEvents.recipes((event) => {
     .circuit(1);
   greg
     .greenhouse("rubber_wood_fertiliser")
-    .notConsumable("gtceu:rubber_sapling")
-    .itemInputs("4x gtceu:fertilizer")
+    .notConsumableItem("gtceu:rubber_sapling")
+    .inputItems("4x gtceu:fertilizer")
     .inputFluids("water 1000")
-    .itemOutputs(
+    .outputItems(
       "32x gtceu:rubber_log",
       "6x gtceu:rubber_sapling",
       "8x gtceu:sticky_resin"

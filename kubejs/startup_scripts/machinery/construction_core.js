@@ -1,6 +1,5 @@
 GTCEuStartupEvents.registry("gtceu:machine", (event) => {
-  event
-    .create("construction_core", "multiblock")
+  event["create(java.lang.String,java.lang.String)"]("construction_core", "multiblock")
     .rotationState(RotationState.NON_Y_AXIS)
     .recipeType("construction_core")
     .appearanceBlock(GTBlocks.MACHINE_CASING_ULV)

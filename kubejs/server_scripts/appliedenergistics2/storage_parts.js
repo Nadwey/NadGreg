@@ -4,23 +4,23 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "ae2:cell_component_1k" });
   greg
     .assembler("gtceu:1k_component")
-    .itemInputs(
+    .inputItems(
       "gtceu:cpu_chip",
-      "#forge:plates/certus_quartz",
+      "#c:plates/certus_quartz",
       "#gtceu:circuits/lv"
     )
-    .itemOutputs("ae2:cell_component_1k")
+    .outputItems("ae2:cell_component_1k")
     .duration(200)
     .EUt(30);
   greg
     .assembler("gtceu:1k_component_expensive")
-    .itemInputs(
+    .inputItems(
       "16x #gtceu:resistors",
-      "#forge:plates/certus_quartz",
+      "#c:plates/certus_quartz",
       "2x #gtceu:circuits/lv"
     )
     .inputFluids("gtceu:red_alloy 288")
-    .itemOutputs("ae2:cell_component_1k")
+    .outputItems("ae2:cell_component_1k")
     .duration(200)
     .EUt(30);
 
@@ -28,12 +28,12 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "ae2:cell_component_4k" });
   greg
     .assembler("gtceu:4k_component")
-    .itemInputs(
+    .inputItems(
       "gtceu:ram_chip",
       "3x ae2:cell_component_1k",
       "#gtceu:circuits/mv"
     )
-    .itemOutputs("ae2:cell_component_4k")
+    .outputItems("ae2:cell_component_4k")
     .duration(200)
     .EUt(30);
 
@@ -41,12 +41,12 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "ae2:cell_component_16k" });
   greg
     .assembler("gtceu:16k_component")
-    .itemInputs(
+    .inputItems(
       "gtceu:ulpic_chip",
       "3x ae2:cell_component_4k",
       "#gtceu:circuits/hv"
     )
-    .itemOutputs("ae2:cell_component_16k")
+    .outputItems("ae2:cell_component_16k")
     .duration(200)
     .EUt(120);
 
@@ -54,12 +54,12 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "ae2:cell_component_64k" });
   greg
     .assembler("gtceu:64k_component")
-    .itemInputs(
+    .inputItems(
       "gtceu:lpic_chip",
       "3x ae2:cell_component_16k",
       "#gtceu:circuits/ev"
     )
-    .itemOutputs("ae2:cell_component_64k")
+    .outputItems("ae2:cell_component_64k")
     .duration(200)
     .EUt(480);
 
@@ -67,12 +67,12 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "ae2:cell_component_256k" });
   greg
     .assembler("gtceu:256k_component")
-    .itemInputs(
+    .inputItems(
       "gtceu:qbit_cpu_chip",
       "3x ae2:cell_component_64k",
       "#gtceu:circuits/iv"
     )
-    .itemOutputs("ae2:cell_component_256k")
+    .outputItems("ae2:cell_component_256k")
     .duration(200)
     .EUt(1920);
 });

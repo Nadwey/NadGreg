@@ -8,11 +8,11 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "sophisticatedbackpacks:netherite_backpack" });
 
   event.shaped("sophisticatedbackpacks:backpack", ["SLS", "LBL", "FPF"], {
-    S: "#forge:screws/wrought_iron",
+    S: "#c:screws/wrought_iron",
     L: "minecraft:leather",
     B: "gtceu:wood_crate",
     F: "minecraft:string",
-    P: "#forge:plates/red_alloy",
+    P: "#c:plates/red_alloy",
   });
 
   event.custom({

@@ -8,7 +8,7 @@ GregTech Community Pack Modern, but *more interesting*.
 - [ ] More Nature!11!
 - [ ] More quests or something
 - [ ] Come up with a better name
-- [ ] Port to 1.21.1??
+- [ ] Port serverpack script to 1.21.1
 
 ## Added Mods
 
