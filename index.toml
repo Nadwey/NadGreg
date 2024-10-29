@@ -812,7 +812,7 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "d41c8557243ddcda7d0193ac905d4209ebc4753273b967e6c31ec6874dc0a58c"
+hash = "750841548ae0990fca6a11691760b394623d3316bc1eaad47ad7ee0ec5a906c9"
 metafile = true
 
 [[files]]
@@ -842,7 +842,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "26f18c40fc72ce1261ad494b47f2351c87bc50136a1b8b1baec41242c6c92959"
+hash = "69bb5ba318562384220d280b706f1a8db3843317856f1a0574c60a990b53987c"
 metafile = true
 
 [[files]]
@@ -907,7 +907,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "800421ac8a23d1a441a1af31747a5742b370e2a2ccbeaf9e498c7b6fc66cbb6e"
+hash = "f40a0b281164f4d406e19ff256d88e1a96f9c380f47699ad6cea30926699dc5a"
 metafile = true
 
 [[files]]
@@ -952,7 +952,7 @@ metafile = true
 
 [[files]]
 file = "mods/iceberg.pw.toml"
-hash = "ad39b6fb2bc55933c421297e8ecf931d82dcb056a5513ba3f3b407fdeaef7b02"
+hash = "5851bef35e786bfcdb837dfc380c4bd22c857434b2997235a551b3a0cf72d158"
 metafile = true
 
 [[files]]
@@ -987,7 +987,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "0968cf761fc4608f1d756da1b693314f23148dd8d9a4b8d1c1d046ed7d8f6f39"
+hash = "60813bd83b6042f9c218e718a990e81757681f19d6a4b9b3860f529c8b651960"
 metafile = true
 
 [[files]]
@@ -1012,7 +1012,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "07efd4cf1c3424849a3b79a7213a3655ebdada80fd901dba0cdcae11d1bbb6af"
+hash = "873d23ad2ce05e3e92a05e011f3f9a375a745a4ca6ed4c9fffb0518fc8255bf7"
 metafile = true
 
 [[files]]
@@ -1127,7 +1127,7 @@ metafile = true
 
 [[files]]
 file = "mods/modern-ae2-additions.pw.toml"
-hash = "7864f0dda9fa1ca7b0c22ab276ff18a3c1434ae369e5e9b0cf797cc085138bda"
+hash = "f865b45e10b01b334cd5a358b8eeb3827fb05b8d32607547e510dfe7760624dd"
 metafile = true
 
 [[files]]
@@ -1242,7 +1242,7 @@ metafile = true
 
 [[files]]
 file = "mods/storage-drawers.pw.toml"
-hash = "3df022d3b507b334ddfcd39fd9db23b1405d5e7be964f92528c29fc7cc79828f"
+hash = "95b389553b4291561219f41c01e76246fe32ccc4806d09d6eadc4bc90368684d"
 metafile = true
 
 [[files]]
@@ -1262,7 +1262,7 @@ metafile = true
 
 [[files]]
 file = "mods/torchmaster.pw.toml"
-hash = "cfd9a2802e5471ffd9e2555286ba95fddc4fa75184bf59084bd2e1cb88b14b3c"
+hash = "51e82d9320effbd610ccfe4571c048c7d0f9c98362b9884faabfaa6f63aa9737"
 metafile = true
 
 [[files]]
