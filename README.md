@@ -2,6 +2,14 @@
 
 GregTech Community Pack Modern, but *more interesting*.
 
+## TODO
+
+- [ ] Good season system, information on screen
+- [ ] More Nature!11!
+- [ ] More quests or something
+- [ ] Come up with a better name
+- [ ] Port to 1.21.1??
+
 ## Added Mods
 
 ### Tweaks/QoL
@@ -30,20 +38,20 @@ GregTech Community Pack Modern, but *more interesting*.
 
 - Chipped
 - Macaw's Bridges
-    - Macaw's Bridges - Biomes O' Plenty
-    - Macaw's Bridges - Oh The Biomes You'll Go / Oh The Biomes We've Gone
+- Macaw's Bridges - Biomes O' Plenty
+- Macaw's Bridges - Oh The Biomes You'll Go / Oh The Biomes We've Gone
 - Macaw's Doors
 - Macaw's Fences and Walls
-    - Macaw's Fences - Biomes O' Plenty
-    - Macaw's Fences - Oh The Biomes You'll Go / Oh The Biomes We've Gone
+- Macaw's Fences - Biomes O' Plenty
+- Macaw's Fences - Oh The Biomes You'll Go / Oh The Biomes We've Gone
 - Macaw's Furniture
-    - Macaw's Furnitures - Biomes O' Plenty
-    - Macaw's Furnitures - Oh The Biomes You'll Go / Oh The Biomes We've Gone
+- Macaw's Furnitures - Biomes O' Plenty
+- Macaw's Furnitures - Oh The Biomes You'll Go / Oh The Biomes We've Gone
 - Macaw's Lights and Lamps
 - Macaw's Paths and Pavings
 - Macaw's Roofs
-    - Macaw's Roofs - Biomes O' Plenty
-    - Macaw's Roofs - Oh The Biomes You'll Go / Oh The Biomes We've Gone
+- Macaw's Roofs - Biomes O' Plenty
+- Macaw's Roofs - Oh The Biomes You'll Go / Oh The Biomes We've Gone
 - Macaw's Stairs
 - Macaw's Trapdoors
 - Macaw's Windows
