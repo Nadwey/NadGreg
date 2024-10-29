@@ -810,7 +810,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "c934cf5bbf389550a2919dda20dd4e2aa740e9a2624864b8bc8cb268fc546acb"
+hash = "07f37920ee81447f7a8c40c2853f0ca5e7cae89834fe6630e33e505d46ebfb1e"
 metafile = true
 
 [[files]]
@@ -1235,7 +1235,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-options-api.pw.toml"
-hash = "d71d691ca0101ea6ad5b80861f93cd790f86c74bb90eec34c7594fc06b1c11a5"
+hash = "909be16f89b05b52e2a80528c067ed82628ed0ce1686b26cb62214463bcee084"
 metafile = true
 
 [[files]]
@@ -1265,7 +1265,7 @@ metafile = true
 
 [[files]]
 file = "mods/structory.pw.toml"
-hash = "f28824e8113b2bb8c577a66ffa8929ea7dcce89508dc67a4da1ec7c56803192c"
+hash = "aea4be1df17e74f1b28523521539bd3dda9cbd22424f3122b639149eee8ffd55"
 metafile = true
 
 [[files]]
