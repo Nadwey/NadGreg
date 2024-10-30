@@ -3,6 +3,9 @@
 	default_quest_shape: "rsquare"
 	filename: "ore_generation"
 	group: "288DA1F92F7C0A7A"
+	icon: {
+		id: "minecraft:iron_ore"
+	}
 	id: "6A809CAE287B97BA"
 	order_index: 2
 	quest_links: [
@@ -50,6 +53,9 @@
 	quests: [
 		{
 			dependencies: ["0C690272ED4FB1C3"]
+			icon: {
+				id: "gtceu:cobalt_ore"
+			}
 			id: "41730E340B3D8EDA"
 			shape: "square"
 			size: 1.5d
@@ -91,22 +97,25 @@
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
+			icon: {
+				id: "gtceu:magnetite_ore"
+			}
 			id: "260E516A219825A2"
 			size: 0.9d
 			tasks: [
 				{
 					id: "2814C224F95FA845"
-					item: { }
+					item: { count: 1, id: "gtceu:raw_magnetite" }
 					type: "item"
 				}
 				{
 					id: "2E5F8E8AC59E87CF"
-					item: { }
+					item: { count: 1, id: "gtceu:raw_vanadium_magnetite" }
 					type: "item"
 				}
 				{
 					id: "15315A8A2513F7E4"
-					item: { }
+					item: { count: 1, id: "minecraft:raw_gold" }
 					type: "item"
 				}
 			]
@@ -115,27 +124,30 @@
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
+			icon: {
+				id: "gtceu:pyrite_ore"
+			}
 			id: "03FBBA4A693011A8"
 			size: 0.9d
 			tasks: [
 				{
 					id: "21D9BE0CDF8D20D0"
-					item: { }
+					item: { count: 1, id: "gtceu:raw_chalcopyrite" }
 					type: "item"
 				}
 				{
 					id: "1915E87E03CA2995"
-					item: { }
+					item: { count: 1, id: "minecraft:raw_iron" }
 					type: "item"
 				}
 				{
 					id: "17AD746C72314452"
-					item: { }
+					item: { count: 1, id: "gtceu:raw_pyrite" }
 					type: "item"
 				}
 				{
 					id: "1EDF0D3646DB3983"
-					item: { }
+					item: { count: 1, id: "minecraft:raw_copper" }
 					type: "item"
 				}
 			]

@@ -656,7 +656,7 @@
 		""
 		"This unlocks the ability to convert one &6Ingot into one Plate&r, which is a better ratio than the Forge Hammer."
 	]
-	quest.10ECB471A77F5136.quest_subtitle: "The Bender bends!"
+	quest.10ECB471A77F5136.quest_subtitle: "Bite my shiny metal ...!"
 	quest.10ECB471A77F5136.title: "Basic Bender"
 	quest.10FB27DD3C7BEC2F.quest_desc: [
 		"If you want to be less fancy, just call it plastic."
@@ -1919,18 +1919,19 @@
 	quest.24F0454B9A090C44.quest_subtitle: "Stargate's Strongest"
 	quest.24F0454B9A090C44.title: "Naquadah Alloy"
 	quest.25289F9E8AE01C29.quest_desc: [
-		"This modpack is intended as a guide on &b&lGregtech: Community Edition Unofficial Modern&r&r (also known as &aGTCEu Modern&r or &aCEu Modern&r), a continuation of &aGTCE&r - which is in itself a fork of Gregtech."
+		"This modpack was initially forked from the GregTech Community Pack Modern (1.20.1) but has since been updated to 1.21.1 with numerous additions, focusing on quality-of-life and exploration mods."
 		""
-		"New content has been added to every tier, even going up to &3Ultimate Voltage,&r and there is also a non-negligible amount of new &dQuality of Life&r."
+		"&c&lThis is not a modpack for hardcore GregTech/Other Tech Mods enjoyers.&r In fact, it was created only because I found the original modpack a bit boring... One mod led to another, and here we are on version 1.21.1 with twice as many mods."
 		""
-		"&aCEu Modern&r brings the mod up to date with &erecent versions&r of Minecraft &o(as of writing this)&r. You can open the questbook with the default keybind &6F4&r, but feel free to change it if it isn't to your tastes."
 		"{@pagebreak}"
-		"This is a &2pure &lTech&r&2 modpack&r, focused on GregTech and its progression. You'll find &6no better place&r to learn about this mod and all the features it adds!"
 		""
-		"The questbook you're reading is &ebrimming with information&r to guide you through the modpack, so check it out if you find yourself getting lost.  We wrote it with both &dold-school veterans&r and &bnewcomers&r in mind."
+		"The questbook you're reading is &ebrimming with information&r to guide you through the modpack, so check it out if you find yourself getting lost."
+		""
+		"&lIf you have suggestions for new additions, want to propose changes, or just feel like giving me a hard time about my mod choices, feel free to open an issue on GitHub!&r"
+		"Or, if you're feeling adventurous, you can also create a pull request!"
 	]
 	quest.25289F9E8AE01C29.quest_subtitle: "We hope you enjoy your stay"
-	quest.25289F9E8AE01C29.title: "Welcome to GregTech CEu!"
+	quest.25289F9E8AE01C29.title: "Welcome to NadGreg!"
 	quest.255929EB845E200D.quest_desc: [
 		"&lWhy go parallel?"
 		""

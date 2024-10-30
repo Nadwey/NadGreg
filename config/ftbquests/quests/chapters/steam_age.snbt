@@ -12,6 +12,9 @@
 	quests: [
 		{
 			dependencies: ["40DE888E6025C646"]
+			icon: {
+				id: "gtceu:hp_steam_compressor"
+			}
 			id: "5673089822BFCA70"
 			rewards: [{
 				count: 8
@@ -56,6 +59,9 @@
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
+			icon: {
+				id: "gtceu:hp_steam_solid_boiler"
+			}
 			id: "2FD75E4BD95F6645"
 			rewards: [
 				{
@@ -98,6 +104,9 @@
 		}
 		{
 			dependencies: ["03DBF1961AE21C76"]
+			icon: {
+				id: "gtceu:primitive_blast_furnace"
+			}
 			id: "40DE888E6025C646"
 			rewards: [
 				{
@@ -139,6 +148,9 @@
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
+			icon: {
+				id: "gtceu:steel_ingot"
+			}
 			id: "5D17DFCF6672404C"
 			rewards: [{
 				count: 64
@@ -343,6 +355,9 @@
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
+			icon: {
+				id: "gtceu:ball_casting_mold"
+			}
 			id: "22997534983F6812"
 			rewards: [
 				{
@@ -437,6 +452,9 @@
 				"1436DB89E21264F3"
 				"22997534983F6812"
 			]
+			icon: {
+				id: "gtceu:rubber_ingot"
+			}
 			id: "77EA56D16A9B3BFC"
 			rewards: [{
 				count: 8
@@ -492,6 +510,9 @@
 		}
 		{
 			dependencies: ["5DD49D500327A0E2"]
+			icon: {
+				id: "gtceu:bronze_normal_fluid_pipe"
+			}
 			id: "1FFD2242B94A7378"
 			rewards: [{
 				count: 2
@@ -597,6 +618,9 @@
 				"22997534983F6812"
 				"48AED37B4E20A99A"
 			]
+			icon: {
+				id: "minecraft:glass"
+			}
 			id: "249374557D095913"
 			rewards: [{
 				count: 2
@@ -655,6 +679,9 @@
 				"54AF8696674766B4"
 				"77EA56D16A9B3BFC"
 			]
+			icon: {
+				id: "gtceu:basic_electronic_circuit"
+			}
 			id: "4B979482EF026BFF"
 			rewards: [
 				{
@@ -694,6 +721,9 @@
 		}
 		{
 			dependencies: ["1FFD2242B94A7378"]
+			icon: {
+				id: "gtceu:potin_normal_fluid_pipe"
+			}
 			id: "3C70B0717E9377A4"
 			rewards: [{
 				count: 6
@@ -797,6 +827,9 @@
 				"3144DC68B266730C"
 				"1C50A758A1DE25CB"
 			]
+			icon: {
+				id: "gtceu:resin_printed_circuit_board"
+			}
 			id: "4ED5A9AEF7B928BA"
 			rewards: [{
 				count: 4
@@ -842,6 +875,9 @@
 		}
 		{
 			dependencies: ["1C50A758A1DE25CB"]
+			icon: {
+				id: "gtceu:steam_grinder"
+			}
 			id: "7FF95F1216D104B2"
 			rewards: [{
 				count: 8
@@ -888,6 +924,9 @@
 		}
 		{
 			dependencies: ["76F61E499780C30B"]
+			icon: {
+				id: "gtceu:steam_oven"
+			}
 			id: "6C25D11A26306168"
 			rewards: [{
 				count: 8
@@ -989,6 +1028,9 @@
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
+			icon: {
+				id: "toolbelt:belt"
+			}
 			id: "4A993CC40AB6D35C"
 			rewards: [{
 				id: "38A84272E0407C69"
@@ -1017,6 +1059,9 @@
 		}
 		{
 			dependencies: ["48AED37B4E20A99A"]
+			icon: {
+				id: "gtceu:tin_small_item_pipe"
+			}
 			id: "539CF1B85725786D"
 			shape: "rsquare"
 			size: 0.66d
@@ -1053,6 +1098,9 @@
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
+			icon: {
+				id: "gtceu:charcoal_pile_igniter"
+			}
 			id: "4384068C4517F3D9"
 			rewards: [{
 				id: "73DAEC542AC76676"
@@ -1081,6 +1129,9 @@
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
+			icon: {
+				id: "gtceu:steel_tank_valve"
+			}
 			id: "15923B47D23CCF34"
 			rewards: [
 				{

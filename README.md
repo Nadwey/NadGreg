@@ -26,7 +26,7 @@ GregTech Community Pack Modern, but *more interesting*, and **ported to NeoForge
         - [x] Introduction
         - [ ] Climbing the Ranks
             - [x] Steam Age
-            - [ ] LV - Low Voltage
+            - [x] LV - Low Voltage
             - [ ] MV - Medium Voltage
             - [ ] HV - High Voltage
             - [ ] EV - Extreme Voltage
@@ -36,9 +36,9 @@ GregTech Community Pack Modern, but *more interesting*, and **ported to NeoForge
             - [ ] UV - Ultimate Voltage
         - [ ] Guides + More
             - [x] Tips and Tricks
-            - [ ] Renewability and You
+            - [x] Renewability and You
             - [ ] Ore Generation
-            - [ ] Ore Processing
+            - [x] Ore Processing
         - [ ] Milestones
              - [ ] Circuit Progression
              - [ ] Heating Coils

@@ -358,6 +358,9 @@
 		}
 		{
 			dependencies: ["2001CB4968D3E0A2"]
+			icon: {
+				id: "minecraft:copper_ingot"
+			}
 			id: "45969FFBF88F4FBB"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -424,6 +427,9 @@
 		}
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
+			icon: {
+				id: "minecraft:charcoal"
+			}
 			id: "36DD94945D5B4A80"
 			rewards: [{
 				count: 16
@@ -473,6 +479,9 @@
 		}
 		{
 			dependencies: ["45969FFBF88F4FBB"]
+			icon: {
+				id: "minecraft:bone_meal"
+			}
 			id: "49A04E63F40D65C0"
 			rewards: [
 				{
@@ -540,6 +549,9 @@
 		}
 		{
 			dependencies: ["45969FFBF88F4FBB"]
+			icon: {
+				id: "gtceu:silver_ingot"
+			}
 			id: "62212F2B51AC779E"
 			rewards: [
 				{

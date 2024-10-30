@@ -3,12 +3,18 @@
 	default_quest_shape: ""
 	filename: "renewability_and_you"
 	group: "288DA1F92F7C0A7A"
+	icon: {
+		id: "minecraft:water_bucket"
+	}
 	id: "4C3D68FB57D3CC02"
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["25289F9E8AE01C29"]
+			icon: {
+				id: "minecraft:big_dripleaf"
+			}
 			id: "4D7A771B67DAFC6F"
 			size: 1.2d
 			tasks: [{
@@ -23,6 +29,9 @@
 				"4D7A771B67DAFC6F"
 				"1F2359106FC95603"
 			]
+			icon: {
+				id: "gtceu:lv_rock_crusher"
+			}
 			id: "55D8E30978CBBC0D"
 			shape: "circle"
 			tasks: [{
@@ -41,7 +50,7 @@
 				consume_items: false
 				count: 64L
 				id: "72A52930F1754ABF"
-				item: { }
+				item: { count: 1, id: "minecraft:cobblestone" }
 				type: "item"
 			}]
 			x: 0.33d
@@ -54,7 +63,7 @@
 			size: 0.5d
 			tasks: [{
 				id: "3C1B921715553377"
-				item: { }
+				item: { count: 1, id: "gtceu:stone_dust" }
 				type: "item"
 			}]
 			x: -0.33d
@@ -67,7 +76,7 @@
 			size: 0.5d
 			tasks: [{
 				id: "3850F80F95B8E520"
-				item: { }
+				item: { count: 1, id: "minecraft:gravel" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -80,7 +89,7 @@
 			size: 0.55d
 			tasks: [{
 				id: "6724DCD56A7592FF"
-				item: { }
+				item: { count: 1, id: "minecraft:sand" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -93,7 +102,7 @@
 			size: 0.5d
 			tasks: [{
 				id: "71A450692F1DC98D"
-				item: { }
+				item: { count: 1, id: "minecraft:glass" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -110,7 +119,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "6358C3084C675965"
-				item: { }
+				item: { count: 1, id: "minecraft:diorite" }
 				type: "item"
 			}]
 			x: 0.99d
@@ -127,7 +136,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "7D054563301323A4"
-				item: { }
+				item: { count: 1, id: "minecraft:granite" }
 				type: "item"
 			}]
 			x: 1.65d
@@ -144,7 +153,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "64EF28C6902C7083"
-				item: { }
+				item: { count: 1, id: "minecraft:deepslate" }
 				type: "item"
 			}]
 			x: 2.31d
@@ -161,7 +170,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "74AEE715BE76C0CF"
-				item: { }
+				item: { count: 1, id: "minecraft:andesite" }
 				type: "item"
 			}]
 			x: 2.97d
@@ -178,7 +187,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "3C423DE1EB48AFF5"
-				item: { }
+				item: { count: 1, id: "minecraft:obsidian" }
 				type: "item"
 			}]
 			x: 3.3d
@@ -195,7 +204,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "6F2F8349BF8AF29C"
-				item: { }
+				item: { count: 1, id: "minecraft:basalt" }
 				type: "item"
 			}]
 			x: 3.3d
@@ -214,7 +223,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "10A533EC38D279DA"
-				item: { }
+				item: { count: 1, id: "gtceu:red_granite" }
 				type: "item"
 			}]
 			x: 2.97d
@@ -231,7 +240,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "0DED39C9E1966F0B"
-				item: { }
+				item: { count: 1, id: "gtceu:marble" }
 				type: "item"
 			}]
 			x: 2.31d
@@ -242,6 +251,9 @@
 				"4D7A771B67DAFC6F"
 				"48141DBA683F6B5A"
 			]
+			icon: {
+				id: "gtceu:distillation_tower"
+			}
 			id: "24A90D07C3A35370"
 			shape: "circle"
 			tasks: [{
@@ -256,6 +268,9 @@
 				"24A90D07C3A35370"
 				"7820DF52516344F4"
 			]
+			icon: {
+				id: "gtceu:liquid_ender_air_bucket"
+			}
 			id: "77BBAB9CA586BB36"
 			shape: "rsquare"
 			size: 0.7d
@@ -272,6 +287,9 @@
 				"2AD44111B9B39C90"
 				"6958029B5514D4EC"
 			]
+			icon: {
+				id: "gtceu:liquid_air_bucket"
+			}
 			id: "213211A0BC475C32"
 			shape: "rsquare"
 			size: 0.75d
@@ -288,6 +306,9 @@
 				"5DBBD9B1F5B01F4E"
 				"6958029B5514D4EC"
 			]
+			icon: {
+				id: "gtceu:liquid_nether_air_bucket"
+			}
 			id: "38E5B595C33A071C"
 			shape: "rsquare"
 			size: 0.7d
@@ -300,6 +321,9 @@
 		}
 		{
 			dependencies: ["4D7A771B67DAFC6F"]
+			icon: {
+				id: "minecraft:iron_golem_spawn_egg"
+			}
 			id: "7ECD974215E77432"
 			shape: "circle"
 			tasks: [{
