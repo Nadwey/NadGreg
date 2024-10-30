@@ -27,4 +27,4 @@ jobs:
       - name: Upload pack to actions
         uses: actions/upload-artifact@v4
         with:
-          path: GregTech CEu Modern Community Pack-*.zip
+          path: NadGreg-*.zip
