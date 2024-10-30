@@ -7,6 +7,10 @@ GregTech Community Pack Modern, but *more interesting*, and **ported to NeoForge
 - [ ] Good season system, information on screen
 - [ ] More Nature!11!
 - [ ] More quests or something
+- [ ] Finish rebranding (GregTech Community Pack Modern will obviously be credited)
+    - [ ] Name
+    - [ ] Logo
+    - [ ] Title Screen?
 - [ ] Finish porting to 1.21.1
     - [ ] Port serverpack script to 1.21.1
     - [ ] Mods
@@ -18,13 +22,27 @@ GregTech Community Pack Modern, but *more interesting*, and **ported to NeoForge
         - [x] ~~Item Filters~~, replaced with FTB Filter System (in progress)
         - [ ] Modern AE2 Additions
         - [ ] Travel Anchors
-        - [ ] AlwaysEat
-        - [ ] Macaw's Bridges - Oh The Biomes You'll Go / Oh The Biomes We've Gone
-        - [ ] Macaw's Fences - Oh The Biomes You'll Go / Oh The Biomes We've Gone
-        - [ ] Macaw's Furnitures - Oh The Biomes You'll Go / Oh The Biomes We've Gone
-        - [ ] Macaw's Roofs - Oh The Biomes You'll Go / Oh The Biomes We've Gone
     - [ ] Quests
-- [ ] Finish changing name
+        - [x] Introduction
+        - [ ] Climbing the Ranks
+            - [x] Steam Age
+            - [ ] LV - Low Voltage
+            - [ ] MV - Medium Voltage
+            - [ ] HV - High Voltage
+            - [ ] EV - Extreme Voltage
+            - [ ] IV - Insane Voltage
+            - [ ] LuV - Ludicrous Voltage
+            - [ ] ZPM - Zero Point Module
+            - [ ] UV - Ultimate Voltage
+        - [ ] Guides + More
+            - [x] Tips and Tricks
+            - [ ] Renewability and You
+            - [ ] Ore Generation
+            - [ ] Ore Processing
+        - [ ] Milestones
+             - [ ] Circuit Progression
+             - [ ] Heating Coils
+             - [ ] Multiblock Dilemma
 
 ## Playing
 
