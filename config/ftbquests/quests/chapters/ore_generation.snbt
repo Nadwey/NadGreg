@@ -156,27 +156,30 @@
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
+			icon: {
+				id: "gtceu:chalcopyrite_ore"
+			}
 			id: "4826DCD2FC457EA5"
 			size: 0.9d
 			tasks: [
 				{
 					id: "21B8E250B773443C"
-					item: { }
+					item: { count: 1, id: "gtceu:raw_chalcopyrite" }
 					type: "item"
 				}
 				{
 					id: "2C704F920F765D2D"
-					item: { }
+					item: { count: 1, id: "gtceu:raw_zeolite" }
 					type: "item"
 				}
 				{
 					id: "2AA6111227CF13B3"
-					item: { }
+					item: { count: 1, id: "gtceu:raw_cassiterite" }
 					type: "item"
 				}
 				{
 					id: "5EA6E475025D758C"
-					item: { }
+					item: { count: 1, id: "gtceu:raw_realgar" }
 					type: "item"
 				}
 			]
@@ -185,17 +188,20 @@
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
+			icon: {
+				id: "gtceu:cassiterite_ore"
+			}
 			id: "3B379794A3030C73"
 			size: 0.9d
 			tasks: [
 				{
 					id: "46C302CBE74092FC"
-					item: { }
+					item: { count: 1, id: "gtceu:raw_tin" }
 					type: "item"
 				}
 				{
 					id: "55D733978CCBA87D"
-					item: { }
+					item: { count: 1, id: "gtceu:raw_cassiterite" }
 					type: "item"
 				}
 			]
@@ -204,27 +210,30 @@
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
+			icon: {
+				id: "gtceu:cassiterite_sand_ore"
+			}
 			id: "41616C31D9C08648"
 			size: 0.9d
 			tasks: [
 				{
 					id: "281CC5BB43AB6FBC"
-					item: { }
+					item: { count: 1, id: "gtceu:raw_cassiterite_sand" }
 					type: "item"
 				}
 				{
 					id: "0A0980AD4738EF96"
-					item: { }
+					item: { count: 1, id: "gtceu:raw_garnet_sand" }
 					type: "item"
 				}
 				{
 					id: "28AFE5A9181D76A7"
-					item: { }
+					item: { count: 1, id: "gtceu:raw_asbestos" }
 					type: "item"
 				}
 				{
 					id: "3842A89827031CCB"
-					item: { }
+					item: { count: 1, id: "gtceu:raw_diatomite" }
 					type: "item"
 				}
 			]
@@ -233,11 +242,14 @@
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
+			icon: {
+				id: "minecraft:coal_ore"
+			}
 			id: "1E27C654E2F6FFF2"
 			size: 0.9d
 			tasks: [{
 				id: "5FC26FB906B6F0A2"
-				item: { }
+				item: { count: 1, id: "minecraft:coal" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -245,22 +257,25 @@
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
+			icon: {
+				id: "gtceu:graphite_ore"
+			}
 			id: "1B45DB5C85B68182"
 			size: 0.9d
 			tasks: [
 				{
 					id: "774FD60E5F9C5225"
-					item: { }
+					item: { count: 1, id: "gtceu:raw_graphite" }
 					type: "item"
 				}
 				{
 					id: "2B74642C6B76656E"
-					item: { }
+					item: { count: 1, id: "gtceu:raw_diamond" }
 					type: "item"
 				}
 				{
 					id: "00FC22EEB40F9783"
-					item: { }
+					item: { count: 1, id: "minecraft:coal" }
 					type: "item"
 				}
 			]
@@ -269,27 +284,30 @@
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
+			icon: {
+				id: "gtceu:salt_ore"
+			}
 			id: "5289D5049A236D55"
 			size: 0.9d
 			tasks: [
 				{
 					id: "13B468D35939891B"
-					item: { }
+					item: { count: 1, id: "gtceu:raw_salt" }
 					type: "item"
 				}
 				{
 					id: "37199835CDD92171"
-					item: { }
+					item: { count: 1, id: "gtceu:raw_rock_salt" }
 					type: "item"
 				}
 				{
 					id: "1C5608B78BB94EF0"
-					item: { }
+					item: { count: 1, id: "gtceu:raw_lepidolite" }
 					type: "item"
 				}
 				{
 					id: "6D3D2CBF04EA7874"
-					item: { }
+					item: { count: 1, id: "gtceu:raw_spodumene" }
 					type: "item"
 				}
 			]

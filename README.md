@@ -27,7 +27,8 @@ GregTech Community Pack Modern, but *more interesting*, and **ported to NeoForge
         - [ ] Climbing the Ranks
             - [x] Steam Age
             - [x] LV - Low Voltage
-            - [ ] MV - Medium Voltage
+            - [x] MV - Medium Voltage - contains quests with missing mods
+                - [ ] Travel Anchors
             - [ ] HV - High Voltage
             - [ ] EV - Extreme Voltage
             - [ ] IV - Insane Voltage
@@ -39,10 +40,10 @@ GregTech Community Pack Modern, but *more interesting*, and **ported to NeoForge
             - [x] Renewability and You
             - [ ] Ore Generation
             - [x] Ore Processing
-        - [ ] Milestones
-             - [ ] Circuit Progression
-             - [ ] Heating Coils
-             - [ ] Multiblock Dilemma
+        - [x] Milestones
+             - [x] Circuit Progression - should complete itself, invalid quests are linked quests
+             - [x] Heating Coils - should complete itself, invalid quests are linked quests
+             - [x] Multiblock Dilemma - should complete itself, invalid quests are linked quests
 
 ## Playing
 

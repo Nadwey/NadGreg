@@ -3,7 +3,7 @@
 	loot_size: 1
 	order_index: 2
 	rewards: [
-		{ item: { count: 1, id: "gtceu:aluminium_fluid_cell" } }
-		{ item: { count: 1, id: "gtceu:aluminium_fluid_cell" } }
+		{ item: { components: { "gtceu:fluid_content": { amount: 32000, id: "gtceu:naphtha" } }, count: 1, id: "gtceu:aluminium_fluid_cell" } }
+		{ item: { components: { "gtceu:fluid_content": { amount: 32000, id: "gtceu:ethanol" } }, count: 1, id: "gtceu:aluminium_fluid_cell" } }
 	]
 }

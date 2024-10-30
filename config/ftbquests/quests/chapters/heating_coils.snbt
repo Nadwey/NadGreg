@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "heating_coils"
 	group: "1C1C4FB2AFCF489D"
+	icon: {
+		id: "gtceu:cupronickel_coil_block"
+	}
 	id: "7C1306341997601D"
 	order_index: 1
 	quest_links: [
@@ -98,7 +101,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "77875BBDC0A937A9"
-				item: { }
+				item: { count: 1, id: "gtceu:cupronickel_ingot" }
 				type: "item"
 			}]
 			x: -2.5d
@@ -114,7 +117,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "76206DC9E7ABD07A"
-				item: { }
+				item: { count: 1, id: "gtceu:kanthal_ingot" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -127,7 +130,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "1104AC52E0A0A472"
-				item: { }
+				item: { count: 1, id: "gtceu:nichrome_ingot" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -143,7 +146,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "76DE4924186D83C2"
-				item: { }
+				item: { count: 1, id: "gtceu:rtm_alloy_ingot" }
 				type: "item"
 			}]
 			x: 2.0d

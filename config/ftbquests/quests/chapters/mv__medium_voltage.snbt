@@ -3,6 +3,9 @@
 	default_quest_shape: "rsquare"
 	filename: "mv__medium_voltage"
 	group: "693226878D58638A"
+	icon: {
+		id: "gtceu:mv_electric_motor"
+	}
 	id: "43E779CEEB25D55B"
 	order_index: 2
 	quest_links: [{
@@ -25,11 +28,19 @@
 				{
 					count: 64
 					id: "01DA9E28ADAD19B3"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
 					type: "item"
 				}
 				{
 					count: 64
 					id: "3F4EFE922903E799"
+					item: {
+						count: 1
+						id: "minecraft:oak_log"
+					}
 					type: "item"
 				}
 			]
@@ -37,7 +48,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "0FD2962C232149F8"
-				item: { }
+				item: { count: 1, id: "gtceu:pyrolyse_oven" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -51,13 +62,17 @@
 			id: "6EB68C28BEE24DEF"
 			rewards: [{
 				id: "55B6D1599E7C55B1"
+				item: {
+					count: 1
+					id: "gtceu:bio_chaff"
+				}
 				random_bonus: 7
 				type: "item"
 			}]
 			size: 0.66d
 			tasks: [{
 				id: "4FBD476EB6B6DD04"
-				item: { }
+				item: { count: 1, id: "gtceu:biomass_bucket" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -65,9 +80,16 @@
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
+			icon: {
+				id: "gtceu:lv_brewery"
+			}
 			id: "1A29EFBCEA017F99"
 			rewards: [{
 				id: "2F6FA635755FBFA8"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
 				random_bonus: 31
 				type: "item"
 			}]
@@ -75,12 +97,12 @@
 			tasks: [
 				{
 					id: "095C98D86D021B2E"
-					item: { }
+					item: { count: 1, id: "gtceu:lv_brewery" }
 					type: "item"
 				}
 				{
 					id: "1CB0F32E8293B5D7"
-					item: { }
+					item: { count: 1, id: "gtceu:lubricant_bucket" }
 					optional_task: true
 					type: "item"
 				}
@@ -100,7 +122,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "29191DABA0ACE155"
-				item: { }
+				item: { count: 1, id: "gtceu:ethylene_bucket" }
 				type: "item"
 			}]
 			x: 1.125d
@@ -115,7 +137,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "6D7350EA7AB6CF25"
-				item: { }
+				item: { count: 1, id: "gtceu:ethanol_bucket" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -128,13 +150,13 @@
 			tasks: [
 				{
 					id: "01BF2D557A9EF2B0"
-					item: { }
+					item: { count: 1, id: "gtceu:sulfuric_naphtha_bucket" }
 					optional_task: true
 					type: "item"
 				}
 				{
 					id: "75B40C6A92BB88B5"
-					item: { }
+					item: { count: 1, id: "gtceu:naphtha_bucket" }
 					type: "item"
 				}
 			]
@@ -147,7 +169,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "5687D81E6BFDC7E0"
-				item: { }
+				item: { count: 1, id: "gtceu:severely_steam_cracked_naphtha_bucket" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -159,12 +181,15 @@
 				"7567E885B7166603"
 				"6E186F9C57155BFA"
 			]
+			icon: {
+				id: "gtceu:mv_steam_turbine"
+			}
 			id: "583D0CC4FAA4FC98"
 			shape: "square"
 			size: 0.75d
 			tasks: [{
 				id: "1F170291094582D6"
-				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(gtceu:mv_combustion)item(gtceu:mv_steam_turbine)item(gtceu:mv_gas_turbine))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 2.25d
@@ -183,7 +208,7 @@
 			size: 1.3d
 			tasks: [{
 				id: "3192FF80FBDC7A28"
-				item: { }
+				item: { count: 1, id: "gtceu:stainless_steel_ingot" }
 				type: "item"
 			}]
 			x: 3.375d
@@ -199,7 +224,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "6C36867EB98E772D"
-				item: { }
+				item: { count: 1, id: "gtceu:lv_transformer_1a" }
 				type: "item"
 			}]
 			x: 2.25d
@@ -215,7 +240,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "31B514C75B302F25"
-				item: { }
+				item: { count: 1, id: "gtceu:mv_mixer" }
 				type: "item"
 			}]
 			x: 1.125d
@@ -223,37 +248,40 @@
 		}
 		{
 			dependencies: ["7567E885B7166603"]
+			icon: {
+				id: "gtceu:mv_electric_motor"
+			}
 			id: "1BE0349B8F3890D3"
 			size: 0.66d
 			tasks: [
 				{
 					id: "76A30E86C0FDF039"
-					item: { }
+					item: { count: 1, id: "gtceu:mv_electric_motor" }
 					type: "item"
 				}
 				{
 					id: "569F6A8DF342E3F2"
-					item: { }
+					item: { count: 1, id: "gtceu:mv_electric_piston" }
 					type: "item"
 				}
 				{
 					id: "22AA9FC8B94E4DC2"
-					item: { }
+					item: { count: 1, id: "gtceu:mv_electric_pump" }
 					type: "item"
 				}
 				{
 					id: "63123E0DCB8D851C"
-					item: { }
+					item: { count: 1, id: "gtceu:mv_conveyor_module" }
 					type: "item"
 				}
 				{
 					id: "3DEEAA7FE50CC0E2"
-					item: { }
+					item: { count: 1, id: "gtceu:mv_robot_arm" }
 					type: "item"
 				}
 				{
 					id: "57955AE7B270A891"
-					item: { }
+					item: { count: 1, id: "gtceu:mv_emitter" }
 					type: "item"
 				}
 			]
@@ -270,7 +298,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "151788F66BAD5F97"
-				item: { }
+				item: { count: 1, id: "gtceu:mv_electrolyzer" }
 				type: "item"
 			}]
 			x: -1.125d
@@ -278,10 +306,17 @@
 		}
 		{
 			dependencies: ["0EFEE489906256AA"]
+			icon: {
+				id: "minecraft:clay_ball"
+			}
 			id: "2273DD7E5CD49017"
 			rewards: [{
 				count: 4
 				id: "52A043C0F3795CC8"
+				item: {
+					count: 1
+					id: "gtceu:mv_battery_hull"
+				}
 				type: "item"
 			}]
 			size: 0.66d
@@ -289,25 +324,25 @@
 				{
 					count: 64L
 					id: "0BE33D992F7761EA"
-					item: { }
+					item: { count: 1, id: "gtceu:sodium_dust" }
 					type: "item"
 				}
 				{
 					count: 32L
 					id: "3C7B4B2F850620FB"
-					item: { }
+					item: { count: 1, id: "gtceu:lithium_dust" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "531FE43ADBEE689B"
-					item: { }
+					item: { count: 1, id: "gtceu:aluminium_dust" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "0048C85BB03C4811"
-					item: { }
+					item: { count: 1, id: "gtceu:silicon_dust" }
 					type: "item"
 				}
 			]
@@ -316,10 +351,16 @@
 		}
 		{
 			dependencies: ["0DBC148D92A9F69F"]
+			icon: {
+				id: "gtceu:mv_miner"
+			}
 			id: "5C94CF50090D7DA0"
 			rewards: [{
 				id: "2C877DA425BBFC5D"
 				item: {
+					components: {
+						"minecraft:damage": 58
+					}
 					count: 1
 					id: "minecraft:wooden_pickaxe"
 				}
@@ -329,7 +370,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "431D533510584687"
-				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(gtceu:lv_miner)item(gtceu:mv_miner)item(gtceu:hv_miner))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -3.375d
@@ -341,6 +382,10 @@
 			rewards: [{
 				count: 16
 				id: "2000E0E550142D12"
+				item: {
+					count: 1
+					id: "gtceu:blue_steel_ingot"
+				}
 				type: "item"
 			}]
 			shape: "square"
@@ -348,7 +393,7 @@
 			tasks: [{
 				count: 4L
 				id: "2E6C71CB2E5EEAC7"
-				item: { }
+				item: { count: 1, id: "gtceu:vanadium_steel_ingot" }
 				type: "item"
 			}]
 			x: 1.125d
@@ -363,7 +408,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "37ED5227CCC0FE20"
-				item: { }
+				item: { count: 1, id: "ae2:molecular_assembler" }
 				type: "item"
 			}]
 			x: 3.375d
@@ -371,27 +416,30 @@
 		}
 		{
 			dependencies: ["315169840E06110F"]
+			icon: {
+				id: "ae2:silicon_press"
+			}
 			id: "5401AB5E399E7BEA"
 			size: 0.66d
 			tasks: [
 				{
 					id: "1141B6EFBC930999"
-					item: { }
+					item: { count: 1, id: "ae2:calculation_processor_press" }
 					type: "item"
 				}
 				{
 					id: "232235435C17AF43"
-					item: { }
+					item: { count: 1, id: "ae2:engineering_processor_press" }
 					type: "item"
 				}
 				{
 					id: "7BEAD830AE385683"
-					item: { }
+					item: { count: 1, id: "ae2:logic_processor_press" }
 					type: "item"
 				}
 				{
 					id: "54ACD8E01EABC134"
-					item: { }
+					item: { count: 1, id: "ae2:silicon_press" }
 					type: "item"
 				}
 			]
@@ -404,6 +452,12 @@
 			rewards: [{
 				id: "6FD8201A5A3EF40C"
 				item: {
+					components: {
+						"gtceu:fluid_content": {
+							amount: 1000
+							id: "gtceu:lubricant"
+						}
+					}
 					count: 1
 					id: "gtceu:universal_fluid_cell"
 				}
@@ -413,7 +467,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "2AFB7F9BD4D82974"
-				item: { }
+				item: { count: 1, id: "gtceu:mv_cutter" }
 				type: "item"
 			}]
 			x: 2.25d
@@ -429,7 +483,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "75E27D981733ED44"
-				item: { }
+				item: { count: 1, id: "gtceu:mv_laser_engraver" }
 				type: "item"
 			}]
 			x: 4.5d
@@ -444,13 +498,17 @@
 			rewards: [{
 				count: 24
 				id: "42B5E0E29F987E16"
+				item: {
+					count: 1
+					id: "gtceu:annealed_copper_single_wire"
+				}
 				type: "item"
 			}]
 			shape: "square"
 			size: 0.75d
 			tasks: [{
 				id: "1C69557EB4F9E50F"
-				item: { }
+				item: { count: 1, id: "gtceu:mv_energy_input_hatch" }
 				type: "item"
 			}]
 			x: 3.375d
@@ -466,7 +524,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "2396FECF2A11AA8E"
-				item: { }
+				item: { count: 1, id: "gtceu:mv_assembler" }
 				type: "item"
 			}]
 			x: 1.125d
@@ -477,17 +535,24 @@
 				"7567E885B7166603"
 				"0DBC148D92A9F69F"
 			]
+			icon: {
+				id: "minecraft:oak_sapling"
+			}
 			id: "2655B72C9FF3B372"
 			rewards: [{
 				count: 10
 				id: "7DCCFC3ADD071D57"
+				item: {
+					count: 1
+					id: "gtceu:ulv_machine_casing"
+				}
 				type: "item"
 			}]
 			shape: "square"
 			size: 0.75d
 			tasks: [{
 				id: "35CFA225ADAD5D06"
-				item: { }
+				item: { count: 1, id: "gtceu:greenhouse" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -505,7 +570,7 @@
 			tasks: [{
 				count: 16L
 				id: "0737586F9DFFC0FE"
-				item: { }
+				item: { count: 1, id: "gtceu:kanthal_coil_block" }
 				type: "item"
 			}]
 			x: 4.5d
@@ -517,7 +582,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "76A20EE57CB39857"
-				item: { }
+				item: { count: 1, id: "gtceu:item_tag_filter" }
 				type: "item"
 			}]
 			x: 3.375d
@@ -532,6 +597,10 @@
 			id: "375684F9CBEF9132"
 			rewards: [{
 				id: "3107038561B0F74E"
+				item: {
+					count: 1
+					id: "gtceu:silicon_dust"
+				}
 				random_bonus: 3
 				type: "item"
 			}]
@@ -539,7 +608,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "240735279EBC0193"
-				item: { }
+				item: { count: 1, id: "gtceu:transistor" }
 				type: "item"
 			}]
 			x: 6.75d
@@ -556,7 +625,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "75EB5730046212D0"
-				item: { }
+				item: { count: 1, id: "gtceu:advanced_integrated_circuit" }
 				type: "item"
 			}]
 			x: 6.75d
@@ -564,25 +633,28 @@
 		}
 		{
 			dependencies: ["315169840E06110F"]
+			icon: {
+				id: "gtceu:ram_chip"
+			}
 			id: "1E7BF65DB32B8B3E"
 			shape: "square"
 			size: 0.75d
 			tasks: [
 				{
 					id: "40E0E6FD45AEC7B1"
-					item: { }
+					item: { count: 1, id: "gtceu:emerald_lens" }
 					type: "item"
 				}
 				{
 					id: "2EACE2CF99B4B3D3"
-					item: { }
+					item: { count: 1, id: "gtceu:ram_wafer" }
 					optional_task: true
 					type: "item"
 				}
 				{
 					count: 32L
 					id: "28AC6209CFD8345C"
-					item: { }
+					item: { count: 1, id: "gtceu:ram_chip" }
 					type: "item"
 				}
 			]
@@ -596,7 +668,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "2301CD2A841F17D9"
-				item: { }
+				item: { count: 1, id: "gtceu:basic_integrated_circuit" }
 				type: "item"
 			}]
 			x: 6.75d
@@ -609,7 +681,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "0622E51767B0AB58"
-				item: { }
+				item: { count: 1, id: "gtceu:good_integrated_circuit" }
 				type: "item"
 			}]
 			x: 6.75d
@@ -620,19 +692,22 @@
 				"4073577B7EF9B593"
 				"1E9BE8D3F8A602DC"
 			]
+			icon: {
+				id: "gtceu:silicon_boule"
+			}
 			id: "71412502C81F21C1"
 			shape: "square"
 			size: 0.75d
 			tasks: [
 				{
 					id: "1A18D503A429CC17"
-					item: { }
+					item: { count: 1, id: "gtceu:silicon_boule" }
 					type: "item"
 				}
 				{
 					count: 16L
 					id: "6443C18E4B63EBDC"
-					item: { }
+					item: { count: 1, id: "gtceu:silicon_wafer" }
 					type: "item"
 				}
 			]
@@ -645,13 +720,17 @@
 			rewards: [{
 				count: 40
 				id: "484745BF48673036"
+				item: {
+					count: 1
+					id: "gtceu:soldering_alloy_dust"
+				}
 				type: "item"
 			}]
 			shape: "square"
 			size: 0.75d
 			tasks: [{
 				id: "7ED7103DAF7E4413"
-				item: { }
+				item: { count: 1, id: "gtceu:mv_circuit_assembler" }
 				type: "item"
 			}]
 			x: 7.875d
@@ -664,7 +743,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "0A42FE4B72071451"
-				item: { }
+				item: { count: 1, id: "gtceu:multi_smelter" }
 				type: "item"
 			}]
 			x: 5.625d
@@ -681,7 +760,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "4E076080D7B23372"
-				item: { }
+				item: { count: 1, id: "gtceu:microchip_processor" }
 				type: "item"
 			}]
 			x: 7.875d
@@ -698,7 +777,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "120B63C2E40D359A"
-				item: { }
+				item: { count: 1, id: "gtceu:micro_processor" }
 				type: "item"
 			}]
 			x: 7.875d
@@ -715,7 +794,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "34EA9B71F8BF607F"
-				item: { }
+				item: { count: 1, id: "gtceu:micro_processor_computer" }
 				type: "item"
 			}]
 			x: 7.875d
@@ -731,7 +810,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "2FE33281A44C34F6"
-				item: { }
+				item: { count: 1, id: "gtceu:micro_processor_assembly" }
 				type: "item"
 			}]
 			x: 7.875d
@@ -747,7 +826,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "60D8154F5C9C0EAC"
-				item: { }
+				item: { count: 1, id: "gtceu:capacitor" }
 				type: "item"
 			}]
 			x: 7.875d
@@ -758,13 +837,17 @@
 			id: "1FCF2C103E25972B"
 			rewards: [{
 				id: "61F22179773C70D6"
+				item: {
+					count: 1
+					id: "gtceu:electrotine_dust"
+				}
 				random_bonus: 7
 				type: "item"
 			}]
 			size: 0.66d
 			tasks: [{
 				id: "15C7369398FAB8DB"
-				item: { }
+				item: { count: 1, id: "gtceu:blue_alloy_ingot" }
 				type: "item"
 			}]
 			x: 6.75d
@@ -777,7 +860,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "6690451CCAB62CA1"
-				item: { }
+				item: { count: 1, id: "gtceu:inductor" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -796,7 +879,7 @@
 			size: 1.2d
 			tasks: [{
 				id: "15E5F008339B8964"
-				item: { }
+				item: { count: 1, id: "gtceu:polyethylene_plate" }
 				type: "item"
 			}]
 			x: 6.75d
@@ -808,7 +891,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "032C24CBA8687E72"
-				item: { }
+				item: { count: 1, id: "ae2:blank_pattern" }
 				type: "item"
 			}]
 			x: 5.625d
@@ -820,7 +903,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "47EA273D728C158F"
-				item: { }
+				item: { count: 1, id: "gtceu:lv_super_tank" }
 				type: "item"
 			}]
 			x: 5.625d
@@ -833,7 +916,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "72696AD2B77F805B"
-				item: { }
+				item: { count: 1, id: "gtceu:polyvinyl_chloride_plate" }
 				type: "item"
 			}]
 			x: 6.75d
@@ -844,18 +927,21 @@
 				"4353AB0E20601AEC"
 				"10FB27DD3C7BEC2F"
 			]
+			icon: {
+				id: "gtceu:plastic_printed_circuit_board"
+			}
 			id: "4600221BF0A30C3A"
 			shape: "square"
 			size: 0.75d
 			tasks: [
 				{
 					id: "68B5E2667EDAE895"
-					item: { }
+					item: { count: 1, id: "gtceu:plastic_circuit_board" }
 					type: "item"
 				}
 				{
 					id: "46496E3B65CFFFF3"
-					item: { }
+					item: { count: 1, id: "gtceu:plastic_printed_circuit_board" }
 					type: "item"
 				}
 			]
@@ -868,10 +954,17 @@
 				"257DB4B39B2A928E"
 				"3D98819A799D2E64"
 			]
+			icon: {
+				id: "gtceu:iron_iii_chloride_bucket"
+			}
 			id: "4353AB0E20601AEC"
 			rewards: [{
 				count: 20
 				id: "5A23AC1DA33FDC71"
+				item: {
+					count: 1
+					id: "gtceu:salt_ore"
+				}
 				type: "item"
 			}]
 			shape: "square"
@@ -879,12 +972,12 @@
 			tasks: [
 				{
 					id: "118468CD578081CF"
-					item: { }
+					item: { count: 1, id: "gtceu:sodium_persulfate_bucket" }
 					type: "item"
 				}
 				{
 					id: "1B7EDF573783D986"
-					item: { }
+					item: { count: 1, id: "gtceu:iron_iii_chloride_bucket" }
 					type: "item"
 				}
 			]
@@ -901,7 +994,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "06B5F04DEFC12458"
-				item: { }
+				item: { count: 1, id: "gtceu:sulfuric_acid_bucket" }
 				type: "item"
 			}]
 			x: 1.125d
@@ -916,7 +1009,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "34147C1DD7B8DE55"
-				item: { }
+				item: { count: 1, id: "gtceu:hydrochloric_acid_bucket" }
 				type: "item"
 			}]
 			x: 3.375d
@@ -927,6 +1020,9 @@
 				"316FF60D6FFE97CE"
 				"64CACABB48635904"
 			]
+			icon: {
+				id: "gtceu:acid_hazard_sign_block"
+			}
 			id: "079442C113D54856"
 			shape: "circle"
 			size: 0.66d
@@ -942,12 +1038,15 @@
 				"63CD0236B337EAAD"
 				"6D9D54FAB21EC086"
 			]
+			icon: {
+				id: "gtceu:hv_battery_hull"
+			}
 			id: "2202AA5DC6DB0A26"
 			shape: "square"
 			size: 0.75d
 			tasks: [{
 				id: "5FEE671A75766B78"
-				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(gtceu:batteries/mv))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 4.5d
@@ -962,10 +1061,18 @@
 			rewards: [
 				{
 					id: "0E6CAED1ED976D9E"
+					item: {
+						count: 1
+						id: "gtceu:small_gear_extruder_mold"
+					}
 					type: "item"
 				}
 				{
 					id: "0A0BD551FFBC2E1C"
+					item: {
+						count: 1
+						id: "gtceu:gear_extruder_mold"
+					}
 					type: "item"
 				}
 			]
@@ -973,7 +1080,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "73E8504BA235C4BF"
-				item: { }
+				item: { count: 1, id: "gtceu:mv_extruder" }
 				type: "item"
 			}]
 			x: 1.125d
@@ -985,7 +1092,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "105EA8621A99C1EC"
-				item: { }
+				item: { count: 1, id: "gtceu:aluminium_fluid_cell" }
 				type: "item"
 			}]
 			x: 2.25d
@@ -1001,7 +1108,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "3FB527F5B10381D2"
-				item: { }
+				item: { count: 1, id: "gtceu:mv_fluid_drilling_rig" }
 				type: "item"
 			}]
 			x: -1.125d
@@ -1009,17 +1116,20 @@
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
+			icon: {
+				id: "gtceu:oil_bucket"
+			}
 			id: "0774EC59CD3DD7A5"
 			size: 0.66d
 			tasks: [
 				{
 					id: "21FF6E45F9AC5E76"
-					item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(gtceu:lv_pump)item(gtceu:mv_pump)item(gtceu:hv_pump)item(gtceu:ev_pump))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					id: "23448126F81BDA89"
-					item: { }
+					item: { count: 1, id: "gtceu:oil_bucket" }
 					type: "item"
 				}
 			]
@@ -1028,9 +1138,16 @@
 		}
 		{
 			dependencies: ["648BCF486E16CCB2"]
+			icon: {
+				id: "gtceu:oilsands_ore"
+			}
 			id: "575B07D390D9D079"
 			rewards: [{
 				id: "286D83CF8F84A4DF"
+				item: {
+					count: 1
+					id: "gtceu:oilsands_ore"
+				}
 				random_bonus: 3
 				type: "item"
 			}]
@@ -1038,13 +1155,13 @@
 			tasks: [
 				{
 					id: "7B6C7E6C11D68E06"
-					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
+					item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:ores/oilsands))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					optional_task: true
 					type: "item"
 				}
 				{
 					id: "1838F842C9D12880"
-					item: { }
+					item: { count: 1, id: "gtceu:oilsands_dust" }
 					type: "item"
 				}
 			]
@@ -1059,17 +1176,24 @@
 				"575B07D390D9D079"
 				"05ADBAE5B6F38956"
 			]
+			icon: {
+				id: "gtceu:mv_distillery"
+			}
 			id: "6A304E453D74C57C"
 			min_required_dependencies: 2
 			rewards: [{
 				id: "3F6532E5CE210907"
+				item: {
+					count: 1
+					id: "gtceu:basic_electronic_circuit"
+				}
 				type: "item"
 			}]
 			shape: "square"
 			size: 0.75d
 			tasks: [{
 				id: "685043442271A0D0"
-				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(gtceu:lv_distillery)item(gtceu:mv_distillery))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -1.125d
@@ -1077,22 +1201,25 @@
 		}
 		{
 			dependencies: ["05ADBAE5B6F38956"]
+			icon: {
+				id: "gtceu:natural_gas_bucket"
+			}
 			id: "227D89550BB9BD55"
 			size: 0.66d
 			tasks: [
 				{
 					id: "027B41ACE1566E28"
-					item: { }
+					item: { count: 1, id: "gtceu:refinery_gas_bucket" }
 					type: "item"
 				}
 				{
 					id: "0ABB837337D9CAF9"
-					item: { }
+					item: { count: 1, id: "gtceu:methane_bucket" }
 					type: "item"
 				}
 				{
 					id: "401B9B85969AE681"
-					item: { }
+					item: { count: 1, id: "gtceu:lpg_bucket" }
 					type: "item"
 				}
 			]
@@ -1105,7 +1232,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "4E9EBCCCC7BBAFDD"
-				item: { }
+				item: { count: 1, id: "gtceu:benzene_bucket" }
 				type: "item"
 			}]
 			x: -2.25d
@@ -1118,13 +1245,13 @@
 			tasks: [
 				{
 					id: "6E4D818CE088D7D4"
-					item: { }
+					item: { count: 1, id: "gtceu:sulfuric_light_fuel_bucket" }
 					optional_task: true
 					type: "item"
 				}
 				{
 					id: "36D70C00EF5171D6"
-					item: { }
+					item: { count: 1, id: "gtceu:light_fuel_bucket" }
 					type: "item"
 				}
 			]
@@ -1137,6 +1264,12 @@
 			rewards: [{
 				id: "0D81E63BB7BAD94B"
 				item: {
+					components: {
+						"gtceu:fluid_content": {
+							amount: 8000
+							id: "gtceu:heavy_oil"
+						}
+					}
 					count: 1
 					id: "gtceu:steel_fluid_cell"
 				}
@@ -1145,7 +1278,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "10BAA54947D975AF"
-				item: { }
+				item: { count: 1, id: "gtceu:diesel_bucket" }
 				type: "item"
 			}]
 			x: -2.25d
@@ -1154,11 +1287,14 @@
 		{
 			dependencies: ["1FFD2242B94A7378"]
 			dependency_requirement: "one_started"
+			icon: {
+				id: "gtceu:potin_quadruple_fluid_pipe"
+			}
 			id: "66041DE10C882382"
 			size: 0.66d
 			tasks: [{
 				id: "2620FA131244B3DA"
-				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(gtceu:potin_quadruple_fluid_pipe)item(gtceu:potin_nonuple_fluid_pipe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 4.5d
@@ -1166,24 +1302,27 @@
 		}
 		{
 			dependencies: ["315169840E06110F"]
+			icon: {
+				id: "gtceu:ilc_chip"
+			}
 			id: "6F6D2829FC42F21C"
 			size: 0.66d
 			tasks: [
 				{
 					id: "295D2CE93D4CE067"
-					item: { }
+					item: { count: 1, id: "gtceu:ruby_lens" }
 					optional_task: true
 					type: "item"
 				}
 				{
 					id: "675EBF60F3465538"
-					item: { }
+					item: { count: 1, id: "gtceu:ilc_wafer" }
 					optional_task: true
 					type: "item"
 				}
 				{
 					id: "560E69502E1A2458"
-					item: { }
+					item: { count: 1, id: "gtceu:ilc_chip" }
 					type: "item"
 				}
 			]
@@ -1192,24 +1331,27 @@
 		}
 		{
 			dependencies: ["315169840E06110F"]
+			icon: {
+				id: "gtceu:ulpic_chip"
+			}
 			id: "16A1EF8B80A96633"
 			size: 0.66d
 			tasks: [
 				{
 					id: "6D4D63F75646DB1C"
-					item: { }
+					item: { count: 1, id: "gtceu:sapphire_lens" }
 					optional_task: true
 					type: "item"
 				}
 				{
 					id: "6705F883970BDD89"
-					item: { }
+					item: { count: 1, id: "gtceu:ulpic_wafer" }
 					optional_task: true
 					type: "item"
 				}
 				{
 					id: "0295B47C0CC169BD"
-					item: { }
+					item: { count: 1, id: "gtceu:ulpic_chip" }
 					type: "item"
 				}
 			]
@@ -1218,18 +1360,21 @@
 		}
 		{
 			dependencies: ["5C94CF50090D7DA0"]
+			icon: {
+				id: "gtceu:long_distance_item_pipeline_endpoint"
+			}
 			id: "653345427522D728"
 			size: 0.66d
 			tasks: [
 				{
 					count: 2L
 					id: "0A8CADD371444760"
-					item: { }
+					item: { count: 1, id: "gtceu:long_distance_item_pipeline_endpoint" }
 					type: "item"
 				}
 				{
 					id: "66D528959958D445"
-					item: { }
+					item: { count: 1, id: "gtceu:long_distance_item_pipeline" }
 					type: "item"
 				}
 			]
@@ -1241,18 +1386,21 @@
 				"0774EC59CD3DD7A5"
 				"575B07D390D9D079"
 			]
+			icon: {
+				id: "gtceu:long_distance_fluid_pipeline_endpoint"
+			}
 			id: "5480AF2EDEDB6A36"
 			size: 0.66d
 			tasks: [
 				{
 					count: 2L
 					id: "6D77664884690FB4"
-					item: { }
+					item: { count: 1, id: "gtceu:long_distance_fluid_pipeline_endpoint" }
 					type: "item"
 				}
 				{
 					id: "01F1E774C67ED4AF"
-					item: { }
+					item: { count: 1, id: "gtceu:long_distance_fluid_pipeline" }
 					type: "item"
 				}
 			]
@@ -1313,7 +1461,7 @@
 			size: 0.5d
 			tasks: [{
 				id: "3E70CB46874DE7C1"
-				item: { }
+				item: { components: { "gtceu:energy_content": { charge: 0L, discharge_mode: 0b, infinite: 0b, max_charge: 100000L } }, count: 1, id: "gtceu:portable_scanner" }
 				type: "item"
 			}]
 			x: 5.996173469387756d
