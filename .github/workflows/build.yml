@@ -1,6 +1,6 @@
 name: build-modpack
 
-on: [push]
+on: [push, workflow-dispatch]
 
 jobs:
   build-pack:
@@ -13,9 +13,9 @@ jobs:
         uses: actions/checkout@v4
       
       - name: Setup Go environment
-        uses: actions/setup-go@v5.0.0
+        uses: actions/setup-go@v5
         with: 
-          go-version: '>=1.19.0'
+          go-version: 'stable'
       
       - name: Install Packwiz
         run: |
@@ -25,6 +25,6 @@ jobs:
         run: packwiz curseforge export
       
       - name: Upload pack to actions
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           path: GregTech CEu Modern Community Pack-*.zip
