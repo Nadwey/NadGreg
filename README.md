@@ -11,7 +11,8 @@ GregTech Community Pack Modern, but *more interesting*, and **ported to NeoForge
 
 ### 1.21.1
 
-- [ ] AlwaysEat
+#### Important
+
 - [ ] Architect's Palette (1.21.1 version available [here](https://github.com/theendercore/Architects-Palette), but not on curseforge)
 - [ ] Better Tag NBT Tips
 - [x] ~~Crafting Station: JEI Edition~~, replaced with Crafting Station: JEI Edition Updated
@@ -21,6 +22,9 @@ GregTech Community Pack Modern, but *more interesting*, and **ported to NeoForge
 - [ ] Modern AE2 Additions
 - [ ] Travel Anchors
 
+#### Other
+
+- [ ] AlwaysEat
 - [ ] Macaw's Bridges - Oh The Biomes You'll Go / Oh The Biomes We've Gone
 - [ ] Macaw's Fences - Oh The Biomes You'll Go / Oh The Biomes We've Gone
 - [ ] Macaw's Furnitures - Oh The Biomes You'll Go / Oh The Biomes We've Gone
