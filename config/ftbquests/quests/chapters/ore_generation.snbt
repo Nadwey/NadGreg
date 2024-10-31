@@ -316,27 +316,30 @@
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
+			icon: {
+				id: "gtceu:olivine_ore"
+			}
 			id: "7C1B5559A03F6E02"
 			size: 0.9d
 			tasks: [
 				{
 					id: "0428A9705DCDEBC2"
-					item: { }
+					item: { count: 1, id: "gtceu:raw_bentonite" }
 					type: "item"
 				}
 				{
 					id: "387BAF2D08F8252F"
-					item: { }
+					item: { count: 1, id: "gtceu:raw_magnesite" }
 					type: "item"
 				}
 				{
 					id: "1AEF16C083DB932C"
-					item: { }
+					item: { count: 1, id: "gtceu:raw_olivine" }
 					type: "item"
 				}
 				{
 					id: "6AA7AF45E3FC02CE"
-					item: { }
+					item: { count: 1, id: "gtceu:raw_glauconite_sand" }
 					type: "item"
 				}
 			]
@@ -345,27 +348,30 @@
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
+			icon: {
+				id: "gtceu:red_garnet_ore"
+			}
 			id: "178285129CEA9F9F"
 			size: 0.9d
 			tasks: [
 				{
 					id: "50787547A7F0A72E"
-					item: { }
+					item: { count: 1, id: "gtceu:raw_red_garnet" }
 					type: "item"
 				}
 				{
 					id: "66ADB2741F652DFD"
-					item: { }
+					item: { count: 1, id: "gtceu:raw_yellow_garnet" }
 					type: "item"
 				}
 				{
 					id: "3DB2F28F248E5030"
-					item: { }
+					item: { count: 1, id: "gtceu:raw_amethyst" }
 					type: "item"
 				}
 				{
 					id: "74912302B5E832B7"
-					item: { }
+					item: { count: 1, id: "gtceu:raw_opal" }
 					type: "item"
 				}
 			]
@@ -374,22 +380,25 @@
 		}
 		{
 			dependencies: ["41730E340B3D8EDA"]
+			icon: {
+				id: "gtceu:apatite_ore"
+			}
 			id: "70252B72F7728EFD"
 			size: 0.9d
 			tasks: [
 				{
 					id: "1091719F41C151CE"
-					item: { }
+					item: { count: 1, id: "gtceu:raw_apatite" }
 					type: "item"
 				}
 				{
 					id: "469D723F9710A9C1"
-					item: { }
+					item: { count: 1, id: "gtceu:raw_tricalcium_phosphate" }
 					type: "item"
 				}
 				{
 					id: "03E0E4E97A8DF31E"
-					item: { }
+					item: { count: 1, id: "gtceu:raw_pyrochlore" }
 					type: "item"
 				}
 			]

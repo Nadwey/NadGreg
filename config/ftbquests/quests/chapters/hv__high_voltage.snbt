@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "hv__high_voltage"
 	group: "693226878D58638A"
+	icon: {
+		id: "gtceu:hv_electric_motor"
+	}
 	id: "237BDB19A9495869"
 	order_index: 3
 	quest_links: [
@@ -40,10 +43,17 @@
 	quests: [
 		{
 			dependencies: ["16A6AE5C770DB83A"]
+			icon: {
+				id: "gtceu:hv_machine_casing"
+			}
 			id: "2D01E80DE837F6A6"
 			rewards: [{
 				count: 6
 				id: "4D352625AE6D5757"
+				item: {
+					count: 1
+					id: "gtceu:advanced_integrated_circuit"
+				}
 				type: "item"
 			}]
 			shape: "square"
@@ -51,7 +61,7 @@
 			tasks: [{
 				count: 6L
 				id: "09C7FB07CF7A1B49"
-				item: { }
+				item: { count: 1, id: "gtceu:hv_machine_hull" }
 				type: "item"
 			}]
 			x: 1.125d
@@ -63,7 +73,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "35D2AE2899F60BC3"
-				item: { }
+				item: { components: { "gtceu:energy_content": { charge: 0L, discharge_mode: 0b, infinite: 0b, max_charge: 6400000L } }, count: 1, id: "gtceu:energy_crystal" }
 				type: "item"
 			}]
 			x: 3.375d
@@ -79,7 +89,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "51F819B8083DC13A"
-				item: { }
+				item: { count: 1, id: "gtceu:hv_autoclave" }
 				type: "item"
 			}]
 			x: 2.25d
@@ -91,7 +101,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "13B0B5168E4B06E3"
-				item: { }
+				item: { count: 1, id: "gtceu:hv_chemical_bath" }
 				type: "item"
 			}]
 			x: 4.5d
@@ -104,7 +114,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "3872B1D118426B33"
-				item: { }
+				item: { count: 1, id: "gtceu:steel_large_boiler" }
 				type: "item"
 			}]
 			x: 1.125d
@@ -112,18 +122,21 @@
 		}
 		{
 			dependencies: ["16A6AE5C770DB83A"]
+			icon: {
+				id: "gtceu:configurable_maintenance_hatch"
+			}
 			id: "15645E46CC0E6764"
 			shape: "rsquare"
 			size: 0.66d
 			tasks: [
 				{
 					id: "4BE8DFB45A1BFC09"
-					item: { }
+					item: { count: 1, id: "gtceu:configurable_maintenance_hatch" }
 					type: "item"
 				}
 				{
 					id: "286992A0F0C20BEE"
-					item: { }
+					item: { count: 1, id: "gtceu:auto_maintenance_hatch" }
 					type: "item"
 				}
 			]
@@ -132,6 +145,9 @@
 		}
 		{
 			dependencies: ["16A6AE5C770DB83A"]
+			icon: {
+				id: "gtceu:hv_electric_pump"
+			}
 			id: "029CF0D9E5097F87"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -144,37 +160,37 @@
 			tasks: [
 				{
 					id: "5B6D9DD390CC3184"
-					item: { }
+					item: { count: 1, id: "gtceu:hv_electric_motor" }
 					type: "item"
 				}
 				{
 					id: "20D97B1AD73D38C9"
-					item: { }
+					item: { count: 1, id: "gtceu:hv_electric_piston" }
 					type: "item"
 				}
 				{
 					id: "2E2ED201C713950B"
-					item: { }
+					item: { count: 1, id: "gtceu:hv_conveyor_module" }
 					type: "item"
 				}
 				{
 					id: "574C6D74D2D869BD"
-					item: { }
+					item: { count: 1, id: "gtceu:hv_electric_pump" }
 					type: "item"
 				}
 				{
 					id: "44822263DC8E4BE4"
-					item: { }
+					item: { count: 1, id: "gtceu:hv_robot_arm" }
 					type: "item"
 				}
 				{
 					id: "10D85B677A95EA38"
-					item: { }
+					item: { count: 1, id: "gtceu:hv_emitter" }
 					type: "item"
 				}
 				{
 					id: "4173FF5B0A6FA1C3"
-					item: { }
+					item: { count: 1, id: "gtceu:hv_sensor" }
 					type: "item"
 				}
 			]
@@ -190,7 +206,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "1B70E35262CA2CB8"
-				item: { }
+				item: { count: 1, id: "gtceu:hv_assembler" }
 				type: "item"
 			}]
 			x: 2.25d
@@ -203,7 +219,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "3CE1967A82B9ED45"
-				item: { }
+				item: { count: 1, id: "gtceu:infinite_water_cover" }
 				type: "item"
 			}]
 			x: 2.25d
@@ -211,6 +227,9 @@
 		}
 		{
 			dependencies: ["124B32A0583A636A"]
+			icon: {
+				id: "gtceu:cyan_glass_lens"
+			}
 			id: "6975F16F5B50F17F"
 			shape: "rsquare"
 			size: 0.66d
@@ -218,13 +237,13 @@
 				{
 					count: 20L
 					id: "73A16ED7BA7D64E8"
-					item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
+					item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:lenses))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					optional_task: true
 					type: "item"
 				}
 				{
 					id: "1BBF0F8C4715A902"
-					item: { }
+					item: { count: 1, id: "gtceu:simple_soc" }
 					type: "item"
 				}
 			]
@@ -240,7 +259,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "6B595E3904B796C3"
-				item: { }
+				item: { count: 1, id: "gtceu:nand_chip" }
 				type: "item"
 			}]
 			x: 4.5d
@@ -256,7 +275,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "4717CD0721804BAC"
-				item: { }
+				item: { count: 1, id: "ae2:fluid_cell_housing" }
 				type: "item"
 			}]
 			x: 3.375d
@@ -268,24 +287,27 @@
 				"124B32A0583A636A"
 				"16B735F9C391D260"
 			]
+			icon: {
+				id: "gtceu:hv_energy_input_hatch"
+			}
 			id: "5DBBD9B1F5B01F4E"
 			size: 0.75d
 			tasks: [
 				{
 					id: "19C5FBCD216DCE26"
-					item: { }
+					item: { count: 1, id: "gtceu:lpic_chip" }
 					optional_task: true
 					type: "item"
 				}
 				{
 					id: "3CB30E3B0B6353C2"
-					item: { }
+					item: { count: 1, id: "gtceu:sodium_potassium_bucket" }
 					optional_task: true
 					type: "item"
 				}
 				{
 					id: "1ABDABD68D1C6E50"
-					item: { }
+					item: { count: 1, id: "gtceu:hv_energy_input_hatch" }
 					type: "item"
 				}
 			]
@@ -302,7 +324,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "652CFAE1FA60F3E2"
-				item: { }
+				item: { count: 1, id: "gtceu:hv_chemical_reactor" }
 				type: "item"
 			}]
 			x: 5.625d
@@ -310,6 +332,9 @@
 		}
 		{
 			dependencies: ["0EFEE489906256AA"]
+			icon: {
+				id: "gtceu:rutile_dust"
+			}
 			id: "59DFC4DA7D29C315"
 			shape: "rsquare"
 			size: 0.66d
@@ -317,13 +342,13 @@
 				{
 					count: 15L
 					id: "7046AD026C55153C"
-					item: { }
+					item: { count: 1, id: "gtceu:bauxite_dust" }
 					optional_task: true
 					type: "item"
 				}
 				{
 					id: "5593109F3592A432"
-					item: { }
+					item: { count: 1, id: "gtceu:rutile_dust" }
 					type: "item"
 				}
 			]
@@ -340,7 +365,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "334DB53CC12726B0"
-				item: { }
+				item: { count: 1, id: "gtceu:titanium_tetrachloride_bucket" }
 				type: "item"
 			}]
 			x: 5.625d
@@ -353,7 +378,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "2C582DDA7BC36951"
-				item: { }
+				item: { count: 1, id: "gtceu:mercury_barium_calcium_cuprate_single_wire" }
 				type: "item"
 			}]
 			x: 4.5d
@@ -370,7 +395,7 @@
 			tasks: [{
 				count: 16L
 				id: "2DCD235EC79F582C"
-				item: { }
+				item: { count: 1, id: "gtceu:nichrome_coil_block" }
 				type: "item"
 			}]
 			x: 4.5d
@@ -392,7 +417,7 @@
 			size: 1.2d
 			tasks: [{
 				id: "6D3E269567F419DE"
-				item: { }
+				item: { count: 1, id: "gtceu:titanium_ingot" }
 				type: "item"
 			}]
 			x: 5.625d
@@ -405,7 +430,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "497959F0CC572A68"
-				item: { }
+				item: { count: 1, id: "gtceu:item_tag_filter" }
 				type: "item"
 			}]
 			x: 3.375d
@@ -417,7 +442,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "784C1A8A77AD314E"
-				item: { }
+				item: { count: 1, id: "gtceu:vacuum_freezer" }
 				type: "item"
 			}]
 			x: 6.75d
@@ -433,7 +458,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "4CCBDA5AC16CBB48"
-				item: { }
+				item: { count: 1, id: "gtceu:magnesium_diboride_single_wire" }
 				type: "item"
 			}]
 			x: 6.75d
@@ -448,7 +473,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "337D8EF42A7BD3A2"
-				item: { }
+				item: { count: 1, id: "gtceu:hv_circuit_assembler" }
 				type: "item"
 			}]
 			x: 7.875d
@@ -463,6 +488,9 @@
 			id: "41D32C5178760F47"
 			rewards: [{
 				command: "/locate structure minecraft:stronghold"
+				icon: {
+					id: "minecraft:end_portal_frame"
+				}
 				id: "30A15D4EF08A423C"
 				type: "command"
 			}]
@@ -470,7 +498,7 @@
 			tasks: [{
 				count: 12L
 				id: "30A89DD2A22EE314"
-				item: { }
+				item: { count: 1, id: "minecraft:ender_eye" }
 				type: "item"
 			}]
 			x: 7.875d
@@ -485,7 +513,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "71E3128BA0CAC113"
-				item: { }
+				item: { count: 1, id: "gtceu:micro_processor_mainframe" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -496,25 +524,28 @@
 				"10FB27DD3C7BEC2F"
 				"0DE5C3FBC9A6A690"
 			]
+			icon: {
+				id: "gtceu:cleanroom"
+			}
 			id: "3568BC9742092FC5"
 			shape: "gear"
 			size: 1.5d
 			tasks: [
 				{
 					id: "563BFE52E8A51D9F"
-					item: { }
+					item: { count: 1, id: "gtceu:cleanroom" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "6D0AC939EC8971BC"
-					item: { }
+					item: { count: 1, id: "gtceu:filter_casing" }
 					type: "item"
 				}
 				{
 					count: 50L
 					id: "73EB2C49B40116E2"
-					item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(gtceu:plascrete)item(gtceu:cleanroom_glass))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					optional_task: true
 					type: "item"
 				}
@@ -529,7 +560,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "1ED12D379EEE0CBA"
-				item: { }
+				item: { components: { "gtceu:energy_content": { charge: 0L, discharge_mode: 0b, infinite: 0b, max_charge: 1600000L } }, count: 1, id: "gtceu:hv_prospector" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -542,7 +573,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "4ABE8033182CF48D"
-				item: { }
+				item: { count: 1, id: "gtceu:fluorine_bucket" }
 				type: "item"
 			}]
 			x: 5.625d
@@ -553,29 +584,36 @@
 				"390E59F05132FCB8"
 				"42FB276AB16258D9"
 			]
+			icon: {
+				id: "gtceu:polytetrafluoroethylene_plate"
+			}
 			id: "7CC79617A4965F25"
 			rewards: [{
 				count: 24
 				id: "314C46623E72CFA4"
+				item: {
+					count: 1
+					id: "gtceu:netherrack_topaz_ore"
+				}
 				type: "item"
 			}]
 			size: 0.75d
 			tasks: [
 				{
 					id: "24886FDFB1DE74E0"
-					item: { }
+					item: { count: 1, id: "gtceu:hydrofluoric_acid_bucket" }
 					optional_task: true
 					type: "item"
 				}
 				{
 					id: "690DEB428063A459"
-					item: { }
+					item: { count: 1, id: "gtceu:chloroform_bucket" }
 					optional_task: true
 					type: "item"
 				}
 				{
 					id: "3B4E4FCF434149E8"
-					item: { }
+					item: { count: 1, id: "gtceu:polytetrafluoroethylene_plate" }
 					type: "item"
 				}
 			]
@@ -592,7 +630,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "2A28EC2D53F6AF99"
-				item: { }
+				item: { count: 1, id: "gtceu:nitrobenzene_bucket" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -602,10 +640,19 @@
 			dependencies: ["7CC79617A4965F25"]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			icon: {
+				id: "gtceu:large_chemical_reactor"
+			}
 			id: "528CE69DA4358B2E"
 			rewards: [{
 				id: "3167A01BDCACFEFF"
 				item: {
+					components: {
+						"gtceu:fluid_content": {
+							amount: 64000
+							id: "gtceu:sulfuric_acid"
+						}
+					}
 					count: 1
 					id: "gtceu:stainless_steel_fluid_cell"
 				}
@@ -616,18 +663,18 @@
 			tasks: [
 				{
 					id: "4738F666E22B212B"
-					item: { }
+					item: { count: 1, id: "gtceu:large_chemical_reactor" }
 					type: "item"
 				}
 				{
 					count: 10L
 					id: "437860B6D7534842"
-					item: { }
+					item: { count: 1, id: "gtceu:inert_machine_casing" }
 					type: "item"
 				}
 				{
 					id: "6D5FA685D7F4485B"
-					item: { }
+					item: { count: 1, id: "gtceu:ptfe_pipe_casing" }
 					type: "item"
 				}
 			]
@@ -639,17 +686,20 @@
 				"316FF60D6FFE97CE"
 				"6A304E453D74C57C"
 			]
+			icon: {
+				id: "minecraft:tnt"
+			}
 			id: "2B7B214EDE0B45A2"
 			size: 0.75d
 			tasks: [
 				{
 					id: "1CB85F57BA45252D"
-					item: { }
+					item: { count: 1, id: "gtceu:gelled_toluene" }
 					type: "item"
 				}
 				{
 					id: "04BF6A36E965C348"
-					item: { }
+					item: { count: 1, id: "minecraft:tnt" }
 					type: "item"
 				}
 			]
@@ -663,7 +713,7 @@
 			tasks: [{
 				count: 12L
 				id: "00CC416ACB6CA99F"
-				item: { }
+				item: { count: 1, id: "minecraft:blaze_powder" }
 				type: "item"
 			}]
 			x: 6.75d
@@ -674,10 +724,21 @@
 				"1137D2BA7E03D685"
 				"2B7B214EDE0B45A2"
 			]
+			icon: {
+				id: "minecraft:ender_pearl"
+			}
 			id: "4024C831C77101CA"
 			rewards: [{
 				id: "3A4CB6D323D4FAEE"
 				item: {
+					components: {
+						"minecraft:custom_name": "\":)\""
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:sharpness": 5
+							}
+						}
+					}
 					count: 1
 					id: "minecraft:enchanted_book"
 				}
@@ -687,13 +748,13 @@
 			tasks: [
 				{
 					id: "3DC62CA60F006A06"
-					item: { }
+					item: { count: 1, id: "gtceu:ender_pearl_dust" }
 					optional_task: true
 					type: "item"
 				}
 				{
 					id: "20403A639228B809"
-					item: { }
+					item: { count: 1, id: "minecraft:ender_pearl" }
 					type: "item"
 				}
 			]
@@ -702,21 +763,36 @@
 		}
 		{
 			dependencies: ["3568BC9742092FC5"]
+			icon: {
+				id: "gtceu:phosphorus_boule"
+			}
 			id: "017019EB38F7A18C"
 			rewards: [{
 				id: "69C519E1CE7B94F0"
+				item: {
+					components: {
+						"gtceu:energy_content": {
+							charge: 0L
+							discharge_mode: 0b
+							infinite: 0b
+							max_charge: 1800000L
+						}
+					}
+					count: 1
+					id: "gtceu:hv_lithium_battery"
+				}
 				type: "item"
 			}]
 			size: 0.75d
 			tasks: [
 				{
 					id: "28C8A90D0F999573"
-					item: { }
+					item: { count: 1, id: "gtceu:phosphorus_boule" }
 					type: "item"
 				}
 				{
 					id: "2CD60F6FFD4C1DFF"
-					item: { }
+					item: { count: 1, id: "gtceu:hv_laser_engraver" }
 					optional_task: true
 					type: "item"
 				}
@@ -730,7 +806,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "52E617BBF3718471"
-				item: { }
+				item: { count: 1, id: "gtceu:implosion_compressor" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -745,7 +821,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "0C851DC9BF5BBC3D"
-				item: { }
+				item: { count: 1, id: "gtceu:nitric_acid_bucket" }
 				type: "item"
 			}]
 			x: 6.75d
@@ -761,7 +837,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "122E070F32AB100B"
-				item: { }
+				item: { count: 1, id: "gtceu:cetane_boosted_diesel_bucket" }
 				type: "item"
 			}]
 			x: 7.875d
@@ -769,22 +845,25 @@
 		}
 		{
 			dependencies: ["16B735F9C391D260"]
+			icon: {
+				id: "gtceu:smd_transistor"
+			}
 			id: "4C3805F75C9EE3DD"
 			size: 0.75d
 			tasks: [
 				{
 					id: "75D9301389ECDAC7"
-					item: { }
+					item: { count: 1, id: "gtceu:smd_transistor" }
 					type: "item"
 				}
 				{
 					id: "5AC39933BF3FB8C3"
-					item: { }
+					item: { count: 1, id: "gtceu:smd_resistor" }
 					type: "item"
 				}
 				{
 					id: "6421A825AB3FC7CE"
-					item: { }
+					item: { count: 1, id: "gtceu:smd_capacitor" }
 					type: "item"
 				}
 			]
@@ -793,17 +872,20 @@
 		}
 		{
 			dependencies: ["4C3805F75C9EE3DD"]
+			icon: {
+				id: "gtceu:smd_diode"
+			}
 			id: "7F272A099E65F848"
 			size: 0.75d
 			tasks: [
 				{
 					id: "75955EC3248DEA7A"
-					item: { }
+					item: { count: 1, id: "gtceu:smd_diode" }
 					type: "item"
 				}
 				{
 					id: "46FD3F3FEFBF7ECD"
-					item: { }
+					item: { count: 1, id: "gtceu:smd_inductor" }
 					type: "item"
 				}
 			]
@@ -819,7 +901,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "76DAF1C1B90EFE87"
-				item: { }
+				item: { count: 1, id: "gtceu:hv_macerator" }
 				type: "item"
 			}]
 			x: -1.125d
@@ -835,7 +917,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "54C9440D952AD14D"
-				item: { }
+				item: { count: 1, id: "gtceu:ammonia_bucket" }
 				type: "item"
 			}]
 			x: 6.75d
@@ -848,7 +930,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "19CC2402A14AE77C"
-				item: { }
+				item: { count: 1, id: "javd:portal_block" }
 				type: "item"
 			}]
 			x: 9.0d

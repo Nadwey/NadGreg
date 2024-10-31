@@ -29,7 +29,9 @@ GregTech Community Pack Modern, but *more interesting*, and **ported to NeoForge
             - [x] LV - Low Voltage
             - [x] MV - Medium Voltage - contains quests with missing mods
                 - [ ] Travel Anchors
-            - [ ] HV - High Voltage
+            - [x] HV - High Voltage - contains quests with missing mods
+                - [ ] Check if task `The End of an Era` works
+                - [ ] Dense Compressors
             - [ ] EV - Extreme Voltage
             - [ ] IV - Insane Voltage
             - [ ] LuV - Ludicrous Voltage

@@ -3,7 +3,7 @@
 	loot_size: 1
 	order_index: 4
 	rewards: [
-		{ count: 12 }
-		{ count: 12 }
+		{ count: 12, item: { count: 1, id: "gtceu:endstone_bauxite_ore" } }
+		{ count: 12, item: { count: 1, id: "gtceu:endstone_ilmenite_ore" } }
 	]
 }
