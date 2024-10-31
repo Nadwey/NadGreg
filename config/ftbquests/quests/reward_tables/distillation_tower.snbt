@@ -3,7 +3,7 @@
 	loot_size: 1
 	order_index: 5
 	rewards: [
-		{ count: 4 }
-		{ count: 16 }
+		{ count: 4, item: { count: 1, id: "gtceu:lv_super_tank" } }
+		{ count: 16, item: { count: 1, id: "gtceu:clean_machine_casing" } }
 	]
 }

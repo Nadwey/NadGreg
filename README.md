@@ -32,15 +32,19 @@ GregTech Community Pack Modern, but *more interesting*, and **ported to NeoForge
             - [x] HV - High Voltage - contains quests with missing mods
                 - [ ] Check if task `The End of an Era` works
                 - [ ] Dense Compressors
-            - [ ] EV - Extreme Voltage
+            - [x] EV - Extreme Voltage - contains quests with missing mods
+                - [ ] EU P2P Tunnels
+                - [ ] Pattern P2P Tunnels
+                - [ ] Ender Fluid Linking
+                - [ ] Me Hatches - ME Input Bus missing name?
             - [ ] IV - Insane Voltage
             - [ ] LuV - Ludicrous Voltage
             - [ ] ZPM - Zero Point Module
             - [ ] UV - Ultimate Voltage
-        - [ ] Guides + More
+        - [x] Guides + More
             - [x] Tips and Tricks
             - [x] Renewability and You
-            - [ ] Ore Generation
+            - [x] Ore Generation
             - [x] Ore Processing
         - [x] Milestones
              - [x] Circuit Progression - should complete itself, invalid quests are linked quests
