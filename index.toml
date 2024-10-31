@@ -881,7 +881,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
-hash = "484e4fbcae2b60bb90ed60638fd69d9595f440ce8c0d5e6be14600f653607e57"
+hash = "5da98025c9602daf1e7cef35747a8d2d50d6f738f3b04d74dc216c74eda2a73f"
 metafile = true
 
 [[files]]
@@ -951,7 +951,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "4a443c18ecb70b6a1c2d53367f97d840a4f7276f5054f6db2da423ee90db90ca"
+hash = "52f71bf333742b0459019db0a051ff66e9a28e876f15691d4d9379e4be33616d"
 metafile = true
 
 [[files]]
