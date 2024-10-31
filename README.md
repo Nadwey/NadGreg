@@ -12,7 +12,7 @@ GregTech Community Pack Modern, but *more interesting*, and **ported to NeoForge
     - [ ] Logo
     - [ ] Title Screen?
 - [ ] Finish porting to 1.21.1
-    - [ ] Port serverpack script to 1.21.1
+    - [x] Port serverpack script to 1.21.1
     - [ ] Mods
         - [ ] Architect's Palette (1.21.1 version available [here](https://github.com/theendercore/Architects-Palette), but not on curseforge)
         - [ ] Better Tag NBT Tips
@@ -58,4 +58,8 @@ Please refer to their tutorials page for more info.
 
 ## Server
 
-Currently not supported at all.
+Install [Bun](https://bun.sh/).
+
+Run `build.bat` or `build.sh` in `serverpack/`.
+
+Your server pack will be created in `serverpack/pack/`.

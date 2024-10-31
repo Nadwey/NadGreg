@@ -110,11 +110,11 @@ hash = "91b51f5d60af210457f1c831d135cda18138489935627c05fa1f16d0411450ee"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gtceu.snbt"
-hash = "085f74635b658b656ce84070e09cc6e8671ba2693ba4836effde5697b64c2a30"
+hash = "1cd9f73a26e42e6013674378a51d203c7eb679658c76a3b767a68a092df50e14"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/heating_coils.snbt"
-hash = "9ed38bc40b8acfdf6851c1eb3245e4f3e49e334032ba76cff8f9efdd1bfbc0d2"
+hash = "d9832b6a7d3b78c4b14a18d0faf73cc97a9f8f05267bfc4bb0803da1cd0cc013"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv__high_voltage.snbt"
@@ -130,35 +130,35 @@ hash = "f0eb07e9150970b6df31dfc66a86e91c22768a769b90f77b0f07cff3005ee332"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv__low_voltage.snbt"
-hash = "8c849822f79bacb3f7cdf5315225129a648ffb92ed098ce407a967830c864480"
+hash = "0ff22f4da172b5cfca972b0e2de9bb23f089d48f448b932228eecbdd0dc7bdaf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiblock_dilemma.snbt"
-hash = "b15125240a522bd5377ae3e06a42551fb4a7a6269df5a0179a82cf2a4d2a6c26"
+hash = "874dee6b4b3bf4c860cc91a2d4102097ee7e083605703ab519d629a9d7629f91"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mv__medium_voltage.snbt"
-hash = "a893979f7b2a082faba25075c370b16de44e6a62e0fdf9bb4a663e33ad5fe0d6"
+hash = "ccee6f6e995b49819dd7bb236462ca5ebaa3302d75c9bc5248b87d63eba33817"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ore_generation.snbt"
-hash = "aea8bc8f6cf673327c5f05d618338e2f6455cffbd1de61fa59453071f774860d"
+hash = "bef989f5c71d1eb38ff3b56b1fd86fe831681f0210d5cf9d2e06980433b79aa3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ore_processing.snbt"
-hash = "ef6e307c9a603df6cea9c9f1d0c606545183852a5dba81c9d0df2a46f79bf13d"
+hash = "dc485e4a5dd656b3c9f9247a83e1384193d9b6fa846c2740fc8a952714609847"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/progression.snbt"
-hash = "4fadf7cf5f74975650d7daa55ce84d98ae9026d1c3cc7fe5ccdd03f5d2ba262d"
+hash = "1a9690ef86f70179863cddfc5968062922fb80a073bb47153aafe4f905d2e91e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/renewability_and_you.snbt"
-hash = "0f0cd54c402ab49ffbd2564a8c21add3d35e60bc04d319d5a757a6abb16535de"
+hash = "c45d2a2d0a047949760ef85983490ac19561d6f7a042a8b30396b9fb30920d2f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/steam_age.snbt"
-hash = "cf45e84d1fa32887a7cf5676127e2b6b473beafe744d84214d4f18d5f7e55520"
+hash = "da5d5b1b9ccb14b1b14215e19506a6079f1bbed27a0cddc9731ee98dce1a9172"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips_and_tricks_2.snbt"
@@ -178,7 +178,7 @@ hash = "95b045dcec552a54b5f42f6e36fe141aaa5fa38f5c6d552364e6009f0a2ffc4f"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "1812092cf8bd982da698fd0b241c808ebf2b8f05b6c5982ffe9c30460ecc449f"
+hash = "eb4021f4b62d873e76a5d3bec91a4784790e8c313173e69faa361c1dc95e86d8"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/bronze_age.snbt"
@@ -190,7 +190,7 @@ hash = "17e94f93ed6e98c4d09a7682440ec7844aba1bcdd78d165b2c0ab4531134ca31"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/hv.snbt"
-hash = "b7ec1c41280a7fa9f4391512426aa0cd5f23c0984e889a09f4ae63617fff7324"
+hash = "cbc96d815c1c9a50995f26c84e0694bf79c4d54c3e91aa383c72cc6a5e1fe9b7"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/hv_components.snbt"
@@ -202,7 +202,7 @@ hash = "0cb1a6a2ea78ca027748f6360aa3258c4331fb9b6df9f841459afc9a8fddd06b"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/polyethylene.snbt"
-hash = "6e57c42fa02a6f65953ea7215ab801c9738fcb2625018eefda51b848814e5612"
+hash = "bc755080d079615d704d59b5280c3ff4ff3cc629c3cbae9b8017cedaf635845d"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/titanium.snbt"
@@ -666,7 +666,7 @@ hash = "e3fa23749515ff0720ceff36d06d1c36872b41eb41b62b2d0098ea9d47603add"
 
 [[files]]
 file = "mods/ai-improvements.pw.toml"
-hash = "db026135a8a23b2b660ebbfa8a85d06b26249305b2612bc2fab930e252100890"
+hash = "290c52a0fc9bb3354292977955e634749bb0c34c1496740b1d8c60e978d0ac65"
 metafile = true
 
 [[files]]
@@ -676,12 +676,12 @@ metafile = true
 
 [[files]]
 file = "mods/alternate-current.pw.toml"
-hash = "571293a6ddb6b5ea7b9c1f5454d0cfc584a5aa50397942bea4906d3b54e02e02"
+hash = "41b2b3447cc807fa54699d5830f5da766cf29a0c91b3a3ea0156e92f22e9cd44"
 metafile = true
 
 [[files]]
 file = "mods/ambientsounds.pw.toml"
-hash = "23b005eaf484d5fac571c89fd8d1d557946456b81e541eacafba864b29ef5175"
+hash = "3d49367c629630fad63365922b75f1d19030bacc02877fd5b6d29372f4ba0bd0"
 metafile = true
 
 [[files]]
@@ -712,11 +712,6 @@ metafile = true
 [[files]]
 file = "mods/attributefix.pw.toml"
 hash = "6ade1a12feb247f6e9b455bcbd832b103057401c909eba00e83c26144af33438"
-metafile = true
-
-[[files]]
-file = "mods/auroras.pw.toml"
-hash = "98b78ae0f5e2b393c03ad5ffc3a2ba8858e814e5dd9b0cdd44070778c77c7902"
 metafile = true
 
 [[files]]
@@ -826,7 +821,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamiclights-reforged.pw.toml"
-hash = "0296b81beb1529a777c02b2663054fe232eb66451041d9c6a1caa61b67be9778"
+hash = "b9e99c4f40a61bcdefbb80a189449cfdd27f9533dac19c158d374a2f5da4ba71"
 metafile = true
 
 [[files]]
@@ -971,7 +966,7 @@ metafile = true
 
 [[files]]
 file = "mods/irisshaders.pw.toml"
-hash = "e86c590b8daa67c20e45d5c8c741f3a3501388b626c720125bcef0fafc8e7dc0"
+hash = "37a460c03b522b71a5a630e4d7a26cb6b4d54bbcf16ab7596230e0e593edb2ed"
 metafile = true
 
 [[files]]
@@ -1026,7 +1021,7 @@ metafile = true
 
 [[files]]
 file = "mods/ldlib.pw.toml"
-hash = "6613a156dd50145b5d51b9a9132f13a68bd08fc42c77b4e7f33f6f1313040dc9"
+hash = "52fe5f54fbfdf345d79f4cdd53b301ec6791cb7749d877b023d81a50572699f1"
 metafile = true
 
 [[files]]
@@ -1136,7 +1131,7 @@ metafile = true
 
 [[files]]
 file = "mods/noisium.pw.toml"
-hash = "c39f473bc613a79aaf8717ced14f9e081451118cd53521ac5d6e6cdd469a3f59"
+hash = "ab739f432afbca1d1980a17535b3d568f795a41148e9110868a7377a67f50d4c"
 metafile = true
 
 [[files]]
@@ -1201,7 +1196,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "7a95679bea07dc368d11e18878d6c51a2b703db53fdf3fa4285cf70a76fa07bb"
+hash = "c026a945384e56c7203b8b28232ab9fba03f2bd698cf6972c506cc211fc6a6d7"
 metafile = true
 
 [[files]]
@@ -1231,17 +1226,17 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "414d015e3e80feb9c7ca54e8a557ad02965979d93ec936c7bb0dd0e0d1bd83c7"
+hash = "1f84f57d3f9ce36719828d9aead5b31aab382a06bed4149a64987859deca99d5"
 metafile = true
 
 [[files]]
 file = "mods/sodium-options-api.pw.toml"
-hash = "909be16f89b05b52e2a80528c067ed82628ed0ce1686b26cb62214463bcee084"
+hash = "0394f40838b005e26a36c9b623aa696593e90ca3a9d08bcc4029a8bf3159fd0d"
 metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "71ad32244138cca4d0a82b9920ab8dd1d9f19aff54763cc90eb8367f940a37f0"
+hash = "f61c20a7488c892eba1adae0aa7b4056c221da951341e601b10224a8c6818f17"
 metafile = true
 
 [[files]]
@@ -1296,7 +1291,7 @@ metafile = true
 
 [[files]]
 file = "mods/true-darkness-biomes.pw.toml"
-hash = "b5edde6b5dac18c794751eab64c2332b4d5d647d80ec45a7dad5dba5f84a3010"
+hash = "30b0bf1e071c586601e432cfd417e366872c6c927451d8a4557bb9b1d85f1264"
 metafile = true
 
 [[files]]
