@@ -106,7 +106,7 @@ hash = "c917e9058d2a5d0822e2702080f98440c7838eb2d895a97b1f2947dc0d205d75"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev__extreme_voltage.snbt"
-hash = "91b51f5d60af210457f1c831d135cda18138489935627c05fa1f16d0411450ee"
+hash = "d6557160ae6b9016c0270f3554c9ace8f921a0422069a1d35598bb21d35098d7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gtceu.snbt"
@@ -118,7 +118,7 @@ hash = "d9832b6a7d3b78c4b14a18d0faf73cc97a9f8f05267bfc4bb0803da1cd0cc013"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv__high_voltage.snbt"
-hash = "2a55796513e22b6043df99ea1ffe7a787ac3cb8fa414c67aba72685b4479e9a1"
+hash = "36f483e69829cb75ae9f7c33d1a1b83dc5628cb34c749b7edb08ba99703bff05"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv__insane_voltage.snbt"
@@ -142,7 +142,7 @@ hash = "ccee6f6e995b49819dd7bb236462ca5ebaa3302d75c9bc5248b87d63eba33817"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ore_generation.snbt"
-hash = "bef989f5c71d1eb38ff3b56b1fd86fe831681f0210d5cf9d2e06980433b79aa3"
+hash = "7e7a2fcfe77b90c575d685b8d9fff45976cda09b7405d0fa23bb8123c1590366"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ore_processing.snbt"
@@ -178,7 +178,7 @@ hash = "95b045dcec552a54b5f42f6e36fe141aaa5fa38f5c6d552364e6009f0a2ffc4f"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "eb4021f4b62d873e76a5d3bec91a4784790e8c313173e69faa361c1dc95e86d8"
+hash = "daa76f8aaec2d4130e3480ee78b51f93108d329dc43a23f03e71d3b8857e8884"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/bronze_age.snbt"
@@ -186,7 +186,7 @@ hash = "5579389548527a50b4343add5969b08c4ec6b542eb308ec98f24a5551100a769"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/distillation_tower.snbt"
-hash = "17e94f93ed6e98c4d09a7682440ec7844aba1bcdd78d165b2c0ab4531134ca31"
+hash = "1dc6c6842d4b69bdadd51012b3b1cbbb379e43d6d223450dd875c347af2ca3a7"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/hv.snbt"
@@ -194,11 +194,11 @@ hash = "cbc96d815c1c9a50995f26c84e0694bf79c4d54c3e91aa383c72cc6a5e1fe9b7"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/hv_components.snbt"
-hash = "755496a3a5fce2507872019d893d57ddd7cd1da5e75a9f9587112e5c1000f33c"
+hash = "627a6e8b5c978eb37524b5f44d3d53d1c25ffcf74175821a09136587c4469911"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/platinum_group_processing.snbt"
-hash = "0cb1a6a2ea78ca027748f6360aa3258c4331fb9b6df9f841459afc9a8fddd06b"
+hash = "3e8ca4ebd4e0bea36205dd830ad928748cd5992ed07cf3d84bc14427c652d96f"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/polyethylene.snbt"
@@ -206,7 +206,7 @@ hash = "bc755080d079615d704d59b5280c3ff4ff3cc629c3cbae9b8017cedaf635845d"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/titanium.snbt"
-hash = "b870b8e4d86d00f509112e717568bd1a490482a1723295e527c570ca62385042"
+hash = "73da6a31b35e9bb47f712fa1804868b6433db8c29576a140a94c1890f9cef8f2"
 
 [[files]]
 file = "config/ftbxmodcompat.snbt"
@@ -845,6 +845,11 @@ hash = "87ee3ebb21023e5961e6123ce4e6390fb2845e8c9424d57d59f53d825168ae2f"
 metafile = true
 
 [[files]]
+file = "mods/falling-leaves-forge.pw.toml"
+hash = "737c8e3767da647f2c9b710fafe5f11cb7cc61175ddbdbcdf2a204369e50f068"
+metafile = true
+
+[[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "1941ae052deb02b90e483893b7c96ead69c03e63542b758dacd5ba55e230ef5d"
 metafile = true
@@ -1267,6 +1272,11 @@ metafile = true
 [[files]]
 file = "mods/terrablender-neoforge.pw.toml"
 hash = "5e8f5f6c4239e0bb1c0bccf9169b07328a8802c03fbeb5d84f0801e276e81dc6"
+metafile = true
+
+[[files]]
+file = "mods/this-rocks-forge.pw.toml"
+hash = "00408be9d0435296545e241169ad9af634627e7a6ad7b32b701aa7a1cc9ba78c"
 metafile = true
 
 [[files]]
