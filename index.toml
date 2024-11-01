@@ -925,6 +925,11 @@ hash = "47ef193597f011dba5ee86b885651660dd4b45d4ce451ec2b29c2a55b5e5cd28"
 metafile = true
 
 [[files]]
+file = "mods/geophilic.pw.toml"
+hash = "914358de6bb96f8e4c915ebef4a57566aee4e28e73a2c466bb4d233fa362b241"
+metafile = true
+
+[[files]]
 file = "mods/glitchcore.pw.toml"
 hash = "3d38d89c5adddec6a9c1352e3c4ced3f0c80639f1f11da237aac883e629998e8"
 metafile = true
