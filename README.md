@@ -37,7 +37,7 @@ GregTech Community Pack Modern, but *more interesting*, and **ported to NeoForge
                 - [ ] Pattern P2P Tunnels
                 - [ ] Ender Fluid Linking
                 - [ ] Me Hatches - ME Input Bus missing name?
-            - [ ] IV - Insane Voltage
+            - [x] IV - Insane Voltage
             - [ ] LuV - Ludicrous Voltage
             - [ ] ZPM - Zero Point Module
             - [ ] UV - Ultimate Voltage
