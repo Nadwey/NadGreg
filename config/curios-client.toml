@@ -1,4 +1,3 @@
-
 #Client only settings, mostly things related to rendering
 [client]
 	#Set to true to enable rendering curios
@@ -18,4 +17,5 @@
 	#The corner for the Curios GUI button
 	#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
 	buttonCorner = "TOP_LEFT"
-
+	#Set to true to enable the Curios GUI button
+	enableButton = true

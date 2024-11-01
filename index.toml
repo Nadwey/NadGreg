@@ -282,19 +282,19 @@ hash = "39b5426fb7faf645a83c210d457352b05f64859d4b9adb58242c113c2c8e6878"
 
 [[files]]
 file = "config/jei/jei-client.ini"
-hash = "d1484868aa602e0f283aa2b3e07efedd86cdcf597ad61654b7e8b647fa896b9b"
+hash = "0721632c79aa20adb5d593e68d193031a5d61c2b1d321b158c33bd3308bcff99"
 
 [[files]]
 file = "config/jei/jei-colors.ini"
-hash = "c6328dcf3fb8b20a9f6ea6b61266ce289565c167353e183a105fb4915c36c072"
+hash = "45c79e18981c955df3637d04ae82a1fc83433d8e85f91620cfaa232559bc4c56"
 
 [[files]]
 file = "config/jei/jei-debug.ini"
-hash = "fed5a1f6e741725e0946ec0c3f753994ffed14bb7bcbef81e77e1bb960495e31"
+hash = "9e445273b8868aae630a7ec5b20ce5212aa813d855be81bcc874bd4aa43e16a4"
 
 [[files]]
 file = "config/jei/jei-mod-id-format.ini"
-hash = "34eb990ae2cf62220a0d1be95629bcac46e6732f1cd6f7b6fdc54bcae02916e5"
+hash = "290c1d3c87c230af508cc298a947e6f4496f97008ed00ec9ff3fa983618e8227"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
