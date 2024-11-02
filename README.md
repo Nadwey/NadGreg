@@ -15,7 +15,7 @@ GregTech Community Pack Modern, but *more interesting*, and **ported to NeoForge
     - [x] Port serverpack script to 1.21.1
     - [ ] Mods
         - [ ] Architect's Palette (1.21.1 version available [here](https://github.com/theendercore/Architects-Palette), but not on curseforge)
-        - [ ] Better Tag NBT Tips
+        - [ ] ~~Better Tag NBT Tips~~, temporarily replaced with Cucumber (this is probably an overkill, but it's useful)
         - [x] ~~Crafting Station: JEI Edition~~, replaced with Crafting Station: JEI Edition Updated
         - [x] ~~Curios~~, replaced with Curios API Continuation
         - [ ] Ender Storage 1.8.+

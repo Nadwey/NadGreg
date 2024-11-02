@@ -126,7 +126,7 @@ hash = "cb1157f3cd66d149c563081f94007be4dafd42ef91fa8c928d9094fe9f44281b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/luv__ludicrous_voltage.snbt"
-hash = "f0eb07e9150970b6df31dfc66a86e91c22768a769b90f77b0f07cff3005ee332"
+hash = "cf5ebf84d2d869d565e3c38c2eef5a74cd4f91ef34b9c35d4f2dc43e2823af68"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv__low_voltage.snbt"
@@ -178,7 +178,7 @@ hash = "95b045dcec552a54b5f42f6e36fe141aaa5fa38f5c6d552364e6009f0a2ffc4f"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "daa76f8aaec2d4130e3480ee78b51f93108d329dc43a23f03e71d3b8857e8884"
+hash = "64e91cf0f19d5f2dbfee5a9d3bfd8c2afc2f9722638c256439a4371beb0982fe"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/bronze_age.snbt"
@@ -807,6 +807,11 @@ metafile = true
 [[files]]
 file = "mods/creativecore.pw.toml"
 hash = "07f37920ee81447f7a8c40c2853f0ca5e7cae89834fe6630e33e505d46ebfb1e"
+metafile = true
+
+[[files]]
+file = "mods/cucumber.pw.toml"
+hash = "d15fe1dcaceb4a6dd4ce5350368763d328e0a4f7a27a458613f355de1e506390"
 metafile = true
 
 [[files]]
