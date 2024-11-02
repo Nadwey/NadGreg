@@ -989,7 +989,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "f8218ca5903c29d6dba9ee88c5a891e80ffd98e40d2a0ce93922dcd45fd26587"
+hash = "d01debf3581426ed7c6f564caa162ddc1dd43c37facaf5ac5dd1d227bee72978"
 metafile = true
 
 [[files]]
@@ -1164,7 +1164,7 @@ metafile = true
 
 [[files]]
 file = "mods/journeymap.pw.toml"
-hash = "fc6c8bcc74a3d4d09014c09004862cfd7356d3a4c107072798273ceee420ed57"
+hash = "77deb756e566aad19adbc96a5925afc8876a7f68e4059b38aaa65ff227e155a7"
 metafile = true
 
 [[files]]
@@ -1314,7 +1314,7 @@ metafile = true
 
 [[files]]
 file = "mods/oh-the-biomes-weve-gone.pw.toml"
-hash = "4e1320a1c761c5f80887a4dd4b9a5ca8e8bbf9a42fa99edba9481fcace55208d"
+hash = "3f588f4862bb72f2f93356af0e7c0874bb6f0251f89990906ec4d94dcf063158"
 metafile = true
 
 [[files]]
