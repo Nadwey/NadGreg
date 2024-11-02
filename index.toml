@@ -9,6 +9,10 @@ file = "config/MouseTweaks.cfg"
 hash = "611b9c06b577cb3cdc72c8b74a78b16b9a7b42832e1380a85107d086a8854fa8"
 
 [[files]]
+file = "config/SeasonHUD-client.toml"
+hash = "f466a157f5ee5adb1e2a2927e0fbc7f0bc63027319546681d9624980165e6c8e"
+
+[[files]]
 file = "config/ae2/client.json"
 hash = "fe2ca797217631da45bc93c7a0d55a92e5e26e94ac8d162c26949c78529ef4aa"
 
@@ -457,6 +461,14 @@ file = "config/polymorph-integrations.toml"
 hash = "43a7425a314be7d78c2e31d44ab8f46c5ee824ab10906ab8909923d23646b6ad"
 
 [[files]]
+file = "config/sereneseasons/fertility.toml"
+hash = "f63f94b985285add146c73a8747d278cec3d386807855b25de0e1db9962c153f"
+
+[[files]]
+file = "config/sereneseasons/seasons.toml"
+hash = "e316e1687ebb548553fcae62e1e5a85fee60c4e155f82ca464dc8c7c29a4f118"
+
+[[files]]
 file = "config/shimmer-client.toml"
 hash = "230f56297124faa6f17c72051427692af974e78832d2c66fbf48eb7d2d9f3b57"
 
@@ -818,6 +830,11 @@ metafile = true
 [[files]]
 file = "mods/ambientsounds.pw.toml"
 hash = "3d49367c629630fad63365922b75f1d19030bacc02877fd5b6d29372f4ba0bd0"
+metafile = true
+
+[[files]]
+file = "mods/amplified-nether.pw.toml"
+hash = "d0ccd152222758a9a934348e517f99bb967364aa65de6a3e1b9575ef0f4e7ef9"
 metafile = true
 
 [[files]]
@@ -1373,6 +1390,11 @@ metafile = true
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "b210b54498abff891f524a0ce32b7b81bfc88043604065bd4ece9e71c36427f4"
+metafile = true
+
+[[files]]
+file = "mods/seasonhud.pw.toml"
+hash = "de28e7a50f424f05c7e7b05ee97f8e7fd88b866859bebbf5392c76dbb3ebaadd"
 metafile = true
 
 [[files]]
