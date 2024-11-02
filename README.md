@@ -38,7 +38,7 @@ GregTech Community Pack Modern, but *more interesting*, and **ported to NeoForge
                 - [ ] Ender Fluid Linking
                 - [ ] Me Hatches - ME Input Bus missing name?
             - [x] IV - Insane Voltage
-            - [ ] LuV - Ludicrous Voltage
+            - [x] LuV - Ludicrous Voltage
             - [ ] ZPM - Zero Point Module
             - [ ] UV - Ultimate Voltage
         - [x] Guides + More

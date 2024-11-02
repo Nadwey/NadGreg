@@ -4596,7 +4596,7 @@
 	quest.63F9531F391040B2.quest_desc: [
 		"The chances you are having TPS issues playing this modpack are slim - this Quest is more suited for late game bases with GregTech and AE2."
 		""
-		"If you run the command &9/forge tps&r, you will be given the current &4TPS&r and the &4tick time&r in milliseconds."
+		"If you run the command &6/neoforge tps&r, you will be given the current &4TPS&r and the &4tick time&r in milliseconds."
 		""
 		"If the tick time exceeds 50ms, the server is under too much load, and won't be able to keep up with a steady 20 TPS."
 		""
