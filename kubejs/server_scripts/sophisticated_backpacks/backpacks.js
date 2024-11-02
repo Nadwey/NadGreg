@@ -25,11 +25,11 @@ ServerEvents.recipes((event) => {
     ],
     pattern: ["SLS", "LBL", "FPF"],
     key: {
-      S: { tag: "forge:screws/bronze" },
+      S: { tag: "c:screws/bronze" },
       L: { item: "minecraft:leather" },
       B: { item: "sophisticatedbackpacks:backpack" },
       F: { item: "minecraft:string" },
-      P: { tag: "forge:plates/invar" },
+      P: { tag: "c:plates/invar" },
     },
     result: { item: "sophisticatedbackpacks:copper_backpack" },
   });
@@ -44,11 +44,11 @@ ServerEvents.recipes((event) => {
     ],
     pattern: ["SLS", "LBL", "FPF"],
     key: {
-      S: { tag: "forge:screws/steel" },
+      S: { tag: "c:screws/steel" },
       L: { item: "minecraft:leather" },
       B: { item: "sophisticatedbackpacks:copper_backpack" },
       F: { item: "minecraft:string" },
-      P: { tag: "forge:plates/rose_gold" },
+      P: { tag: "c:plates/rose_gold" },
     },
     result: { item: "sophisticatedbackpacks:iron_backpack" },
   });
@@ -63,11 +63,11 @@ ServerEvents.recipes((event) => {
     ],
     pattern: ["SLS", "LBL", "FPF"],
     key: {
-      S: { tag: "forge:screws/aluminium" },
+      S: { tag: "c:screws/aluminium" },
       L: { item: "minecraft:leather" },
       B: { item: "sophisticatedbackpacks:iron_backpack" },
       F: { item: "gtceu:carbon_fibers" },
-      P: { tag: "forge:plates/blue_alloy" },
+      P: { tag: "c:plates/blue_alloy" },
     },
     result: { item: "sophisticatedbackpacks:gold_backpack" },
   });
@@ -82,11 +82,11 @@ ServerEvents.recipes((event) => {
     ],
     pattern: ["SLS", "LBL", "FPF"],
     key: {
-      S: { tag: "forge:screws/stainless_steel" },
+      S: { tag: "c:screws/stainless_steel" },
       L: { item: "minecraft:leather" },
       B: { item: "sophisticatedbackpacks:gold_backpack" },
       F: { item: "gtceu:carbon_fibers" },
-      P: { tag: "forge:plates/polytetrafluoroethylene" },
+      P: { tag: "c:plates/polytetrafluoroethylene" },
     },
     result: { item: "sophisticatedbackpacks:diamond_backpack" },
   });
@@ -101,11 +101,11 @@ ServerEvents.recipes((event) => {
     ],
     pattern: ["SLS", "LBL", "FPF"],
     key: {
-      S: { tag: "forge:screws/titanium" },
+      S: { tag: "c:screws/titanium" },
       L: { item: "minecraft:leather" },
       B: { item: "sophisticatedbackpacks:diamond_backpack" },
       F: { item: "gtceu:carbon_fibers" },
-      P: { tag: "forge:plates/epoxy" },
+      P: { tag: "c:plates/epoxy" },
     },
     result: { item: "sophisticatedbackpacks:netherite_backpack" },
   });
