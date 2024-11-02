@@ -726,7 +726,7 @@ hash = "9cb3913592bc69f8c23af61c9a8b60df76185ae0d2ba81868aa3382588f24820"
 
 [[files]]
 file = "kubejs/server_scripts/miscellaneous.js"
-hash = "a0b1a6eee6bce56d432e19ac763fb2caef509000cb073edaa45fba26c65e0282"
+hash = "426ec7bb2bf5d0ea08bd285803939be1eebaffd111c1d00fe90e2b0b76faa467"
 
 [[files]]
 file = "kubejs/server_scripts/open_blocks/elevator.js"
@@ -738,7 +738,7 @@ hash = "5885bebd13fd5b98bc87c86f2f87595084f0100237a780e5270813cca7af7d34"
 
 [[files]]
 file = "kubejs/server_scripts/removals.js"
-hash = "968450442f137a9afd5066fd50b488dfb88bd86cd619c5e22b5be75c362564fc"
+hash = "f982d5d2cef546830f94f8a78c7cd06309514b76ae6bc1f2ab778a8a693ef061"
 
 [[files]]
 file = "kubejs/server_scripts/sophisticated_backpacks/backpacks.js"
