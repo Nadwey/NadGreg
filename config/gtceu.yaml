@@ -81,8 +81,16 @@ recipes:
   # Default: false
   harderCircuitRecipes: false
 
+  # Whether to nerf machine controller recipes.
+  # Default: false
+  hardMultiRecipes: false
+
+  # Whether tools should have enchants or not. Like the flint sword getting fire aspect.
+  # Default: true
+  enchantedTools: true
+
 worldgen:
-  # Rubber Tree spawn chance (% per chunk)
+  # Rubber Tree spawn chance (decimal % per chunk)
   # Default: 0.5
   rubberTreeSpawnChance: 0.5
 
@@ -230,11 +238,6 @@ machines:
   # Default: "raw"
   bedrockOreDropTagPrefix: raw
 
-  # WARNING: THIS IS NO LONGER SUPPORTED AND WILL BE REMOVED!
-  # This option only exists to provide backwards compatibility until the Processing Array will be removed in 1.3.0
-  # Default: false
-  doProcessingArray: true
-
   # Makes nearly every GCYM Multiblock require blocks which set their maximum voltages.
   # Default: false
   enableTieredCasings: false
@@ -247,12 +250,102 @@ machines:
   # Default: 50
   ldFluidPipeMinDistance: 50
 
+  # Whether non owners can open a machine gui
+  # Default: false
+  machineOwnerGUI: true
+
+  # Whether non owners can break a machine
+  # Default: false
+  machineOwnerBreak: true
+
   # If High Tier (>UV-tier) GT content should be registered.
   # Items and Machines enabled with this config will have missing recipes by default.
   # This is intended for modpack developers only, and is not playable without custom tweaks or addons.
   # Other mods can override this to true, regardless of the config file.
   # Default: false
   highTierContent: false
+
+  # Whether the Assembly Line should require the item inputs to be in order.
+  # Default: true
+  orderedAssemblyLineItems: true
+
+  # Whether the Assembly Line should require the fluid inputs to be in order.
+  # (Requires Ordered Assembly Line Item Inputs to be enabled.)
+  # Default: false
+  orderedAssemblyLineFluids: false
+
+  # Let Dual Hatch has more ability. (DEPRECATED: does nothing now)
+  # When enabled it, Dual Hatch will can used to assemble line and so on.
+  # Need restart Minecraft to apply.
+  enableMoreDualHatchAbility: false
+
+  # Default maximum parallel of steam multiblocks
+  # Default: 8
+  steamMultiParallelAmount: 8
+
+  # Small Steam Boiler Options
+  smallBoilers:
+    # The amount of steam a Steam Solid Boiler produces per second at max temperature.
+    # Default: 120
+    solidBoilerBaseOutput: 120
+
+    # The amount of steam a High Pressure Steam Solid Boiler produces per second at max temperature.
+    # Default: 300
+    hpSolidBoilerBaseOutput: 300
+
+    # The amount of steam a Steam Liquid Boiler produces per second at max temperature.
+    # Default: 240
+    liquidBoilerBaseOutput: 240
+
+    # The amount of steam a High Pressure Steam Liquid Boiler produces per second at max temperature.
+    # Default: 600
+    hpLiquidBoilerBaseOutput: 600
+
+    # The amount of steam a Steam Solar Boiler produces per second at max temperature.
+    # Default: 120
+    solarBoilerBaseOutput: 120
+
+    # The amount of steam a High Pressure Steam Solar Boiler produces per second at max temperature.
+    # Default: 360
+    hpSolarBoilerBaseOutput: 360
+
+  # Large Steam Boiler Options
+  largeBoilers:
+    # The conversion rate between water and steam in Large Boilers.
+    # Default: 160
+    steamPerWater: 160
+
+    # The max temperature of the Large Bronze Boiler.
+    # Default: 800
+    bronzeBoilerMaxTemperature: 800
+
+    # The heat speed of the Large Bronze Boiler.
+    # Default: 1
+    bronzeBoilerHeatSpeed: 1
+
+    # The max temperature of the Large Steel Boiler.
+    # Default: 1800
+    steelBoilerMaxTemperature: 1800
+
+    # The heat speed of the Large Steel Boiler.
+    # Default: 1
+    steelBoilerHeatSpeed: 1
+
+    # The max temperature of the Large Titanium Boiler.
+    # Default: 3200
+    titaniumBoilerMaxTemperature: 3200
+
+    # The heat speed of the Large Titanium Boiler.
+    # Default: 1
+    titaniumBoilerHeatSpeed: 1
+
+    # The max temperature of the Large Tungstensteel Boiler.
+    # Default: 6400
+    tungstensteelBoilerMaxTemperature: 6400
+
+    # The heat speed of the Large Tungstensteel Boiler.
+    # Default: 2
+    tungstensteelBoilerHeatSpeed: 2
 
 client:
   # Whether or not to enable Emissive Textures for GregTech Machines.
@@ -387,26 +480,31 @@ gameplay:
 
 # Config options for Mod Compatibility
 compat:
+  # Whether to run datafixers on world load.
+  # Do note that mods like ModernFix will interfere with this.
+  # Default: true
+  doDatafixers: true
+
   # Config options regarding GTEU compatibility with other energy systems
   energy:
     # Enable Native GTEU to Platform native Energy (RF and alike) on GT Cables and Wires.
     # This does not enable nor disable Converters.
     # Default: true
-    nativeEUToPlatformNative: true
+    nativeEUToFE: true
 
     # Enable GTEU to Platform native (and vice versa) Converters.
     # Default: false
-    enablePlatformConverters: false
+    enableFEConverters: false
 
     # Platform native Energy to GTEU ratio for converting FE to EU.
     # Only affects converters.
     # Default: 4 FE/Energy == 1 EU
-    platformToEuRatio: 4
+    feToEuRatio: 4
 
     # GTEU to Platform native Energy ratio for converting EU to FE.
     # Affects native conversion and Converters.
     # Default: 4 FE/Energy == 1 EU
-    euToPlatformRatio: 4
+    euToFeRatio: 4
 
   # Config options regarding GTCEu compatibility with AE2
   ae2:
@@ -434,6 +532,10 @@ compat:
   # Whether Gregtech should remove smelting recipes from the vanilla furnace for ingots requiring the Electric Blast Furnace.
   # Default: true
   removeSmeltingForEBFMetals: true
+
+  # Whether dimension marker should show dimension tier.
+  # Default: false
+  showDimensionTier: false
 
 dev:
   # Debug general events? (will print recipe conficts etc. to server's debug.log)
