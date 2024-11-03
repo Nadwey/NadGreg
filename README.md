@@ -15,41 +15,25 @@ GregTech Community Pack Modern, but *more interesting*, and **ported to NeoForge
     - [x] Port serverpack script to 1.21.1
     - [ ] Mods
         - [ ] Architect's Palette (1.21.1 version available [here](https://github.com/theendercore/Architects-Palette), but not on curseforge)
-        - [ ] ~~Better Tag NBT Tips~~, temporarily replaced with Cucumber (this is probably an overkill, but it's useful)
+        - [x] ~~Better Tag NBT Tips~~, temporarily replaced with Cucumber (this is probably an overkill, but it's useful)
         - [x] ~~Crafting Station: JEI Edition~~, replaced with Crafting Station: JEI Edition Updated
         - [x] ~~Curios~~, replaced with Curios API Continuation
         - [ ] Ender Storage 1.8.+
         - [x] ~~Item Filters~~, replaced with FTB Filter System (in progress)
         - [ ] Modern AE2 Additions
         - [ ] Travel Anchors
-    - [ ] Quests
-        - [x] Introduction
-        - [ ] Climbing the Ranks
-            - [x] Steam Age
-            - [x] LV - Low Voltage
-            - [x] MV - Medium Voltage - contains quests with missing mods
-                - [ ] Travel Anchors
-            - [x] HV - High Voltage - contains quests with missing mods
-                - [ ] Check if task `The End of an Era` works
-                - [ ] Dense Compressors
-            - [x] EV - Extreme Voltage - contains quests with missing mods
-                - [ ] EU P2P Tunnels
-                - [ ] Pattern P2P Tunnels
-                - [ ] Ender Fluid Linking
-                - [ ] Me Hatches - ME Input Bus missing name?
-            - [x] IV - Insane Voltage
-            - [x] LuV - Ludicrous Voltage
-            - [x] ZPM - Zero Point Module
-            - [ ] UV - Ultimate Voltage
-        - [x] Guides + More
-            - [x] Tips and Tricks
-            - [x] Renewability and You
-            - [x] Ore Generation
-            - [x] Ore Processing
-        - [x] Milestones
-             - [x] Circuit Progression - should complete itself, invalid quests are linked quests
-             - [x] Heating Coils - should complete itself, invalid quests are linked quests
-             - [x] Multiblock Dilemma - should complete itself, invalid quests are linked quests
+    - [x] Quests
+    - [ ] Fix quests with missing mods
+        - [ ] MV - Medium Voltage - contains quests with missing mods
+            - [ ] Travel Anchors
+        - [ ] HV - High Voltage - contains quests with missing mods
+            - [ ] Check if task `The End of an Era` works
+            - [ ] Dense Compressors
+        - [ ] EV - Extreme Voltage - contains quests with missing mods
+            - [ ] EU P2P Tunnels
+            - [ ] Pattern P2P Tunnels
+            - [ ] Ender Fluid Linking
+            - [ ] Me Hatches - ME Input Bus missing name?
 
 ## Playing
 
