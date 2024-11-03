@@ -1344,7 +1344,7 @@ metafile = true
 
 [[files]]
 file = "mods/placebo.pw.toml"
-hash = "0dc6cb18aec7b1b2ee8a9ce9db4aaf5262f6b898d08d336750ee6d1d589c2953"
+hash = "01ce4029990e1bae4b3134ed4148c75c2f5f85f978958ac33f925d6377e43ac2"
 metafile = true
 
 [[files]]
@@ -1424,7 +1424,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "51ca0242752032f84ebeb95f780094569e293bb08aa2902aa5fc7fe7755efd55"
+hash = "067cf39a8072f1c93333054a473a0a5acf961027826127d5b702c5c2082d7713"
 metafile = true
 
 [[files]]
