@@ -39,7 +39,7 @@ GregTech Community Pack Modern, but *more interesting*, and **ported to NeoForge
                 - [ ] Me Hatches - ME Input Bus missing name?
             - [x] IV - Insane Voltage
             - [x] LuV - Ludicrous Voltage
-            - [ ] ZPM - Zero Point Module
+            - [x] ZPM - Zero Point Module
             - [ ] UV - Ultimate Voltage
         - [x] Guides + More
             - [x] Tips and Tricks

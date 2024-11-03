@@ -738,7 +738,7 @@ hash = "5885bebd13fd5b98bc87c86f2f87595084f0100237a780e5270813cca7af7d34"
 
 [[files]]
 file = "kubejs/server_scripts/removals.js"
-hash = "f982d5d2cef546830f94f8a78c7cd06309514b76ae6bc1f2ab778a8a693ef061"
+hash = "079999293810434f52317b912a8c73a081b44e1e2b83f76f8ad0dbf58796f92e"
 
 [[files]]
 file = "kubejs/server_scripts/sophisticated_backpacks/backpacks.js"

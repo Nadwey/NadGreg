@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "zpm__zero_point_module"
 	group: "693226878D58638A"
+	icon: {
+		id: "gtceu:zpm_electric_motor"
+	}
 	id: "0945247E83444D90"
 	order_index: 7
 	quest_links: [
@@ -25,13 +28,24 @@
 	quests: [
 		{
 			dependencies: ["24F0454B9A090C44"]
+			icon: {
+				components: {
+					"gtceu:energy_content": {
+						charge: 0L
+						discharge_mode: 0b
+						infinite: 0b
+						max_charge: 2000000000000L
+					}
+				}
+				id: "gtceu:zero_point_module"
+			}
 			id: "75905E3672399A63"
 			shape: "rsquare"
 			size: 0.66d
 			tasks: [
 				{
 					id: "10AC8DC9332D084C"
-					item: { }
+					item: { components: { "gtceu:energy_content": { charge: 0L, discharge_mode: 0b, infinite: 0b, max_charge: 2000000000000L } }, count: 1, id: "gtceu:zero_point_module" }
 					optional_task: true
 					type: "item"
 				}
@@ -50,7 +64,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "5688605649CC30C3"
-				item: { }
+				item: { count: 1, id: "gtceu:uranium_rhodium_dinaquadide_single_wire" }
 				type: "item"
 			}]
 			x: -4.875d
@@ -61,43 +75,46 @@
 				"7A74F692F14F0FF8"
 				"24F0454B9A090C44"
 			]
+			icon: {
+				id: "gtceu:zpm_electric_motor"
+			}
 			id: "5BBFE222190891DE"
 			shape: "rsquare"
 			size: 0.66d
 			tasks: [
 				{
 					id: "17E45B64101F2249"
-					item: { }
+					item: { count: 1, id: "gtceu:zpm_electric_motor" }
 					type: "item"
 				}
 				{
 					id: "4EDD7EE060B4895B"
-					item: { }
+					item: { count: 1, id: "gtceu:zpm_electric_piston" }
 					type: "item"
 				}
 				{
 					id: "61AAFDF548821774"
-					item: { }
+					item: { count: 1, id: "gtceu:zpm_electric_pump" }
 					type: "item"
 				}
 				{
 					id: "4EEAD829002AD3FE"
-					item: { }
+					item: { count: 1, id: "gtceu:zpm_conveyor_module" }
 					type: "item"
 				}
 				{
 					id: "2AFFFD27485AD039"
-					item: { }
+					item: { count: 1, id: "gtceu:zpm_robot_arm" }
 					type: "item"
 				}
 				{
 					id: "68A105502E49FEDC"
-					item: { }
+					item: { count: 1, id: "gtceu:zpm_sensor" }
 					type: "item"
 				}
 				{
 					id: "555A9F017694B184"
-					item: { }
+					item: { count: 1, id: "gtceu:zpm_emitter" }
 					type: "item"
 				}
 			]
@@ -106,19 +123,22 @@
 		}
 		{
 			dependencies: ["378F0AFCF95354B2"]
+			icon: {
+				id: "gtceu:enriched_naquadah_ingot"
+			}
 			id: "74B037D7031F4A78"
 			shape: "rsquare"
 			size: 0.66d
 			tasks: [
 				{
 					id: "4598D1D78A71E514"
-					item: { }
+					item: { count: 1, id: "gtceu:enriched_naquadah_sulfate_dust" }
 					optional_task: true
 					type: "item"
 				}
 				{
 					id: "08B5C0B89DB3E272"
-					item: { }
+					item: { count: 1, id: "gtceu:enriched_naquadah_ingot" }
 					type: "item"
 				}
 			]
@@ -136,7 +156,7 @@
 			tasks: [{
 				count: 16L
 				id: "11CD2F83031C6706"
-				item: { }
+				item: { count: 1, id: "gtceu:trinium_coil_block" }
 				type: "item"
 			}]
 			x: -4.875d
@@ -151,7 +171,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "148C1C60A855B61E"
-				item: { }
+				item: { count: 1, id: "gtceu:research_station" }
 				type: "item"
 			}]
 			x: -4.875d
@@ -166,7 +186,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "226973A23C89BDD2"
-				item: { }
+				item: { count: 1, id: "gtceu:crystal_processor_mainframe" }
 				type: "item"
 			}]
 			x: -3.75d
@@ -179,7 +199,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "488A759013AF2680"
-				item: { }
+				item: { count: 1, id: "gtceu:crystal_soc" }
 				type: "item"
 			}]
 			x: -3.75d
@@ -192,7 +212,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "0EC657B81458D697"
-				item: { }
+				item: { count: 1, id: "gtceu:advanced_data_access_hatch" }
 				type: "item"
 			}]
 			x: -2.625d
@@ -203,19 +223,22 @@
 				"378F0AFCF95354B2"
 				"4C7C0F6A6598BC24"
 			]
+			icon: {
+				id: "gtceu:naquadria_ingot"
+			}
 			id: "6D1F10543A391940"
 			shape: "rsquare"
 			size: 0.66d
 			tasks: [
 				{
 					id: "4A49FE8B35B48D97"
-					item: { }
+					item: { count: 1, id: "gtceu:naquadria_sulfate_dust" }
 					optional_task: true
 					type: "item"
 				}
 				{
 					id: "13A95E109FF72A87"
-					item: { }
+					item: { count: 1, id: "gtceu:naquadria_ingot" }
 					type: "item"
 				}
 			]
@@ -228,7 +251,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "5FFC06116E025936"
-				item: { }
+				item: { count: 1, id: "gtceu:sterilized_growth_medium_bucket" }
 				type: "item"
 			}]
 			x: -0.375d
@@ -239,17 +262,28 @@
 				"64EA73FAB2A51850"
 				"0D7C978F9CDF771B"
 			]
+			icon: {
+				components: {
+					"gtceu:energy_content": {
+						charge: 0L
+						discharge_mode: 0b
+						infinite: 0b
+						max_charge: 4000000000L
+					}
+				}
+				id: "gtceu:energy_module"
+			}
 			id: "690A51204DF5D469"
 			size: 0.75d
 			tasks: [
 				{
 					id: "41813C4D68B991D7"
-					item: { }
+					item: { components: { "gtceu:energy_content": { charge: 0L, discharge_mode: 0b, infinite: 0b, max_charge: 4000000000L } }, count: 1, id: "gtceu:energy_module" }
 					type: "item"
 				}
 				{
 					id: "705422BF26C76199"
-					item: { }
+					item: { count: 1, id: "gtceu:zpm_lapotronic_battery" }
 					optional_task: true
 					type: "item"
 				}
@@ -271,12 +305,12 @@
 			tasks: [
 				{
 					id: "0B57097F8879481C"
-					item: { }
+					item: { count: 1, id: "gtceu:zpm_energy_input_hatch" }
 					type: "item"
 				}
 				{
 					id: "2C60B79F78094E6A"
-					item: { }
+					item: { count: 1, id: "gtceu:zpm_energy_output_hatch" }
 					type: "item"
 				}
 			]
@@ -293,7 +327,7 @@
 			tasks: [{
 				count: 8L
 				id: "6A4C78385FF8019A"
-				item: { }
+				item: { count: 1, id: "gtceu:sterilizing_filter_casing" }
 				type: "item"
 			}]
 			x: -0.375d
@@ -305,7 +339,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "5F20D430C26D3BE4"
-				item: { }
+				item: { count: 1, id: "gtceu:high_performance_computation_array" }
 				type: "item"
 			}]
 			x: -3.75d
@@ -317,7 +351,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "1E31342D5310ED6D"
-				item: { }
+				item: { count: 1, id: "gtceu:stem_cells" }
 				type: "item"
 			}]
 			x: -0.375d
@@ -329,7 +363,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "0097D7805D82EDEC"
-				item: { }
+				item: { count: 1, id: "gtceu:wetware_printed_circuit_board" }
 				type: "item"
 			}]
 			x: -0.375d
@@ -341,7 +375,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "06AE61C5F174F4E7"
-				item: { }
+				item: { count: 1, id: "gtceu:neuro_processing_unit" }
 				type: "item"
 			}]
 			x: 0.75d
@@ -353,7 +387,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "31DF7507733F3EE0"
-				item: { }
+				item: { count: 1, id: "gtceu:wetware_processor_assembly" }
 				type: "item"
 			}]
 			x: 0.75d
@@ -365,7 +399,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "0B12A1F63822CF8A"
-				item: { }
+				item: { count: 1, id: "gtceu:wetware_processor" }
 				type: "item"
 			}]
 			x: 0.75d
@@ -377,7 +411,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "798EFE8E18E79C0C"
-				item: { }
+				item: { count: 1, id: "gtceu:darmstadtium_ingot" }
 				type: "item"
 			}]
 			x: -2.625d
@@ -390,7 +424,7 @@
 			size: 0.66d
 			tasks: [{
 				id: "0933A476B9F87E66"
-				item: { }
+				item: { count: 1, id: "gtceu:duranium_ingot" }
 				type: "item"
 			}]
 			x: -0.375d
@@ -402,7 +436,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "5D597AE565A54388"
-				item: { }
+				item: { count: 1, id: "gtceu:americium_ingot" }
 				type: "item"
 			}]
 			x: -1.5d
@@ -414,7 +448,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "5F54BE8467A5C882"
-				item: { }
+				item: { count: 1, id: "gtceu:wetware_processor_computer" }
 				type: "item"
 			}]
 			x: 0.75d
@@ -426,7 +460,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "761AFCD5742F9A03"
-				item: { }
+				item: { count: 1, id: "gtceu:hpca_advanced_computation_component" }
 				type: "item"
 			}]
 			x: -4.875d
@@ -443,7 +477,7 @@
 			size: 1.2d
 			tasks: [{
 				id: "0D45B9FFF6BA13FE"
-				item: { }
+				item: { count: 1, id: "gtceu:zpm_fusion_reactor" }
 				type: "item"
 			}]
 			x: -2.625d
@@ -458,7 +492,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "6C5B3B1C0B85C003"
-				item: { }
+				item: { count: 1, id: "gtceu:tritanium_ingot" }
 				type: "item"
 			}]
 			x: -0.375d
