@@ -7,6 +7,7 @@ GregTech Community Pack Modern, but *more interesting*, and **ported to NeoForge
 - [ ] Good season system, information on screen
 - [ ] More Nature!11!
 - [ ] More quests or something
+- [ ] Gregify mods 
 - [ ] Finish rebranding (Authors of GregTech Community Pack Modern will obviously be credited)
     - [ ] Name
     - [ ] Logo
