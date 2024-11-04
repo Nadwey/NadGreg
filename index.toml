@@ -306,11 +306,11 @@ hash = "29d5c300b2ef5046af7515621d845daaf2476a746d2acff1380b087458b705b9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uv__ultimate_voltage.snbt"
-hash = "c42e06d45eea355dd91e899dd1ebb19a680ce5f8eb1ea037c3227636c3232161"
+hash = "211658b21f9cc95fc72320bd75e0d825761137d84bf80ef718e66ec9886a8fc6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/zpm__zero_point_module.snbt"
-hash = "8400b640b4eb06124906788fbf6adb8fef7d99d3876de93d8c3d5fd2d4b5c4ef"
+hash = "c1f4b701f2e5c32299e164c9b451a69ef28f84087864947051c509dbe602452b"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -354,7 +354,7 @@ hash = "9abe2c7f784810cac3ca71c74d02aacd5fe6861d744cb143d077a525a2b42e76"
 
 [[files]]
 file = "config/gtceu.yaml"
-hash = "646d17fc54fb5506302f1669e80055eda4207650c0c7ac418cba6c298949bc15"
+hash = "3267526f1d3a1ce75a2128e3b6e45aed8b2955160688aeb702399106e35b202b"
 
 [[files]]
 file = "config/hangglider-client.toml"
@@ -828,6 +828,11 @@ hash = "41b2b3447cc807fa54699d5830f5da766cf29a0c91b3a3ea0156e92f22e9cd44"
 metafile = true
 
 [[files]]
+file = "mods/ambient-environment.pw.toml"
+hash = "2a927b4361d09500f17075c2bd01e3b0c031bae9cd04c04472648ce3a621191f"
+metafile = true
+
+[[files]]
 file = "mods/ambientsounds.pw.toml"
 hash = "3d49367c629630fad63365922b75f1d19030bacc02877fd5b6d29372f4ba0bd0"
 metafile = true
@@ -988,6 +993,11 @@ hash = "8bba135cc6b6a7c70216e312e319016b618ab4e825ec7937ea6107cab637226a"
 metafile = true
 
 [[files]]
+file = "mods/enhancedvisuals.pw.toml"
+hash = "33d1490d676cc20dffa58a8a7d9b098647af598f35f0b2b71c9522910fb75b36"
+metafile = true
+
+[[files]]
 file = "mods/ex-pattern-provider.pw.toml"
 hash = "d01debf3581426ed7c6f564caa162ddc1dd43c37facaf5ac5dd1d227bee72978"
 metafile = true
@@ -1075,6 +1085,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-xmod-compat.pw.toml"
 hash = "bb8597c5f78fcaf0fdc447e164d7f0edad4d1100d6b353753032a652de4c7b98"
+metafile = true
+
+[[files]]
+file = "mods/fusion-connected-textures.pw.toml"
+hash = "f0f22fb35d31f865a486e73e4df4352e1fe898c40da3dea124e2d88c00588b7b"
 metafile = true
 
 [[files]]
@@ -1363,8 +1378,23 @@ hash = "e517a8a6abeae0eb0975a716ed732d94fce82b61c5bfdfb457a0167e96ea1022"
 metafile = true
 
 [[files]]
+file = "mods/project-vibrant-journeys.pw.toml"
+hash = "ca89fc1b19af308c56092d3a7e82eaa79afb53cfbfe68ed5cc160fa0b1eaa719"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "6d63a69b93fae924c45ced848126093457b4f2bde996536321f99cb2bd7f29b4"
+metafile = true
+
+[[files]]
+file = "mods/rechiseled-chipped.pw.toml"
+hash = "c337cc64298e6d0e7e0a4531dfd92487361156201bb40cccb52dd7ce7abdb929"
+metafile = true
+
+[[files]]
+file = "mods/rechiseled.pw.toml"
+hash = "1cf7e6e2c3d53be5a77f4823459a057d03f36aec7966c27af35204c50028de15"
 metafile = true
 
 [[files]]
@@ -1443,13 +1473,18 @@ hash = "aea4be1df17e74f1b28523521539bd3dda9cbd22424f3122b639149eee8ffd55"
 metafile = true
 
 [[files]]
-file = "mods/terrablender-neoforge.pw.toml"
-hash = "57a6ca262f1269d3425eba1b340c65d69213f0a5600533d67c89ef78d3d6d7a5"
+file = "mods/supermartijn642s-config-lib.pw.toml"
+hash = "2e42245826ce70d4ad673addb0e5244da388841f1484f03ee5a9426ee33b2229"
 metafile = true
 
 [[files]]
-file = "mods/this-rocks-forge.pw.toml"
-hash = "00408be9d0435296545e241169ad9af634627e7a6ad7b32b701aa7a1cc9ba78c"
+file = "mods/supermartijn642s-core-lib.pw.toml"
+hash = "cd2baae86b9af4057dad87b8d57283cb25e8403ed34e4dcf67f567fc5c0f765c"
+metafile = true
+
+[[files]]
+file = "mods/terrablender-neoforge.pw.toml"
+hash = "57a6ca262f1269d3425eba1b340c65d69213f0a5600533d67c89ef78d3d6d7a5"
 metafile = true
 
 [[files]]
