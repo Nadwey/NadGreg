@@ -4,7 +4,7 @@ GregTech Community Pack Modern, but *more interesting*, and **ported to NeoForge
 
 ## TODO
 
-- [ ] Good season system, information on screen
+- [ ] Good season system, information on screen ([in progress](https://github.com/Nadwey/SereneWeather))
 - [ ] More Nature!11!
 - [ ] More quests or something
 - [ ] Gregify mods 
