@@ -1,13 +1,13 @@
 name = "Iris Shaders"
-filename = "iris-neoforge-1.8.0-beta.5+mc1.21.1.jar"
+filename = "iris-neoforge-1.8.0-beta.7+mc1.21.1.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "c72a0416783c91408bf6c5be7abe63af9ab79fff"
+hash = "ebd9f1e013af0bc972bbc2a59a94ce22499f21dc"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5765375
+file-id = 5873114
 project-id = 455508
