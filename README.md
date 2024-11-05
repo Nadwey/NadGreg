@@ -5,7 +5,7 @@ GregTech Community Pack Modern, but *more interesting*, and **ported to NeoForge
 ## TODO
 
 - [ ] Good season system, information on screen ([in progress](https://github.com/Nadwey/SereneWeather))
-- [ ] More Nature!11!
+- [x] More Nature!11!
 - [ ] More quests or something
 - [ ] Gregify mods 
 - [ ] Finish rebranding (Authors of GregTech Community Pack Modern will obviously be credited)
@@ -20,7 +20,7 @@ GregTech Community Pack Modern, but *more interesting*, and **ported to NeoForge
         - [x] ~~Crafting Station: JEI Edition~~, replaced with Crafting Station: JEI Edition Updated
         - [x] ~~Curios~~, replaced with Curios API Continuation
         - [ ] Ender Storage 1.8.+
-        - [x] ~~Item Filters~~, replaced with FTB Filter System (in progress)
+        - [x] ~~Item Filters~~, replaced with FTB Filter System
         - [ ] Modern AE2 Additions
         - [ ] Travel Anchors
     - [x] Quests
