@@ -954,7 +954,7 @@ metafile = true
 
 [[files]]
 file = "mods/crafting-station-jei-edition-updated.pw.toml"
-hash = "6f64c9da05391381b50fe68abd2ad6f9e7bbc9da03952f0c3c8cb0612dfb9859"
+hash = "2466a28a5235cd3d18119316a28a0b530e6018f26344ab6cf3188a7e17a028f8"
 metafile = true
 
 [[files]]
@@ -964,7 +964,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "07f37920ee81447f7a8c40c2853f0ca5e7cae89834fe6630e33e505d46ebfb1e"
+hash = "9cfc2a1f297555ec07c4ca32e72cb74c580527c0dd017571736357331cfe18e7"
 metafile = true
 
 [[files]]
@@ -999,7 +999,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "d01debf3581426ed7c6f564caa162ddc1dd43c37facaf5ac5dd1d227bee72978"
+hash = "fa1b483a53bab22e20ca0e519cce3584ecd4940d5b05367ea9b8dbb353d4ad68"
 metafile = true
 
 [[files]]
@@ -1019,7 +1019,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "1941ae052deb02b90e483893b7c96ead69c03e63542b758dacd5ba55e230ef5d"
+hash = "03152a2e432589f74e428feffa41c57639883d3b7f78b398f83da3f80c1e18eb"
 metafile = true
 
 [[files]]
@@ -1144,7 +1144,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-profiles-next.pw.toml"
-hash = "5264c8e57c8c7ef5569c1c488a8e4fe843bf2c5fc4d384e271000f3b047f1e9a"
+hash = "fc3931ee654663964971411ca9aa2542de22b5862d81e4a4bdc3b9614a480530"
 metafile = true
 
 [[files]]
@@ -1304,7 +1304,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "f65b8d788fbe02638aa666997faaff6126f5e61f994749455131491285db1540"
+hash = "2c71fa2e80a4f0eeef7fdf52e64ea81e50a28e9850f41885759fd1c06058b89b"
 metafile = true
 
 [[files]]
@@ -1424,7 +1424,7 @@ metafile = true
 
 [[files]]
 file = "mods/seasonhud.pw.toml"
-hash = "de28e7a50f424f05c7e7b05ee97f8e7fd88b866859bebbf5392c76dbb3ebaadd"
+hash = "3c89fef2bfc4d356660177d371eb9cf268626a13faa1211c6872ce16400765de"
 metafile = true
 
 [[files]]

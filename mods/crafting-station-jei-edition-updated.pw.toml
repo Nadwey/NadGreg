@@ -1,13 +1,13 @@
 name = "Crafting Station: JEI Edition Updated"
-filename = "craftingstation-jei-neoforge-1.21.1-1.1.0.jar"
+filename = "craftingstation-neoforge-1.21.1-1.2.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "399cb79bc2e297bc16cec9899ee8d1fd7f93eab6"
+hash = "1be7334975d37b0bb2c0d8960bae601fa7033780"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5844145
+file-id = 5877588
 project-id = 1127715
