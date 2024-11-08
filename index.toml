@@ -1009,7 +1009,7 @@ metafile = true
 
 [[files]]
 file = "mods/factory-blocks.pw.toml"
-hash = "e0a8d06bdbfe493c560f0418f6f86b00f3e18e1afbc73c194689a5289fe3ef51"
+hash = "a80b220679d360c7ecd04f9a1589784c8c002a0789ec5a260ac47f3b79199ca1"
 metafile = true
 
 [[files]]
@@ -1054,7 +1054,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
-hash = "5da98025c9602daf1e7cef35747a8d2d50d6f738f3b04d74dc216c74eda2a73f"
+hash = "9371624372f724741d7611102a448074b16a4e899c487ea2730727147982faaa"
 metafile = true
 
 [[files]]
@@ -1069,17 +1069,17 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
-hash = "988eaa5ba2c80337dedc42ef7516fbf94fae2633ee6b7199a315aa20e77984bb"
+hash = "0d5dc1f1859a3685c191eded1df1cffbdc9345274e0b5ebea724ef2f0bf6ff14"
 metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "2cceb069f42945a021b39d7cdcfc5c9cd7f00c6922bac413e7807af0a8be6bce"
+hash = "2dbfc5fd2eb47da5d07f28af2f7c84f155839fa1df1dc569d29ca38819259405"
 metafile = true
 
 [[files]]
 file = "mods/ftb-teams-forge.pw.toml"
-hash = "83aa0821497844460b98edd148fdfbaaacbdc15beca13dad8f0487b73a05a252"
+hash = "a1e0a6447bfc206a77a2493dcb4b09a4ac7cbc245b9ae3d94828ebe94ff03bc1"
 metafile = true
 
 [[files]]
@@ -1149,7 +1149,7 @@ metafile = true
 
 [[files]]
 file = "mods/irisshaders.pw.toml"
-hash = "896902f87e320ac1d83cb77cbf2a264580c999669b52fd275287f5d2febef767"
+hash = "637c460541407f9c8ebadc43789513f51bd7a446ff1b25e9c947f8bee0fb7e52"
 metafile = true
 
 [[files]]
@@ -1159,7 +1159,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "d0b3ebbc3b44b735bf5fd5c4dae940e535d975635d1e1adc5a4a8b750ba39943"
+hash = "7716b17f080e80a89723ead3aa1c86e3da3a235ebe854ec2f3b5b6f55ff2bed8"
 metafile = true
 
 [[files]]
@@ -1449,7 +1449,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "208d2358f7c4e5dd365887128175f9ee63bcc52799f6f44839608c93ce881804"
+hash = "3ad0ce92833d7c84ec769307a32bd92f0aec3e01a6c65ba0a9b2af296f9beba4"
 metafile = true
 
 [[files]]

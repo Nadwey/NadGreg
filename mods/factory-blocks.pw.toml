@@ -1,13 +1,13 @@
 name = "Factory Blocks [Forge/Fabric/NeoForge]"
-filename = "factory_blocks-neoforge-1.21.1-1.3.2.jar"
+filename = "factory_blocks-neoforge-1.3.3+mc1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "6341a80356aef333a93e2d24c2030fdd044f10fc"
+hash = "ce8d75bf75206671ce14b18c08548cc090ba71d6"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5872970
+file-id = 5882116
 project-id = 640001
