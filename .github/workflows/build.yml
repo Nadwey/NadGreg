@@ -19,7 +19,7 @@ jobs:
       
       - name: Install Packwiz
         run: |
-          go install github.com/packwiz/packwiz@latest
+          go install github.com/Nadwey/packwiz@latest
 
       - name: Build pack
         run: packwiz curseforge export
