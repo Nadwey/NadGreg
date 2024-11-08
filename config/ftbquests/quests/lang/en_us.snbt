@@ -120,6 +120,15 @@
 	]
 	quest.017019EB38F7A18C.quest_subtitle: "That's dope, bro!"
 	quest.017019EB38F7A18C.title: "Phosphorus Boules"
+	quest.017FD15BA46F9F46.quest_desc: [
+		"What do I even write here?"
+		""
+		"When you find a Rubber Tree, collect the Sticky Resin that drops from its bark. Use it to make torches."
+		""
+		"Because when night falls here, &4it’s pitch black...&r"
+	]
+	quest.017FD15BA46F9F46.quest_subtitle: "Welcome to your first night!"
+	quest.017FD15BA46F9F46.title: "Why is it so dark here?"
 	quest.0199DBC46D7BC2B9.quest_desc: [
 		"&3Advanced HPCA Components&r are improved versions of their regular counterparts, and allow for increasing the computation you can produce from an HPCA."
 		""

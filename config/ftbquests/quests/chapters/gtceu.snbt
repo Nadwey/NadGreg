@@ -736,5 +736,29 @@
 			x: -2.25d
 			y: 0.0d
 		}
+		{
+			dependencies: ["5193DD03C0742548"]
+			id: "017FD15BA46F9F46"
+			rewards: [{
+				count: 6
+				id: "233B360796FE282E"
+				item: {
+					count: 1
+					id: "minecraft:torch"
+				}
+				random_bonus: 6
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.66d
+			tasks: [{
+				count: 8L
+				id: "7913F7A280C7656C"
+				item: { count: 1, id: "minecraft:torch" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: -6.0d
+		}
 	]
 }
