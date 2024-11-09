@@ -1208,6 +1208,11 @@ hash = "52fe5f54fbfdf345d79f4cdd53b301ec6791cb7749d877b023d81a50572699f1"
 metafile = true
 
 [[files]]
+file = "mods/leaves-be-gone.pw.toml"
+hash = "0070d40d56a423665b251572f1af7ba375fcd3101ca01592ee7447535a29f08a"
+metafile = true
+
+[[files]]
 file = "mods/libipn.pw.toml"
 hash = "f862863e0b56d5672c8c013933900b4f1d5e1e3c92fd43d704ebd47d8d9d0dea"
 metafile = true
