@@ -819,7 +819,7 @@ metafile = true
 
 [[files]]
 file = "mods/alltheleaks.pw.toml"
-hash = "357caefe83231f158cf2f8e10893b8936c946899a39e506c254cd4291536048f"
+hash = "bb0f65f86cac43155cc7c70529dc0e4a6f3ec25a502f71c4a736c5167497ee18"
 metafile = true
 
 [[files]]
@@ -999,7 +999,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "fa1b483a53bab22e20ca0e519cce3584ecd4940d5b05367ea9b8dbb353d4ad68"
+hash = "cbf9838f128cdd62540e2e71f4dc0a866c81a5b17bbdb19c11abb0af88b9016e"
 metafile = true
 
 [[files]]
@@ -1319,7 +1319,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
-hash = "b76c9b190cf74ebd4fc96c5b02544d7cf2ff250c4bd56a3c9a7e563d248d8602"
+hash = "26aca541ff9f149ef8bfdf69efb258d23339affd9fba4612bddd01e759fb0ffd"
 metafile = true
 
 [[files]]
@@ -1334,7 +1334,7 @@ metafile = true
 
 [[files]]
 file = "mods/oh-the-biomes-weve-gone.pw.toml"
-hash = "35f39d97fb09d34df014e8529f58cdd6356a18e2334bb14b61973e4c0f136232"
+hash = "ddf146b13b4f006a826e7c329441ca2fe5116347b66f26d46c6ebc3e32124954"
 metafile = true
 
 [[files]]
@@ -1459,7 +1459,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "067cf39a8072f1c93333054a473a0a5acf961027826127d5b702c5c2082d7713"
+hash = "bd612093ad85afe90a8a8bfd80d8a79ff6f7d54c1b39255e69cd9f19f1d0e66f"
 metafile = true
 
 [[files]]
