@@ -189,6 +189,10 @@ file = "config/curios-client.toml"
 hash = "1c4bbb5adba944b8e32266271d5f406fd922ec3dc00f00de78704b7ecae5b9e7"
 
 [[files]]
+file = "config/darkness-client.toml"
+hash = "1ecc5afb018cf6dfbb84d6ff42b3a2e01a34599d36ba112969651cafb1185379"
+
+[[files]]
 file = "config/de/mari_023/ae2wtlib.json5"
 hash = "e9838cc6c67a746008e2c8bc88577be4c350d4f990ee5ca4861f07bce76e36ea"
 
@@ -250,7 +254,7 @@ hash = "d6557160ae6b9016c0270f3554c9ace8f921a0422069a1d35598bb21d35098d7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gtceu.snbt"
-hash = "1cd9f73a26e42e6013674378a51d203c7eb679658c76a3b767a68a092df50e14"
+hash = "df350b5f3901166a479fcb7d06d0a3f1b82822d0059e6ede63b3ff5f7eae027c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/heating_coils.snbt"
@@ -318,7 +322,7 @@ hash = "95b045dcec552a54b5f42f6e36fe141aaa5fa38f5c6d552364e6009f0a2ffc4f"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "64e91cf0f19d5f2dbfee5a9d3bfd8c2afc2f9722638c256439a4371beb0982fe"
+hash = "92ecf6be7cec656a64c78971a195e12f8ee8ea7a36206f2c90d77da0a8b906ad"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/bronze_age.snbt"
