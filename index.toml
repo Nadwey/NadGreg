@@ -982,6 +982,11 @@ hash = "0dc64ce2bae95840995b2120f552cd0a75557de11045c5dfc3b5fa294900e356"
 metafile = true
 
 [[files]]
+file = "mods/dark-mode-everywhere.pw.toml"
+hash = "5e34fa35e0909360363a79837994bcca1be7e4417f5cc02973dd0a2856cad086"
+metafile = true
+
+[[files]]
 file = "mods/default-options.pw.toml"
 hash = "cd8d7c7a2a35d14fd247bda3e4becfb1c7cacebb27198a3e66ce8fccb00c85c6"
 metafile = true
