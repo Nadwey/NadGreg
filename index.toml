@@ -209,6 +209,10 @@ file = "config/defaultoptions/options.txt"
 hash = "7fbf1a7a900a7294102ce0bb406470084d0054d57df53440de3607135fb6ccba"
 
 [[files]]
+file = "config/enhancedvisuals-client.json"
+hash = "2172173af55bf2bcdcdafbdf0d8e7be06e8a6ad766325536c17fa560d8a29851"
+
+[[files]]
 file = "config/expatternprovider-common.toml"
 hash = "afec32f03d84123ff539430ffecbb78607d35117919b46274ee473a0dcebe651"
 
