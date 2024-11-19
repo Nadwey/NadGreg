@@ -1,13 +1,13 @@
 name = "Harvest with ease"
-filename = "harvest-with-ease-neoforge-1.21-9.2.1.jar"
+filename = "harvest-with-ease-neoforge-1.21-9.3.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "b74fa0b9dcea77bc87708bc76e39aaaede64ffd6"
+hash = "9f9800381a7ad625bfcbe63f0c7512f44e1df77d"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5770150
+file-id = 5897404
 project-id = 602171
