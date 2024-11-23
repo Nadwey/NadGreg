@@ -109,7 +109,7 @@ key_key.ae2.portable_item_cell:key.keyboard.unknown:NONE
 key_key.ae2.portable_fluid_cell:key.keyboard.unknown:NONE
 key_key.ae2.wireless_terminal:key.keyboard.unknown:NONE
 key_key.epp.viewpattern:key.keyboard.p:NONE
-key_key.curios.open.desc:key.keyboard.g:NONE
+key_key.curios.open.desc:key.keyboard.unknown:NONE
 key_shimmer.key.pickColor:key.keyboard.v:NONE
 key_framedblocks.key.update_cull:key.keyboard.f9:NONE
 key_framedblocks.key.wipe_cache:key.keyboard.unknown:NONE
