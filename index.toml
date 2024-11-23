@@ -58,7 +58,7 @@ hash = "3c6307abe209aeab5c7ae65e011e1460d59826bde479b284c297f876cbb07355"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "d9aa22d391c2f334722ea5c74108c117030bea1e215675376039e0ec16c70cbf"
+hash = "f02d4b32d14a87464e53a5b808f90bee93745edbb2f74f4f99649c6749f2f2c2"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -67,6 +67,10 @@ hash = "7fbf1a7a900a7294102ce0bb406470084d0054d57df53440de3607135fb6ccba"
 [[files]]
 file = "config/emi.css"
 hash = "dba3e615aa3ff50e5f774b215586ce67de03fc4264cc7ad1e59fc5e7359a4357"
+
+[[files]]
+file = "config/enhancedvisuals-client.json"
+hash = "6f47735848747c22e8cd982ad7bded571e23c04c7173443996b1a204803ee141"
 
 [[files]]
 file = "config/expatternprovider-common.toml"
@@ -323,6 +327,18 @@ hash = "d289f4c7540e3e24bcf6bbf3f5a2aaaf87ccf58027d2213e40497fc627422068"
 [[files]]
 file = "config/polymorph-integrations.toml"
 hash = "43a7425a314be7d78c2e31d44ab8f46c5ee824ab10906ab8909923d23646b6ad"
+
+[[files]]
+file = "config/projectvibrantjourneys-common.toml"
+hash = "d6456aeab4b64d467dfe124ba35e7da9382f1a507875492e483d33ad53aa89b0"
+
+[[files]]
+file = "config/sereneseasons/fertility.toml"
+hash = "2d2d244c696678957a2077b87a80fcd0132e3e4e39c44313248748e0758702a3"
+
+[[files]]
+file = "config/sereneseasons/seasons.toml"
+hash = "6d10d34115db207ff9c9cd98b23c90d489a56624f92b130866bd5cb5d81edebb"
 
 [[files]]
 file = "config/shimmer-client.toml"
