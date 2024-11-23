@@ -9,6 +9,10 @@ file = "config/MouseTweaks.cfg"
 hash = "611b9c06b577cb3cdc72c8b74a78b16b9a7b42832e1380a85107d086a8854fa8"
 
 [[files]]
+file = "config/SeasonHUD-client.toml"
+hash = "061255e8f01f3b5ca11de1f3903bcd482324e93a236e30163de75b97d597e52c"
+
+[[files]]
 file = "config/ae2/client.json"
 hash = "fe2ca797217631da45bc93c7a0d55a92e5e26e94ac8d162c26949c78529ef4aa"
 
@@ -821,6 +825,11 @@ hash = "378eb4b529a35df88348c528665641d34b3e80189f7a9c4129ba071bf0cefa03"
 metafile = true
 
 [[files]]
+file = "mods/blocks-you-need.pw.toml"
+hash = "bcacedef924fba65a005a2e9d7a3821f902acd6bc11b560eb1e003a4b70e1e40"
+metafile = true
+
+[[files]]
 file = "mods/blueflame.pw.toml"
 hash = "b3af9743b2a95bbe1112b7bdbb9483a9336f53e053e85d34623549148b8b64d8"
 metafile = true
@@ -1358,6 +1367,11 @@ metafile = true
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "d99946cb99e0d71fc13f2ff0e87108618b1f42486ff0ab3c3b99fa40c66efc9a"
+metafile = true
+
+[[files]]
+file = "mods/radium-reforged.pw.toml"
+hash = "77fa86d36ada0d178545853f987f9e71128e1833c9c29ae62c436c09bdb31948"
 metafile = true
 
 [[files]]
