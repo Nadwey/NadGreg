@@ -1,3 +1,6 @@
+> [!WARNING]  
+> Please use 1.20.1
+
 # NadGreg
 
 GregTech Community Pack Modern, but *more interesting*, and **ported to NeoForge 1.21.1**.
