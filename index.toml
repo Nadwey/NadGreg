@@ -53,6 +53,10 @@ file = "config/curios-client.toml"
 hash = "9c0985b85e67e704a3640d028186dc0b220fa69404b9555244add55eaf5d4794"
 
 [[files]]
+file = "config/darkness.properties"
+hash = "03e0e9447a60be2948ef1fb74545abb5d1b6f66955ca8e655c2d5963576a2f93"
+
+[[files]]
 file = "config/de/mari_023/ae2wtlib.json5"
 hash = "e9838cc6c67a746008e2c8bc88577be4c350d4f990ee5ca4861f07bce76e36ea"
 
@@ -1135,16 +1139,6 @@ hash = "60813bd83b6042f9c218e718a990e81757681f19d6a4b9b3860f529c8b651960"
 metafile = true
 
 [[files]]
-file = "mods/journeymap-integration.pw.toml"
-hash = "d439ee315a5f488532f8dd9c6f8055945f13bce067a4622cf547bd35408c3cd6"
-metafile = true
-
-[[files]]
-file = "mods/journeymap.pw.toml"
-hash = "664a573384edf644e9b788c7c29fe32593917ac8283bb794cc46b471a0a6504a"
-metafile = true
-
-[[files]]
 file = "mods/just-zoom.pw.toml"
 hash = "3ec2ca23e150731b25c0999c5afc766fb3b8eeff7ff0d4a2180f3c106ef8cfa8"
 metafile = true
@@ -1507,6 +1501,16 @@ metafile = true
 [[files]]
 file = "mods/true-darkness-forge-updated-fork.pw.toml"
 hash = "4e783ca2336af03823a355e60c72f3e8d743ae9e5936d314adf43113adeb618a"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "fc87d67d950a471f25000ca5a5c0cc80eee30d6ab79e3a998bc7ac8a862ab3b7"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "a01017e22438b69e560478b12aece5b8772ec4e3caa6d77070d50ea05d4ab45d"
 metafile = true
 
 [[files]]
