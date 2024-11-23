@@ -1,13 +1,13 @@
 name = "ObsidianUI"
-filename = "ObsidianUI-neoforge-0.2.7+mc1.21.jar"
+filename = "ObsidianUI-neoforge-0.2.9+mc1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "2450e420b198ab22f07091f0e68f5e9164934d9b"
+hash = "0fc75757e7976e2b2c6fd8d048e6cec71d5aa787"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5475673
+file-id = 5930211
 project-id = 684718
