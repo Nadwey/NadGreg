@@ -2,8 +2,6 @@
 
 GregTech Community Pack Modern, but *more interesting*...
 
-
-
 ## Playing
 
 Playing is not recommended yet, since the modpack is still in pre-alpha.
@@ -25,6 +23,6 @@ Your server pack will be created in `serverpack/pack/`.
 
 ## Credits
 
-[ursamina](https://github.com/ursamina) for modpack creation and maintenance<br/>
-[The contributors](https://github.com/GregTechCEu/GregTech-Modern-Community-Pack/graphs/contributors),
+[ursamina](https://github.com/ursamina) for the original modpack creation and maintenance<br/>
+[The contributors](https://github.com/Nadwey/NadGreg/graphs/contributors),
 for their useful updates to the pack.

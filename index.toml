@@ -754,7 +754,7 @@ hash = "e3fa23749515ff0720ceff36d06d1c36872b41eb41b62b2d0098ea9d47603add"
 
 [[files]]
 file = "mods/ae2-crafting-tree.pw.toml"
-hash = "5db5ab663f1ee8a2f1858c58832e217edf7168c1f8cd6c2c217470fe9941091c"
+hash = "2497ef1de41e045ae40f1cde994e2c07ff00cf90ecbc29362d38a8f0e1105085"
 metafile = true
 
 [[files]]
@@ -844,7 +844,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-tips-nbt-tag.pw.toml"
-hash = "e639a69ffef5b2ffa685834c9f8b5c406d5ab125028567edf83d84de228ed686"
+hash = "d5d14d7bc5015e8d176dea928108876af06b90cd6cab328682fb5ca43fdb7f5b"
 metafile = true
 
 [[files]]
@@ -1334,7 +1334,7 @@ metafile = true
 
 [[files]]
 file = "mods/oh-the-biomes-weve-gone.pw.toml"
-hash = "68b86788a491c635b5a713afd0b4b458bfffbedd74c58af5156deff012ccb865"
+hash = "3d77378b250ebe37af78b5dc697b774bffed96730999c7dfd47396e60dac410d"
 metafile = true
 
 [[files]]
@@ -1454,7 +1454,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-options-api.pw.toml"
-hash = "0caf3638fa6ca65500fec09af7d541e1b78d8e55e6aaf30357fb79016ab9b0cc"
+hash = "45577491d1f93575d7bf4ca55ed002e341b50cda9248fe59adf8eaa8f3c65034"
 metafile = true
 
 [[files]]
@@ -1464,7 +1464,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "626651d08c0bb98c40e80cc69ca618d84f90a7b1a34fb2de24f278e2dbd33591"
+hash = "d3ecf1569265122c8fd5294ea3e3ed516816c53ff50474a8ca81ef74bc4afb4e"
 metafile = true
 
 [[files]]
