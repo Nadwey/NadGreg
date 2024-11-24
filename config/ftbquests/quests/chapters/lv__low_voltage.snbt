@@ -2117,26 +2117,9 @@
 				id: "3FF25D11627A1D05"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:lv_block_breaker"
-							}
-							{
-								Count: 1b
-								id: "gtceu:mv_block_breaker"
-							}
-							{
-								Count: 1b
-								id: "gtceu:hv_block_breaker"
-							}
-							{
-								Count: 1b
-								id: "gtceu:ev_block_breaker"
-							}
-						]
+						"ftbfiltersystem:filter": "or(item(gtceu:lv_block_breaker)item(gtceu:mv_block_breaker)item(gtceu:hv_block_breaker)item(gtceu:ev_block_breaker))"
 					}
 				}
 				title: "Block Breakers"
@@ -2167,26 +2150,9 @@
 				id: "4FB4D157D57EF9C8"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:lv_item_collector"
-							}
-							{
-								Count: 1b
-								id: "gtceu:mv_item_collector"
-							}
-							{
-								Count: 1b
-								id: "gtceu:hv_item_collector"
-							}
-							{
-								Count: 1b
-								id: "gtceu:ev_item_collector"
-							}
-						]
+						"ftbfiltersystem:filter": "or(item(gtceu:lv_item_collector)item(gtceu:mv_item_collector)item(gtceu:hv_item_collector)item(gtceu:ev_item_collector))"
 					}
 				}
 				title: "Item Collectors"

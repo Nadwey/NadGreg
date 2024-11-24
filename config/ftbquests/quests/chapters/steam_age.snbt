@@ -1562,18 +1562,9 @@
 					id: "19C34AAB329C7ABF"
 					item: {
 						Count: 1
-						id: "itemfilters:or"
+						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "gtceu:wooden_multiblock_tank"
-								}
-								{
-									Count: 1b
-									id: "gtceu:steel_multiblock_tank"
-								}
-							]
+							"ftbfiltersystem:filter": "or(item(gtceu:wooden_multiblock_tank)item(gtceu:steel_multiblock_tank))"
 						}
 					}
 					title: "Multiblock Tank"
@@ -1583,18 +1574,9 @@
 					id: "123DB283FB4EF13D"
 					item: {
 						Count: 1
-						id: "itemfilters:or"
+						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "gtceu:wooden_tank_valve"
-								}
-								{
-									Count: 1b
-									id: "gtceu:steel_tank_valve"
-								}
-							]
+							"ftbfiltersystem:filter": "or(item(gtceu:wooden_tank_valve)item(gtceu:steel_tank_valve))"
 						}
 					}
 					title: "Tank Valves"
@@ -1604,19 +1586,10 @@
 					count: 24L
 					id: "72D3346BD7D0A57D"
 					item: {
-						Count: 24
-						id: "itemfilters:or"
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "gtceu:solid_machine_casing"
-								}
-								{
-									Count: 1b
-									id: "gtceu:wood_wall"
-								}
-							]
+							"ftbfiltersystem:filter": "or(item(gtceu:wood_wall)item(gtceu:solid_machine_casing))"
 						}
 					}
 					title: "24 Casings"

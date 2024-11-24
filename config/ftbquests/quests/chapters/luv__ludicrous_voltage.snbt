@@ -1018,38 +1018,9 @@
 				id: "0089B7D781622D68"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:luv_dual_input_hatch"
-							}
-							{
-								Count: 1b
-								id: "gtceu:uv_dual_input_hatch"
-							}
-							{
-								Count: 1b
-								id: "gtceu:uhv_dual_input_hatch"
-							}
-							{
-								Count: 1b
-								id: "gtceu:luv_dual_output_hatch"
-							}
-							{
-								Count: 1b
-								id: "gtceu:zpm_dual_output_hatch"
-							}
-							{
-								Count: 1b
-								id: "gtceu:uv_dual_output_hatch"
-							}
-							{
-								Count: 1b
-								id: "gtceu:uhv_dual_output_hatch"
-							}
-						]
+						"ftbfiltersystem:filter": "or(item(gtceu:luv_dual_input_hatch)item(gtceu:uv_dual_input_hatch)item(gtceu:uhv_dual_input_hatch)item(gtceu:luv_dual_output_hatch)item(gtceu:zpm_dual_output_hatch)item(gtceu:uv_dual_output_hatch)item(gtceu:uhv_dual_output_hatch))"
 					}
 				}
 				title: "Dual I/O Hatch"
