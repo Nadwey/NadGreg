@@ -1508,6 +1508,11 @@ hash = "97175f71f202d2d47a5828568c9f53339952a1c20b09378bdf5ad34557a8b4be"
 metafile = true
 
 [[files]]
+file = "mods/terralith.pw.toml"
+hash = "b0978cb7ae7b79c5be89b323ca1bd038f693ff6d11c43dfcbd63953964149af2"
+metafile = true
+
+[[files]]
 file = "mods/toast-control.pw.toml"
 hash = "8fc877bc846a1147efa5be974173f439d0ead4ac52ec6aa75270e2e7c32c3a32"
 metafile = true
