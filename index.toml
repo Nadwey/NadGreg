@@ -1571,23 +1571,3 @@ metafile = true
 file = "mods/yungs-extras.pw.toml"
 hash = "fa202c052bee239aa8c074e13da7c843cda83a2b768769b3d6ae0bc47b11de8e"
 metafile = true
-
-[[files]]
-file = "shaderpacks/BSLClassic_v8.4.zip"
-hash = "09963b91abc52c759cb55950f4d9ff4b5234e97c1803554dd005e16f9de1cd41"
-
-[[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.3.zip"
-hash = "66061b3c5b4843e31bc9a7562a7ac697a51bb77c73defc7071f996b783efacce"
-
-[[files]]
-file = "shaderpacks/Hysteria-Shaders-Universal-v1.2.1.zip"
-hash = "cfad48537a3cbd7db219e29f07b24820c80322d5df656a9d087da5f8f9fc1df2"
-
-[[files]]
-file = "shaderpacks/Mellow Shader v1.5.2.zip"
-hash = "ee588fcc32bc22d36d976a36d3d62b7ffe89549e30d1a80d3150c9f90a0c3aa4"
-
-[[files]]
-file = "shaderpacks/Solas Shader V2.4.zip"
-hash = "48879d2d5d55823853fd10e54d7a170e4c04647b12db3981a20733e1b355c393"
