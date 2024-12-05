@@ -754,7 +754,7 @@ hash = "e3fa23749515ff0720ceff36d06d1c36872b41eb41b62b2d0098ea9d47603add"
 
 [[files]]
 file = "mods/ae2-crafting-tree.pw.toml"
-hash = "2497ef1de41e045ae40f1cde994e2c07ff00cf90ecbc29362d38a8f0e1105085"
+hash = "6a3dc5fdb55d7a17c6ad61f788ae28cee197c73dfc0beac77324b618cd38f9b8"
 metafile = true
 
 [[files]]
@@ -924,7 +924,7 @@ metafile = true
 
 [[files]]
 file = "mods/corpse.pw.toml"
-hash = "95521ed1b9e5d430cfd7920661b74dbfaf5035e7a5edd9ef44b9eb14db3a70b8"
+hash = "4060f07ce7fe26ea5990a1e98a64bd9cf58593a8f3a68b3a489b0e4c36722b46"
 metafile = true
 
 [[files]]
@@ -939,7 +939,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "b8062d755b0c405730eea3021944d93d772aa7ee1d8fa1273d8f292317945b7b"
+hash = "132778db5fa85031685000d65683d9467254a8b8b1c4d1704476d28f200211ec"
 metafile = true
 
 [[files]]
@@ -1009,7 +1009,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "c540a4a52b722f14ac4eb62d936d3d8cdc84e24c9d6d9250ae5776b3be04dece"
+hash = "33a72d14d33abd2bd32d2f2986930ae58a8d6dde581656a08b466df10d0250e8"
 metafile = true
 
 [[files]]
@@ -1054,7 +1054,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
-hash = "e9116f2c546aa04941073c14c5ca5086c428ae410ef0ec2603caa2ffa1ebe6b2"
+hash = "284814af680b018f2a4e83dcd3dedb77717177530df21de58e191d36e3e35a37"
 metafile = true
 
 [[files]]
@@ -1134,7 +1134,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "dbf3a1b9fda3447889fa8e0aa853746e14da130dec5785d6fa8325682c386faa"
+hash = "05796c1a9f35a5af165f54b733c85470e9354196d91b69505a301d96ef8599d0"
 metafile = true
 
 [[files]]
@@ -1469,7 +1469,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "0fb0930b8a0edd72bb5b6b86f5d7ae942e73b8486c25822a5daec7a15c35c564"
+hash = "9cb855eb3e57e51178c2ecead3e8067af94ea63dbfc48d6062afce25093c65ed"
 metafile = true
 
 [[files]]
